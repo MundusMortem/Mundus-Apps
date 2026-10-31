@@ -1,3 +1,4 @@
+import { setupInstallButton } from '../../install.mjs';
 import {MEALS,NUTRIENTS,GOALS,uid,localDate,shiftDay,validDate,foodRecord,entryRecord,scaled,totals,unitsFor,convert,newState,newProfile,mergeBackup,csvFor,goalsRecord} from './model.mjs';
 import {openStore,loadState,saveState} from './storage.mjs';
 import {searchFoods,lookupBarcode,enrichFood} from './api.mjs';
@@ -91,8 +92,8 @@ const scanner=new CameraScanner($('cameraVideo'),code=>{$('cameraDialog').close(
 $('scanCamera').onclick=action(async()=>{$('cameraStatus').textContent='Starting camera…';$('cameraDialog').showModal();try{await scanner.start();if($('cameraDialog').open)$('cameraStatus').textContent='Point the camera at the food barcode.';}catch(e){scanner.stop();$('cameraStatus').textContent=e.message;}});
 $('cameraDialog').addEventListener('close',()=>scanner.stop());window.addEventListener('pagehide',()=>scanner.stop());document.addEventListener('visibilitychange',()=>{if(document.hidden){scanner.stop();if($('cameraDialog').open)$('cameraDialog').close();}});
 $('barcodePhoto').onchange=action(async()=>{const file=$('barcodePhoto').files[0];if(!file)return;$('lookupStatus').textContent='Reading barcode photo on this device…';try{const code=await scanImage(file);$('barcodeInput').value=code;await doBarcode(code);}finally{$('barcodePhoto').value='';}});
-let installPrompt;window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installPrompt=event;$('install').hidden=false;});$('install').onclick=async()=>{if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$('install').hidden=true;}};
+const installController=setupInstallButton($('install'),{name:'Macro Tracker'});
 const controls=Array.from(document.querySelectorAll('button,input,select'));controls.forEach(el=>el.disabled=true);
 try{db=await openStore();data=await loadState(db);}catch(e){db=null;data=newState();$('storageWarning').hidden=false;$('storageWarning').textContent='Local saving is unavailable. Changes in this session will not be saved. Export a backup before leaving. '+e.message;}
-controls.forEach(el=>el.disabled=false);render();document.documentElement.dataset.ready='true';
+controls.forEach(el=>el.disabled=false);installController.refresh();render();document.documentElement.dataset.ready='true';
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});

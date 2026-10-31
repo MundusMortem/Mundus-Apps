@@ -1,3 +1,4 @@
+import { setupInstallButton } from './install.mjs';
 import { verifyOwner, submitRequest } from './request-client.mjs';
 import { validateCatalog } from './catalog.mjs';
 const grid = document.querySelector('#appGrid');
@@ -124,8 +125,5 @@ requestForm.addEventListener('submit', async event => {
     requestStatus.textContent = message.startsWith('Only ') || message.startsWith('Add an app') || message.startsWith('Request was not confirmed') ? message : 'Request was not confirmed. Check View requests before retrying, then verify your account again.';
   } finally { button.disabled = false; }
 });
-let deferredPrompt;
-const installButton = document.querySelector('#installButton');
-window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); deferredPrompt = event; installButton.hidden = false; });
-installButton.addEventListener('click', async () => { if (!deferredPrompt) return; deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; installButton.hidden = true; });
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js?v=7').catch(() => {}));
+setupInstallButton(document.querySelector('#installButton'), {name:'Mundus Apps'});
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js?v=8').catch(() => {}));

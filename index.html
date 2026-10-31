@@ -7,15 +7,16 @@
   <meta name="description" content="Mundus Apps" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="icon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="install.css" />
   <title>Mundus Apps</title>
 </head>
 <body>
   <main class="shell">
     <nav class="nav">
       <a class="brand" href="./" aria-label="Mundus Apps home"><span class="brand-mark">M</span>Mundus Apps</a>
-      <button class="install-button" id="installButton" hidden>Install</button>
+      <button class="install-button" id="installButton">Install</button>
     </nav>
     <section class="library" aria-labelledby="apps-heading">
       <p class="eyebrow">PERSONAL LIBRARY</p>
@@ -47,7 +48,7 @@
     </form>
     <p id="requestStatus" role="status" aria-live="polite"></p>
   </dialog>
-  <script type="module" src="app.js?v=7"></script>
+  <script type="module" src="app.js?v=8"></script>
 </body>
 </html>
 

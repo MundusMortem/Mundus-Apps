@@ -45,6 +45,7 @@ jobs:
           node tests/browser.mjs
           node tests/reports-browser.mjs
           node tests/macro-browser.mjs
+          node tests/install-browser.mjs
       - name: Verify live food APIs
         if: github.event_name == 'push' && !cancelled()
         continue-on-error: true

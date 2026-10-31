@@ -39,3 +39,14 @@ GitHub Actions backend and SMTP sender. Keep the old GPT email task disabled.
 Preserve Reports settings and delivery history; never reset a pending send journal
 or mark a report sent before provider acceptance. Show concrete setup/errors in the
 app and keep all sender credentials in private GitHub Secrets.
+
+## Installation
+
+Use shared install.mjs and install.css for every app's Install button. Never leave
+an inactive visible install control: use the captured native prompt where available
+and show platform-specific browser steps otherwise. Distinguish requested from
+confirmed installation. Provide real 192px and 512px PNG manifest icons and an
+Apple touch icon. Cache shared install assets in each app and allow its worker to
+serve those same-origin shared assets offline. Do not clear local diaries during
+install or updates. Install fallback, prompt failure/dismissal and standalone state
+must be tested along with manifest eligibility.

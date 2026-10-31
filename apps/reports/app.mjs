@@ -1,3 +1,4 @@
+import { setupInstallButton } from '../../install.mjs';
 import { settingsRequestURL } from './settings.mjs';
 import { defaults,validateConfig,selectArticles,digestText } from './model.mjs';
 const $=id=>document.getElementById(id);
@@ -58,3 +59,5 @@ $('digestButton').onclick=()=>{$('digestText').textContent=digestText(visible(),
 $('downloadDigest').onclick=()=>{const a=document.createElement('a');const url=URL.createObjectURL(new Blob([$('digestText').textContent],{type:'text/plain'}));a.href=url;a.download='reports-digest.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 render();refresh();setInterval(()=>{if(!document.hidden)refresh();},60000);
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
+
+setupInstallButton($('reportsInstall'),{name:'Reports'});
