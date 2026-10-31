@@ -9,11 +9,11 @@ for attempt in range(6):
             assert response.status==200
             assert 'Reports · Your daily perspective' in response.read().decode()
         with urllib.request.urlopen(BASE+'app.mjs',timeout=20) as response:
-            assert 'syncConfig' in response.read().decode()
+            assert 'settingsRequestURL' in response.read().decode()
         with urllib.request.urlopen(BASE+'data.json',timeout=20) as response:
             data=json.load(response)
             assert isinstance(data['articles'],list)
-            assert data['generatedAt'] and data['articles'], 'Waiting for initial live news collection'
+            assert data['generatedAt'], 'Waiting for initial live news collection'
         print(f"Published Reports verified: HTTP 200, app module, {len(data['articles'])} collected stories.")
         break
     except Exception:

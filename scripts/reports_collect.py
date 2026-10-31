@@ -27,6 +27,10 @@ def validate_config(c):
             raise ValueError('Invalid '+key)
     if c.get('digestHours') not in [1,6,12,24,168] or type(c.get('emailEnabled')) is not bool:
         raise ValueError('Invalid email preferences')
+    c.setdefault('emailTo','')
+    address=c['emailTo']
+    if not isinstance(address,str) or len(address)>254 or (address and (not re.fullmatch(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?\.[A-Za-z]{2,63}',address) or '..' in address)):
+        raise ValueError('Invalid recipient email')
     return c
 
 def feed_url(theme, c):

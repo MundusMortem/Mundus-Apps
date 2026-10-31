@@ -7,11 +7,21 @@ try{
  await page.getByRole('button',{name:'Save AI industry update <safe>',exact:true}).click();await page.getByLabel('Saved articles',{exact:true}).check();assert.equal(await page.locator('.story').count(),1);
  await page.getByLabel('Search headlines and publishers').fill('unmatched');assert.equal(await page.locator('.story').count(),0);await page.getByLabel('Search headlines and publishers').fill('');
  await page.getByRole('button',{name:'Preview email report'}).click();assert.match(await page.locator('#digestText').textContent(),/https:\/\/example.com\/story/);await page.locator('#closeDigest').click();
- await page.getByRole('button',{name:'Customize',exact:true}).click();await page.getByLabel('Topics · one per line, up to 8',{exact:true}).fill('Technology\nClean energy');await page.getByLabel('Send reports to my connected Gmail account').check();await page.getByRole('button',{name:'Save on this device',exact:true}).click();await page.getByText('Saved on this device. Publish saved settings below to apply collection and email changes.',{exact:true}).waitFor();
- let writes=0;await page.route('https://api.github.com/user',route=>route.fulfill({json:{id:123,login:'MundusMortem'}}));await page.route('https://api.github.com/repos/**',route=>{writes++;return route.fulfill({json:{}});});
- await page.getByLabel('GitHub token · Mundus-Apps, Contents: Read and write',{exact:true}).fill('fake-secret');await page.getByRole('button',{name:'Publish saved settings',exact:true}).click();await page.getByText('Only MundusMortem can publish settings. Check your token.',{exact:true}).waitFor();assert.equal(writes,0);assert.equal(await page.locator('#syncToken').inputValue(),'');
- await page.locator('#closeSettings').click();await page.reload();await page.getByRole('button',{name:'Clean energy',exact:true}).waitFor();assert.ok(!(await page.evaluate(()=>JSON.stringify({...localStorage,...sessionStorage}))).includes('fake-secret'));assert.deepEqual(errors,[]);
- assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));const offlinePage=await browser.newPage({serviceWorkers:'allow'});
+ const palette=await page.evaluate(()=>{const s=getComputedStyle(document.body);return {background:s.backgroundColor,scheme:s.colorScheme,font:s.fontFamily};});
+ assert.equal(palette.background,'rgb(8, 9, 16)');assert.equal(palette.scheme,'dark');assert.match(palette.font,/Plus Jakarta Sans/);
+ await page.getByRole('button',{name:'Customize',exact:true}).click();
+ assert.equal(await page.locator('input[type=password]').count(),0);
+ await page.getByLabel('Topics · one per line, up to 8',{exact:true}).fill('Technology\nClean energy');
+ await page.getByLabel('Send email reports',{exact:true}).check();await page.getByLabel('Send reports to',{exact:true}).fill('reports+test@example.com');
+ let request;
+ await page.route('https://github.com/MundusMortem/Mundus-Apps/issues/new**',route=>{request=new URL(route.request().url());return route.fulfill({contentType:'text/html',body:'<h1>GitHub confirmation</h1>'});});
+ await page.getByRole('button',{name:'Save settings',exact:true}).click();await page.waitForURL('https://github.com/**');
+ assert.match(request.searchParams.get('title'),/^\[Reports settings\]/);
+ const text=request.searchParams.get('body');assert.match(text,/reports\+test@example.com/);assert.match(text,/Clean energy/);
+ await page.goto('http://127.0.0.1:8000/apps/reports/');await page.getByRole('button',{name:'Clean energy',exact:true}).waitFor();
+ await page.getByRole('button',{name:'Customize',exact:true}).click();assert.equal(await page.locator('#emailTo').inputValue(),'reports+test@example.com');await page.locator('#closeSettings').click();
+ assert.deepEqual(errors,[]);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
+ const offlinePage=await browser.newPage({serviceWorkers:'allow'});
  await offlinePage.goto('http://127.0.0.1:8000/apps/reports/');
  const scope=await offlinePage.evaluate(async()=>{const registration=await navigator.serviceWorker.ready;return registration.scope;});
  assert.ok(scope.endsWith('/apps/reports/'));
@@ -22,5 +32,5 @@ try{
  await offlinePage.getByRole('heading',{name:'A wider perspective. Precisely yours.'}).waitFor();
  await offlinePage.getByText('Could not refresh. Showing the last available briefing. Check your connection.',{exact:true}).waitFor();
  await offlinePage.context().setOffline(false);
- console.log('Reports browser checks passed: filters, saved articles, preview, settings, owner checks, token clearing, mobile layout and scoped offline shell.');
+ console.log('Reports browser checks passed: filters, saved articles, preview, settings confirmation, recipient editing, dark theme, mobile layout and scoped offline shell.');
 }finally{await browser.close();}

@@ -52,3 +52,13 @@ The GitHub workflow also runs browser tests using Playwright 1.56.1.
 The storefront and each listed app can be installed separately when they provide
 an appropriate manifest and service worker. GitHub Pages hosting is public;
 the request form verifies the owner through GitHub, while browsing the app catalog remains public.
+
+
+## Shared app design and Reports settings
+
+All generated apps must use the store's shared dark theme.css and follow AGENTS.md.
+Reports settings now use **Customize → Save settings → Create issue on GitHub**.
+The owner-verified workflow applies confirmed changes with no pasted token. The
+optional **Send reports to** field changes the recipient; blank uses connected Gmail.
+A custom recipient is visible in this public repository if saved. This does not
+change the storefront's existing request-authentication flow.

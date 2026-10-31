@@ -1,0 +1,62 @@
+name: Apply Reports settings
+on:
+  issues:
+    types: [opened, reopened]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: reports-news
+  cancel-in-progress: false
+jobs:
+  apply:
+    if: startsWith(github.event.issue.title, '[Reports settings]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify owner and validate requested settings
+        id: settings
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issue } = await github.rest.issues.get({ ...context.repo, issue_number: context.issue.number });
+            if (issue.state !== 'open') return;
+            if (issue.user.id !== 52387967) {
+              await github.rest.issues.update({ ...context.repo, issue_number: issue.number, state: 'closed', state_reason: 'not_planned' });
+              await github.rest.issues.lock({ ...context.repo, issue_number: issue.number, lock_reason: 'off-topic' });
+              return;
+            }
+            const { parseSettingsIssue } = await import(`${process.env.GITHUB_WORKSPACE}/apps/reports/settings.mjs`);
+            const config = parseSettingsIssue(issue);
+            require('fs').writeFileSync('apps/reports/config.json', JSON.stringify(config, null, 2) + '\n');
+            core.setOutput('accepted', 'true');
+      - name: Collect news for the saved settings
+        if: steps.settings.outputs.accepted == 'true'
+        run: python3 scripts/reports_collect.py
+      - name: Apply saved settings and briefing
+        if: steps.settings.outputs.accepted == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add apps/reports/config.json apps/reports/data.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Apply owner-confirmed Reports settings'
+          git push origin HEAD:main
+      - name: Confirm saved settings
+        if: steps.settings.outputs.accepted == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body: 'Settings saved and news refreshed. The updated page will be available after Pages deployment. [Return to Reports](https://mundusmortem.github.io/Mundus-Apps/apps/reports/).' });
+            await github.rest.issues.update({ ...context.repo, issue_number: context.issue.number, state: 'closed', state_reason: 'completed' });
+      - name: Report unsuccessful save
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            if (context.payload.issue.user.id === 52387967) await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body: 'Could not confirm this save. Check its Actions run. If the settings did not apply, close and reopen this request to retry.' });

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('./theme.css');
 
 :root { color-scheme:dark; --bg:#080910; --panel:#11131d; --line:rgba(255,255,255,.12); --muted:#8e92a0; --text:#f5f5f7; --lime:#d6ff5f; }
 * { box-sizing:border-box } body { min-height:100vh; margin:0; color:var(--text); background:radial-gradient(circle at 92% 7%,#1c1644 0,transparent 27%),radial-gradient(circle at 8% 92%,#162e35 0,transparent 32%),var(--bg); font-family:"Plus Jakarta Sans",sans-serif }
