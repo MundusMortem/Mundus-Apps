@@ -13,9 +13,9 @@ function appCard(app) {
 }
 
 function render() {
-  grid.innerHTML = apps.map(appCard).join("") + `<a class="app-card create-card" href="mailto:?subject=New%20Mundus%20App">
+  grid.innerHTML = apps.map(appCard).join("") + `<article class="app-card create-card" aria-label="Create new app">
     <span class="create-plus">+</span><h2>Create new</h2><p>New apps will appear here.</p>
-  </a>`;
+  </article>`;
   document.querySelector("#appCount").textContent = `${apps.length} APP${apps.length === 1 ? "" : "S"}`;
 }
 render();
