@@ -9,6 +9,7 @@
   "exclude": [],
   "maxArticles": 10,
   "emailEnabled": true,
+  "emailTo": "",
   "digestHours": 168,
   "digestLimit": 5
 }
