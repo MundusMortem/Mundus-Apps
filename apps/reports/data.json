@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-31T11:15:05.402343+00:00",
+  "generatedAt": "2026-10-31T11:33:31.640119+00:00",
   "config": {
     "themes": [
-      "Ace Hardware Retail",
-      "Minnesota/America Economics"
+      "Hardware Industry",
+      "Minnesota Economics"
     ],
     "country": "US",
     "language": "en",
@@ -17,59 +17,48 @@
   },
   "articles": [
     {
-      "id": "c9d74fe731e5a25b541ceb28",
-      "title": "Costello’s Ace Hardware Of Henrico Now Open - Red Book Lumber Data",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORkI2Rk00dFRyelItUDRzdkhEQmVsUGZQeFhvVzBCM0ZRdjItLWE2SnA2VlFYVFhiT1NFYXYtNVJJeDR6S25JOHBtVnB3YVZQLUFRd2oySFVXSGNNbEh2ck43Z3dvcEkwbVhtRjFUQjRjZWp3a1gxTTBiVGNqdmhMODYzb0dXYktlSUdaT3M5cjc4QQ?oc=5",
-      "source": "Red Book Lumber Data",
-      "publishedAt": "2026-10-30T22:10:52+00:00",
+      "id": "4fa07e2ca4fce4b794ddc3ff",
+      "title": "Gamescom 2026: What's next for the gaming industry? - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4eUg5Z1BoY2tGSGhycnUxeG5ILWZGN1BXNUdvdEFkSnZvLWFMWDRPVWtwcW9mRDdvcVpOaVctWnFEeFdVOXJIUWxDb0xkSmU1eVlOTVdVU2hlMWtlWU40TDE0RzY2SVJ1TXZNZ25QRUo0TkFRakhDMNIBeEFVX3lxTE1aYzFTVzBJYjJrQk16NzhmQ201cC00dmNva1VyVVBfVU1POWdhZG1fSnFFTzBXdHl4NFBMWE9qSnFaNUtqXzRYQWZvRDJpaFFZZDBSeUExbjZFT1ZJQW5LMm96VEctcHBTTVdYdXNqT3pBajk5WDkteQ?oc=5",
+      "source": "DW.com",
+      "publishedAt": "2026-10-30T18:11:10+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Hardware Industry"
       ],
-      "summary": "Costello’s Ace Hardware Of Henrico Now Open Red Book Lumber Data"
+      "summary": "Gamescom 2026: What's next for the gaming industry? DW.com"
     },
     {
-      "id": "385090ca9212e611fdd5d111",
-      "title": "Westlake Ace Hardware Expands in St. Louis Area with New Fenton Store - LBM Journal",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUnREUy1RTGFWS3VfMnRuSGF6OTlsTC0tRDRRRURvdmVQRnlhcVJJWlFrRWxrSHplNV8wMjRNUGEzTXJfNkFuTlZCQnZfVWc4SWNOa2F3V0lubXdJVEhsOUM5a1FzZ2ZycWFMZmZ3RVpHc285R0p4bjJHcVJuWnYtOTBkdmpuU1RVdWU4cTllUmF1RUd2RFRObWMzb2FfbWtQaVJNbFJIZ0dhWTZKZlNHY0NubVdhTlVjSUFXeGs0eUJEa1RKTkZ3djNnenZrZ1VzMGN0aXFKaXdFWUpoaFhTTzg4azNJOUs4VkZ5dHhqSW0xS1VLN3VLaQ?oc=5",
-      "source": "LBM Journal",
-      "publishedAt": "2026-10-30T20:52:36+00:00",
+      "id": "4aa06a7cca51c6fe75edf9f4",
+      "title": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM — Sam Altman says data centers offer better utilization - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQV0JjNVJDNmxJSXdsWk4ySjhKVDRmdkhPTlNBWlliM28tbG1JM055YkdpYUhQUHZHazFIYjJyWXd0LU54NU9FUEpPNGU4REFDLUJpQmx4QlRwWjdDaU1MeTZhUDQwdmdHQ1RvTVdJYnRlMko4WlUxNXJpR2tNZVQwWDFwdXBUMGQyaWF1dkNyUzQzNDctMWdQci1aWjkxb2JjdlFLenNBdHpmMDc3eEEzUWFYY05WZ1dPblhHXzJwcVlua19ic1RqVzFMUXN4UnRwYUgyaEppM3h2TVQ2MEFsMFRyZTZxWWpYZlRGbGJ0ZkhoV1lHd2JyN3hsMko?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-10-30T16:28:11+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Hardware Industry"
       ],
-      "summary": "Westlake Ace Hardware Expands in St. Louis Area with New Fenton Store LBM Journal"
+      "summary": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM — Sam Altman says data centers offer better utilization Tom's Hardware"
     },
     {
-      "id": "f2707adc324cf9523f4d3e32",
-      "title": "Kuipers Ace Hardware is closing after 71 years in Golden Valley - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVWJsVGdZcEdUMU1jQmFSanpMVldyWVFsZFh6bE16Q1NmYzdfSElQR21fS0JUcTV1S3hSZ2N5UzFVMnJ4YVZtWGJjdE5yck5qcm94UnhUR2syM3ZJcjJqdE9CWkVpMjM2ekJYN29zSWt1dzhuNlFpbVBqY3lXWmplajlTV2lyT2NEWFE?oc=5",
-      "source": "Yahoo",
-      "publishedAt": "2026-10-30T18:49:25+00:00",
+      "id": "8142889ac8001952fbfa603e",
+      "title": "Europe's economy brushes off energy shock from Iran war, shows moderate growth in Q3 - Audacy",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeGxha0tvdkxORER5WVFESFVSTEJyNjNfdmRpbmFtV04xLVhLbjZKRmUxRnczTnZpZFY4bDY3aEdXaFc2N29HNjU4RkhXOGhrZ3dXZVE1dGljMl9vNTk5Z1pMcU9DSGdqS3VJU0RxNFpuM3o0U0VXdU9LLXhoNFFULXplU3BtLVB3NVFndm1NNl8yeTN1R2t5ZkNSNW9CanZWUW5GMzVkb3BYblNHYXFmWUtqQ3hpcTd6cm1kbjBic0Z6c2QtazlVbkdTSldldw?oc=5",
+      "source": "Audacy",
+      "publishedAt": "2026-10-30T12:37:00+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Minnesota Economics"
       ],
-      "summary": "Kuipers Ace Hardware is closing after 71 years in Golden Valley Yahoo"
+      "summary": "Europe's economy brushes off energy shock from Iran war, shows moderate growth in Q3 Audacy"
     },
     {
-      "id": "97660200fcfd0d72b5abdeaf",
-      "title": "Are American voters actually gloomy about the economy, or is something else going on? - The Pilot Independent",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOOHJpeTYybEFwUjJUNXpWdHZtSHQ5WWNTbWVudnRVeFB2UTNHcUliSFp6ZDZERmdUc0xVV2JBRnlXb0VlVXI4N1BtOHdESGNDMXZIQi02MGtIYmFnR1NWVE92MGw2bk5sUGUwQ2xaV2x0SnBzUnlzMzcxbkg4eU9mU0tFMmtZaW9yVkZJeEp2bnNrUklpbzZPVlZSclJRMWk3LV9HdklCenhmRG1WTFU3dmpwdkd2M2FFdWprX2toRXNzaFFGeTJUQ3Q2ZlhUbnZVNXlZa21nTV9BUF85R3lrY01QcDNhWHlpeGNIOGZlaDZSOWYwN3M5MjJ5TGVRTU9PVF9mZE13Z0Y?oc=5",
-      "source": "The Pilot Independent",
-      "publishedAt": "2026-10-30T13:32:06+00:00",
+      "id": "c6a47a54def16e794ebd0a91",
+      "title": "New face of Chinese intelligent hardware - chinadailyhk",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzdzZLazFjWFJ2WlNLNk5zUE5XYmgta1FaSEUzWFNQTVYtVXdEc3l6UFJRQVdkVmV3UGI0am5DTU1mV0tKT2VWWEw2M1dlT3NxRC1BUG9RZU0?oc=5",
+      "source": "chinadailyhk",
+      "publishedAt": "2026-10-30T07:39:00+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Hardware Industry"
       ],
-      "summary": "Are American voters actually gloomy about the economy, or is something else going on? The Pilot Independent"
-    },
-    {
-      "id": "a437806e18a389d4411a3f7b",
-      "title": "This busy area near Columbia is getting a new Ace Hardware store. Here’s when - The State",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jemhzeTJsam5nT2RDdkl6bjk2OHZlbnFULWg1aVZIcXM0bmdpZWN5ZGk2N051SHVQTnJvcmZFSUFGbFczXzU2bU13YlZaVU5QY1R2M0RidTVwWmZhd0Z6SXhfeHZMTWFq0gFoQVVfeXFMTnNVZ1BKNUxqODhGd2lKemhoOUFCaUFabnljcEtuU29kSXpQU2hTY1pFU2kzdHAxeThQM3FDWWU0ZUVaQllUZ1dkWG80alhMb3pyOWsxUlJVRVNmNU1JQ2dqcHBsVkJhNFE?oc=5",
-      "source": "The State",
-      "publishedAt": "2026-10-30T09:15:00+00:00",
-      "themes": [
-        "Ace Hardware Retail"
-      ],
-      "summary": "This busy area near Columbia is getting a new Ace Hardware store. Here’s when The State"
+      "summary": "New face of Chinese intelligent hardware chinadailyhk"
     },
     {
       "id": "8c83db299d05971937b19115",
@@ -78,119 +67,108 @@
       "source": "Hardware Retailing",
       "publishedAt": "2026-10-30T03:52:56+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Hardware Industry"
       ],
       "summary": "Westlake Ace Hardware Expands in Missouri Hardware Retailing"
     },
     {
-      "id": "25813ed045840dc479e98cde",
-      "title": "New grocery store expected next year in shuttered Ace Hardware location in Elgin - Chicago Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ1JfYTc0UWFlYW83T0pUMEk1SWNzSzdkaEVpdnNJX082dmtKSWgzc2RkXzFmRUU0YUQ5T3JTdDQ5ay1YNEJ0dnk4QzB2a05idjl0T0tJQzJmMkhuOUJtUENGNFFld3lBRVJHMUV3bERSWDhBbTlRRmIwVGJDLXJWcVdrb3pORVhG?oc=5",
-      "source": "Chicago Tribune",
-      "publishedAt": "2026-10-29T18:14:00+00:00",
+      "id": "5b67be649263a5ad912f409a",
+      "title": "Candidate Profile: Doron Clark for Minnesota Senate - The Minnesota Daily",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOelFLZWRtSWhSTWlHNndkTHVYbDJnMkxyZUpiNU9wcWlSNEFNdEpyZlV6MHhweDFXNWRtUWpGYTFxZ3BIWFl3WWtkSFRtblhOUjBqY2xEcUUxN0lsTGhHVE5ZV0xJbWdJbV9lUlU5eHBEMTZZZGFuSkV1cU15dTlsU1ktWXFNLVZFeS1idUF2bVlDMUlpTzM0ZjA2d185VWZUak5sSA?oc=5",
+      "source": "The Minnesota Daily",
+      "publishedAt": "2026-10-30T01:40:34+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Minnesota Economics"
       ],
-      "summary": "New grocery store expected next year in shuttered Ace Hardware location in Elgin Chicago Tribune"
+      "summary": "Candidate Profile: Doron Clark for Minnesota Senate The Minnesota Daily"
     },
     {
-      "id": "95267b84c4c90fd97a57e365",
-      "title": "Since Metro Surge, Minnesota has recorded above average population growth but below average employment growth - Center of the American Experiment",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMkJ3dkFCUW1kMDZvMzI3WTdHV2hQdTZLN3h5NGhZNDJKVlB6M1BBaVlRVEdsSzlncmJUbXl1QTRXZlhLeUtlaDhubW5raXp1S1NHMVJ6SXFyaVhDbi1BdzFOdG5xMjNNMC1HRU9YcnBsci1fVTgyZUdmSVhhSlhKcG1WRzBzTWFkR1VYSnQ3eW5aZ0dNclBWWmowWkR2Q2toQ0xxYXlwV20xRUhpZU5pUm9JMVEycmJXaDJWR29oOW9ldFRkUmxBbGNCLWFPZjBFeGcyZUFiVmxGSlY2?oc=5",
-      "source": "Center of the American Experiment",
-      "publishedAt": "2026-10-29T16:44:27+00:00",
+      "id": "74ec692dad5eb23bcefb7437",
+      "title": "Another sign of a healthy economy just emerged, but for many Americans, employment and cost pressures continue - kare11.com",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQQV92VEt4OUpIei0zak9FMFhheTZBbDItTVVqak95RFhhQk1ZUzBmOGQtQ0g3UkppdTRqTmxjcEw5MnFhUWdyUkxoYkZud2lGU0w3b0NmYk1BV1dIUjRNNU8xZkcwTDdGMk5DMFljZnFIVDV0U2RRRWFDR0VHb1JsR1hIRk1CTnhvYnh0Nk9Pc3NrNHVMUkVySUtOc2V2aWlvN3ljdUo2Vk11ZzJkTW83S21sTjFFd1I4THZNUkMtSGxrdUpWdmN4N0NlME5DMngxR0x6d1hlX3FDSzE4Sloyb3hPYVEtdThReHlsanpuMmQ0SmpWbHVjOUxFR0NKNmFiV0c2QnV3YTZjZDZEV2ZoVzMxc0tVWWxyLU1UaUEySzR4a0tEQ0ZYcVhXTmlZZkoyNlE?oc=5",
+      "source": "kare11.com",
+      "publishedAt": "2026-10-29T23:08:00+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Minnesota Economics"
       ],
-      "summary": "Since Metro Surge, Minnesota has recorded above average population growth but below average employment growth Center of the American Experiment"
+      "summary": "Another sign of a healthy economy just emerged, but for many Americans, employment and cost pressures continue kare11.com"
     },
     {
-      "id": "3beaead87dd388504cad7002",
-      "title": "Bowers Ace Hardware expands to 6 locations with Irmo store - Lexington County Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUDdrMWZDcHJqeC1qYVJGM2dnd01UbDBzYkw0TWdSQURwZEFSSHJCcWRXaUFjNzdud2JaRE9aR01OT2hOelBCczN4dTBEV1dDLTVLTEpJSXlyVDZ4X0I1b3ZuTm1oVlZ5bEhsbVhwLWd4ZXVkLXJLMUw1SURlWUxUanZqWjA0ZEw2NXZOTDhyZ2JwQ0VUcFBCamRoV3VUMW1naHNlOFFGY2pTUVFP?oc=5",
-      "source": "Lexington County Chronicle",
-      "publishedAt": "2026-10-29T16:35:00+00:00",
+      "id": "196fac4442cd9d41d0244e19",
+      "title": "IRRR highlights manufacturing careers and industry growth during Manufacturing Month - Mesabi Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOYXBpSWplZW9VSFJ2N0RlTF9GamtsR291V29MX1Rfbm8wX1kyY0J2YUN3bThzMTAxREpMbHB5THVoU29EZDF4N3NDWFl5WF9SVXVPT3E2NE03aWNZdFhrNGsxOWctVFJBQjZtZ1VSMmd6blVSLUYyaWJmSFBQU2phMmRibHB1ajNKeC1weHhZeWxoS1F4U3FrNlpmMk8tQlNjWk43dm1UcHQ0YUlXQVhRNERPTXFmT3NBbEh5MG5hMmd2Y1JuV2ZRVGJEdENRMHVCUV9wOXpreWpDdlJ0UG1kT01lSElXVnowV3dTZFgwWlpjT1lhQjdqLUQxSFBlZw?oc=5",
+      "source": "Mesabi Tribune",
+      "publishedAt": "2026-10-29T20:45:00+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Minnesota Economics"
       ],
-      "summary": "Bowers Ace Hardware expands to 6 locations with Irmo store Lexington County Chronicle"
+      "summary": "IRRR highlights manufacturing careers and industry growth during Manufacturing Month Mesabi Tribune"
     },
     {
-      "id": "d95bab9cd2f9416b84d03968",
-      "title": "United Nations Condemns U.S. Economic Embargo of Cuba - Democracy Now!",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSE42OEozd2ZNYUp5eExyWkZkOWR4cFQxWFl5OWFHRHNFZ0tkV1AtZjVHVUVYeVlDb0RHVFdtX2xncFdYR3UxMUpNSGVnY1M1d0MwX1M0ZllKMHB3bUQyYnNkZHVWLVI5NzFmamRuSzdOd1c2REpFazBYZEZIckMxckctVUsySXU3QUVmYzYxQlhIYWlxX1FPYTFDeVEwX0o1bi1Z?oc=5",
-      "source": "Democracy Now!",
-      "publishedAt": "2026-10-29T15:41:48+00:00",
+      "id": "bfe1a070cc359101e38907c7",
+      "title": "AI hardware can be hacked so chatbots provide dangerous answers, research shows - WTKR",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSkhHWUpKQlM0V2kyZHJwRHZyRW5mRUMwOE1tSUZGTHd1TkxrZndCY1g5REhmanhjN3ZjbHF1enFEZGdydklUSklOZldyTVFsQnV2Y095MnFIMWc4bUFMLUlMcjBZOUljeGNGV1RyZ19Jbk9NRm5xdEQtUEZZU01YVTJhZXo2Z29XT29ncm5iRkhfV1lvLTI2cGc4cnJudGE3YVR2M0drSEF0X0xHQk5pRXZQSWpndVRNZ2RTUk9PMnlsZE9aX21fLXpXUFNoZHgzYjdEaXg5UQ?oc=5",
+      "source": "WTKR",
+      "publishedAt": "2026-10-29T19:35:03+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Hardware Industry"
       ],
-      "summary": "United Nations Condemns U.S. Economic Embargo of Cuba Democracy Now!"
+      "summary": "AI hardware can be hacked so chatbots provide dangerous answers, research shows WTKR"
     },
     {
-      "id": "26bd730d9673e0a9c4852f4b",
-      "title": "The cost of healthcare is hitting America where it hurts: The wallet - Minnesota Reformer",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZVdPZkdGV1hucEVwQmt6LUc0b1gxZ01jTHNpQU9ocm1Kc3VVSnNaNVlFWVVtQlNHM3h0dHZGU0NVZlBJQTVvNmZZNU1teWZRYTJFc3JPWUxORXZuX181OTUzT0JPUmhqQmRJTXhTRjBpbHRJN2huOFo4cFVFUnF5YV82SzBFQXBvOWdFNDdlb0IyV2F6X3VLVFRUS2hMYnllb0ZUaHJMS3YxN3ZGRXc?oc=5",
-      "source": "Minnesota Reformer",
-      "publishedAt": "2026-10-29T11:02:51+00:00",
+      "id": "a83bb9705410c19e485e2f2a",
+      "title": "Strong growth and inflation paints mixed picture of economy days before midterm elections - Boston Herald",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRmt1bEYtaVZRRDZpMmF3WlIyMGdkYXpZTVB1bVctdG42UlUwci1pcWdsdmJKSV83TmQ4LTNGTFJLMGMyLW9OdXozM0pzTkRzNGNMaUVOTHM1cVczTkZNY1FvZlFlYjctQzZzS1ViNmZwVFZVaWZVX1dOb2RhVEZVUDlZV1o?oc=5",
+      "source": "Boston Herald",
+      "publishedAt": "2026-10-29T17:13:18+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Minnesota Economics"
       ],
-      "summary": "The cost of healthcare is hitting America where it hurts: The wallet Minnesota Reformer"
+      "summary": "Strong growth and inflation paints mixed picture of economy days before midterm elections Boston Herald"
     },
     {
-      "id": "5aad82cf6a8764d038c5b37c",
-      "title": "Frentz, Henry spar over spending, regulations and Minnesota’s economic future at candidate forum - Southernminn.com",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNY09WaXY5TGYtdEdxRzNNaG90Ml9XTldQMTF5X1cwdm5yLXdiaFF6SmtuTlowOVFaZ0x2Z0ZzSVk2N2JLWDkxNU90T0dNRXBWb0VWeUVyMVhsWHg0OTdBRm9BQzJtcXdnZEN3WlB2WnRJSHM2ckg5S3FuNFAzMGlCRG9nYm5saXpPSVdGZUJrWG9sWk5wQ2JOM0dJa0g3RzRHMVJiV1YzNmRCVVBsSGZPU1V2bklvak9YYkhxcFQ4cEpyRVZmWW1TRS1rSnFxQ3dKY0w0bEtwV0t3UmtJeTFtMFI3TjhqXzVYTzBPMTRhUWZuQ2dZeXhtQm92ZkFURFdIQUtJSHBMajhCbmUyWEk4aTFGNHlNSzFyQmw0SVB3?oc=5",
-      "source": "Southernminn.com",
-      "publishedAt": "2026-10-29T09:00:00+00:00",
+      "id": "ad80fdfdad67364b2193ffeb",
+      "title": "Top 10 Architectural Hardware Trends Featured by Top-Rated Stainless Steel Railing Posts Exporter in China KINGLONG - El Paso Times",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOYl9tY2tJNGd1WTVxZEtRNEZNeTUzam56NUNTT3V6akVlX25QeDhmV1ZCNkY5MzBLUGNNVERGWjVSbnhvc1N3S0ZQTzA3cHFyVm1OdTE2N24zaXMyLV9aZWVNUHVwSzZERmRWM3JZMHVQZlRDRjhqNndmT2xydE13Z3VyV3lja0pFSjFJaEsxTmNEVUkwVmg3S3lNejVjMlZBQUxMTGo1ZHQ5WHpnMV9qSGQ3VXhkLTl1QkFhczNEOTlMM2JyYjQ1Qkk2S1Fvbnl4Ul9WUVZJbkR4YU5FNm1MNGhHeC0wUTlsRjRWN3FyRUtuZFhrNm9yRXpSUFctanZi?oc=5",
+      "source": "El Paso Times",
+      "publishedAt": "2026-10-29T10:53:17+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Hardware Industry"
       ],
-      "summary": "Frentz, Henry spar over spending, regulations and Minnesota’s economic future at candidate forum Southernminn.com"
+      "summary": "Top 10 Architectural Hardware Trends Featured by Top-Rated Stainless Steel Railing Posts Exporter in China KINGLONG El Paso Times"
     },
     {
-      "id": "c8e1ad514567eb41004f905f",
-      "title": "Local View: Immigrant workers vital to Minnesota's economic future - Duluth News Tribune",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObjZOd2IzUG14MF8tcjRRbzI5Mm80cWhVUXRwNHB1RjFfNFJVZW9YYU5YajljdGJRNThXSE1zeUEyT1ZUd2IyNTJCNUNEZGM5akVwY0RDQndLVW05Z1JRTnI2dXNsTVpMMGxFT3FsQzE1ZDlEb2xhODg1RWR5RWhGc2xaaVBTMzdKSWZWdWJwdTRmckRCTmRYWUUwWWN2M0RJSUdRemVXenhTbElOUEgtRTBmTFE?oc=5",
-      "source": "Duluth News Tribune",
-      "publishedAt": "2026-10-28T14:24:00+00:00",
+      "id": "160f8f952ab841b39b7584ab",
+      "title": "Anduril, Qualcomm partner on BlueChip computer hardware line - Manufacturing Dive",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRTNmNGNHT0RTei0wclE4Q19XWFB5WUVYSU15ek5VSjM5MXM5WXktX2RjRVNTRzRnbmVRZGs3SUhNVmx3bm42S3ZSZWt1ZVNGdk1LcG5FY1FnOThJRjhNaU8zRDl3cW1pM3hSRHZZUm9TWFVhWGQ5M1VnbVo2Z0tXM1g1bk8tY05jVV9aWDRVTmJkbk9vN19lNzkzRERCSF9FcEd3TUlQQXdEWHl6WjMydGRycTY0S1A0?oc=5",
+      "source": "Manufacturing Dive",
+      "publishedAt": "2026-10-28T17:00:56+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Hardware Industry"
       ],
-      "summary": "Local View: Immigrant workers vital to Minnesota's economic future Duluth News Tribune"
+      "summary": "Anduril, Qualcomm partner on BlueChip computer hardware line Manufacturing Dive"
     },
     {
-      "id": "85bd04f1cedc7fcecbb19d3a",
-      "title": "Immigration restrictions are hurting already struggling Minnesota colleges, universities - News From The States",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2ZHQmxJd0dwUU16bmlUMWg2SkpaYVpIT0xwcEd2RU11akx4UGpVY2VBWVpYZEFZUzkyN3d6TGF3dGl1MWsxZXZhcFJQZ3VRYVNNa1JRdjRyUXkwWjhBNzducGlmMlhmYmhsMFNkS0h5UlplZVVxSnZYajJwNEZ5UGtfUWw3cUk3Q3pmY0hhV2pXNFRHdjBWQnlIM1ItMVotQjU5UTBHY2ctQndYYktnVnJtRHFiZ2s2T0c5a0Y5WkxxM1haTzlZTQ?oc=5",
-      "source": "News From The States",
-      "publishedAt": "2026-10-28T12:45:37+00:00",
-      "themes": [
-        "Minnesota/America Economics"
-      ],
-      "summary": "Immigration restrictions are hurting already struggling Minnesota colleges, universities News From The States"
-    },
-    {
-      "id": "ab9a806ab4ac82dbd7218acf",
-      "title": "Ramstad: The Great Wrecking of Minnesota still underway, 10 months later - Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa0VUR1FoeU5qLU53X0RhR2kxcnFzaWR6MU5NSXlUMVZTaXNZZFpuQUJROVN3VzBHOE54MmJXMU1SN011THFSeG5OYzhHS2JJNUVzVHd1d0NabE1wNTUzb2N5T2tHMFVfOEdoNGxSMllzYTNfWE1SY3I5U2p0VlpxZWl6Z0d3eDl5Z1FhcTNsZTRZUzd2dkdweHppMFlSb3RiTDNxOE1IT3E3bnI1cUpj?oc=5",
+      "id": "ddbd02b28f738bb1d1132b13",
+      "title": "Five Decades of Giving Minnesota Students a Head Start - Star Tribune",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPejdGRjNPUVVwS2J3S2drMkZOYXFkR3hwRnNXQnJ5ZS15OXBjUkFaQVRzZ3FoTTVDc3BjQ0dISURBQ1R0YjhsZVVIY0E0VmR3NVpuaVdzblNNalBld3BkTjJremRpVmV5XzRuV1pwZE1KNWlYdXZjVk1mMzJILUJSSF9uYmE0RV9wa3dBUFdLbEdYdjhBbTBV?oc=5",
       "source": "Star Tribune",
-      "publishedAt": "2026-10-28T11:51:11+00:00",
+      "publishedAt": "2026-10-28T14:20:00+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Minnesota Economics"
       ],
-      "summary": "Ramstad: The Great Wrecking of Minnesota still underway, 10 months later Star Tribune"
+      "summary": "Five Decades of Giving Minnesota Students a Head Start Star Tribune"
     },
     {
-      "id": "2972bcfe7e299a557e472403",
-      "title": "Miller’s Ace Hardware hit with burglary - Citrus Heights Sentinel",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa1BVSWhsV0N4MHRzbnBUVnJDUS1EM3pUWTBGUjZLYVRjMjV1TEpWcUpwTTNNVnY5bGlsVWhZczdLNnMxQXh3N2V4SldnU1lUMmlQMmRqOGFsbC1jallQRjNwWHRIS0hBX1UzZTF0bnVKRVAyVGZ0V3hWb1pmWFFTdTJMejN0TlExNGQwX0dKOA?oc=5",
-      "source": "Citrus Heights Sentinel",
-      "publishedAt": "2026-10-28T07:36:04+00:00",
+      "id": "e483701cd5cff3713309f66c",
+      "title": "CHARLES KYTE: That darn, but lovable, dam - Southernminn.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaUFLVlRIZEZQODMzdHBtT3dWcUs4SjFRakZ2LXBKOE5PblNnY1ZYWkhFcWM0UHlkR2ZFUE81TGZwZEJmSFJKY3RpUlNVa092dmxYeEFLYzFuMmZoXzQwMzEyWm03RElKZTZHeWVpQ0xOWnM0VXEyV0k1Znpfb1RzM3F3US0tYUptRFFqckNZNTJsckg5U2VSc1FONDI0eENEc1JpeTAxS3cxLW1BQjB3T2ZGTE5RODdxS0V1aE56elRZSzhtUEtwUDdvMTE1a1JXR0hJNWJ2ZlUtbGJ5RTFV?oc=5",
+      "source": "Southernminn.com",
+      "publishedAt": "2026-10-28T09:30:00+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Minnesota Economics"
       ],
-      "summary": "Miller’s Ace Hardware hit with burglary Citrus Heights Sentinel"
+      "summary": "CHARLES KYTE: That darn, but lovable, dam Southernminn.com"
     },
     {
       "id": "515d6dc1852a01ced3805070",
@@ -199,42 +177,64 @@
       "source": "mn.gov",
       "publishedAt": "2026-10-28T07:00:00+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Minnesota Economics"
       ],
       "summary": "News mn.gov"
     },
     {
-      "id": "8608aa22066804daa62ee83a",
-      "title": "Attorney General Ellison again leads court defense of Temporary Protected Status for immigrants from Somalia - Minnesota Attorney General's Office",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcUVLV0JHcEFkdENHU1F0R1NOSGdCMUhvc1J3VF80QWQ3LWNFMUJEOHpSQlhHOGN0ZzlOZjZrY0JyemJQcE93MDI3WERxSmFKUkZIaWJRUnh0ZUxtTkhQR0YwcU5EckxRdXF1Ymg4TGVBT2FtWWVMTGdxU0c5Vkhwa2daYTRWdktvSU05YjBZV2N4WjNo?oc=5",
-      "source": "Minnesota Attorney General's Office",
-      "publishedAt": "2026-10-27T21:27:52+00:00",
+      "id": "6dd30ba80a0e9b4be12d6e27",
+      "title": "U.S. Construction Industry Projected to Add 400,000 Jobs by 2035 - Hardware Retailing",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWnhYazh6SXl1ZlhWbWZVRzNKelhLUDFUb2ZHcGl4STdoblE3UXJaczgwekFlYlowWUZ4aEhzeVdNRmVGS1ZGcEY4Q3paMTM4Njl2XzFSazJYQmswMWowcHNmaFExRkNtdGVDcGhncl85eUYxWnhldzl1RGtyaUFBdjVNaC16ZW9kU1A4REV2NmJ3LUJBcUg2Yg?oc=5",
+      "source": "Hardware Retailing",
+      "publishedAt": "2026-10-28T05:02:29+00:00",
       "themes": [
-        "Minnesota/America Economics"
+        "Hardware Industry"
       ],
-      "summary": "Attorney General Ellison again leads court defense of Temporary Protected Status for immigrants from Somalia Minnesota Attorney General's Office"
+      "summary": "U.S. Construction Industry Projected to Add 400,000 Jobs by 2035 Hardware Retailing"
     },
     {
-      "id": "b45c439ba2f70154c17e2ef5",
-      "title": "Hoffman Estates lands new True Value hardware store on site of former Ace Hardware - Daily Herald",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMXZSSW94Qk5ENWpkNG1HR3lKYkZvazlHLXlVQjRJLS1oem1tWHdQalBBRW9zbWRDbEgxaHpSUmtvLWJwYzVoTmZXTVFwZ0VMU3pwQ3NHelItdzVURTRhRzUtazUzbUhablZneXZOcWs4VG16V0JGMUFWZUNBeWlfN2wtRWZSUkNGZDh2NktUNFRDY3h2N0FtWWRRT3RPUmZtYXVITG9ySERDa0hETGpUZTN4d1o1aXhjU3RkNko1NE8tellPZlE5dA?oc=5",
-      "source": "Daily Herald",
-      "publishedAt": "2026-10-26T14:38:32+00:00",
+      "id": "62c9037051a0cebdd3af6a86",
+      "title": "Stanford Research Park marks 75 years - Stanford Report",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb3IzbU9fQi1HY1VYelNXdzhGNGdlZ3pCZFlFLVd5UmFXSGFyakN0d2FjTDQwOU9xUEcyeGNwaktZdHl2anNrYmNac0NEWUdZelJxdHJldUdSWnFsREFHLV9pWnFKeGoyWDJ6WjVHdjUwQ1R2bllVQmJpcmY2dU5jYmZHQTJEZldoamxkcQ?oc=5",
+      "source": "Stanford Report",
+      "publishedAt": "2026-10-27T21:17:30+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Hardware Industry"
       ],
-      "summary": "Hoffman Estates lands new True Value hardware store on site of former Ace Hardware Daily Herald"
+      "summary": "Stanford Research Park marks 75 years Stanford Report"
     },
     {
-      "id": "f069402746a22206ee6e7af0",
-      "title": "Third-Generation Stine Part-Owner Buys Existing Ace Store in Growing Lockhart - Hoodline",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUnBzXzFMeDVkZ2pVYzFiQmowYXkzcmJod1ZvV2FpWWNQU3c2bU43SjNnR0ZYLVdxdWkwREg4SXl2aW8wZkI4ajFUendmMmY0UFFPdFBObjhyRTRBVkJrWGFvWXVjSzY1czVvNG5TOXlkLUg0Unl3enVVQ2JNNk5tdTFpNEVaaHNwa0NzeTAzbFI5VVlDbGEzRmIwVlZqdnNmSHpPLXkydG5ZVFE?oc=5",
-      "source": "Hoodline",
-      "publishedAt": "2026-10-25T13:42:00+00:00",
+      "id": "3e77bff0a90eca03e1b3a9b7",
+      "title": "Minnesota individual health rates may jump 9% to 21% - kaaltv.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmZVZTk5UkJhWEMyQ1NKeDYzNXczRlJ5ZGlsUHBWaVJyckFOaHhSOGlZNHRYRXRjUDBoWkxkMGxqLXpadFRHOXBHd3BKQk5hRTV4aXBKS0ZrdTVtblRWOGNzWklnRnhvV3Y4bldnSVVZVXRmTjl5T3RvNW16SDhLd1k5a2FjZw?oc=5",
+      "source": "kaaltv.com",
+      "publishedAt": "2026-10-26T22:09:00+00:00",
       "themes": [
-        "Ace Hardware Retail"
+        "Minnesota Economics"
       ],
-      "summary": "Third-Generation Stine Part-Owner Buys Existing Ace Store in Growing Lockhart Hoodline"
+      "summary": "Minnesota individual health rates may jump 9% to 21% kaaltv.com"
+    },
+    {
+      "id": "8a6d33d68d397509ea69f572",
+      "title": "William Sibert joins School of Medicine as vice president and chief business officer - Tulane University News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaEF6enE1RHV1YlRIc25RVm5iVlotV2tOcWVqdXNVUFpWUXhCeEpFUlkzVUEyQmdyYmhLQjZJdVR3aGdQVXBRYkNYcm5CbTJ5X2lDeFVxTEZTc1l2bWZMckpRbmF4TUlyWmExTjVBTXFySXJfMkZwT2pCd0draHM2cllhWkJyMXNWMGRXZDZmclk5MDBYcnhveFZUeFBjUUYxNFA4QTMzakZ1bjg?oc=5",
+      "source": "Tulane University News",
+      "publishedAt": "2026-10-26T14:00:00+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "William Sibert joins School of Medicine as vice president and chief business officer Tulane University News"
+    },
+    {
+      "id": "7bdd3b57ab569dee78e0d022",
+      "title": "This week on Tom's Hardware Premium: October 24, 2026 — TP-Link's FCC saga, file-semantic SSDs, and unlocking better gaming performance from RTX Spark - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPLXZaTWZrX180N2ZnaUl4MUtuZktSWXR1TmgxTFhzVkFVLV8xNW5mN1c4WjdYcVVIb0M5Unp5SVNHcmpXNmxPT3JTM3d4ZElBNWVtWlJPV0Ywak9hdnNJSnlmWDB4dWJKUHM4QzlIR2x2Y29oOFZQbU9ibF80MXJLZ0gzdHE3RlhrdGMwaGJsWFo5d0t1ckt4dnZfZjlfV2JxdzRHbnhDUGMtVGhRNm9sVnlDVlV1dWJrNk94dlpLVUtseHV6NVF6cDZNb1cxaGhQREFIczNHU2pyem9MLWQybTNMVlY0aG5zMmtzRDVHY3lZbUpyM25nZ0VtdWV1OW5MbTdDdlpNd2lYdFJndHNsOGZiZw?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-10-24T12:25:00+00:00",
+      "themes": [
+        "Hardware Industry"
+      ],
+      "summary": "This week on Tom's Hardware Premium: October 24, 2026 — TP-Link's FCC saga, file-semantic SSDs, and unlocking better gaming performance from RTX Spark Tom's Hardware"
     }
   ],
   "errors": []
