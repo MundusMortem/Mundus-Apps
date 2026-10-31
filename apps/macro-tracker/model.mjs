@@ -9,7 +9,7 @@ export function localDate(date=new Date()){return `${date.getFullYear()}-${Strin
 export function validDate(value){if(typeof value!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(value))return false;const d=new Date(value+'T12:00:00Z');return Number.isFinite(d.valueOf())&&d.toISOString().slice(0,10)===value;}
 export function shiftDay(value,days){if(!validDate(value))throw Error('Choose a valid date.');const d=new Date(value+'T12:00:00');d.setDate(d.getDate()+days);return localDate(d);}
 function text(value,max=200){if(typeof value!=='string'||!value.trim()||value.length>max)throw Error('Check the name or text length.');return value.trim();}
-export function numberOrNull(value){if(value===null||value===undefined||value==='')return null;const n=Number(value);if(!Number.isFinite(n)||n<0||n>10000000)throw Error('Nutrient values must be finite, non-negative numbers.');return n;}
+export function numberOrNull(value){if(value===null||value===undefined||typeof value==='string'&&!value.trim())return null;if(typeof value!=='number'&&typeof value!=='string')throw Error('Nutrient values must be numbers.');const n=Number(value);if(!Number.isFinite(n)||n<0||n>10000000)throw Error('Nutrient values must be finite, non-negative numbers.');return n;}
 export function foodRecord(raw){
  if(!raw||typeof raw!=='object')throw Error('Food information is missing.');
  const basis=['g','ml','serving'].includes(raw.basis)?raw.basis:'g';
