@@ -47,6 +47,16 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m 'Apply owner-confirmed Reports settings'
           git push origin HEAD:main
+      - name: Process Reports email delivery
+        if: steps.settings.outputs.accepted == 'true'
+        run: python3 scripts/reports_email.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REPORTS_SMTP_USERNAME: ${{ secrets.REPORTS_SMTP_USERNAME }}
+          REPORTS_SMTP_PASSWORD: ${{ secrets.REPORTS_SMTP_PASSWORD }}
+          REPORTS_SMTP_FROM: ${{ secrets.REPORTS_SMTP_FROM }}
+          REPORTS_SMTP_HOST: ${{ vars.REPORTS_SMTP_HOST }}
+          REPORTS_SMTP_PORT: ${{ vars.REPORTS_SMTP_PORT }}
       - name: Confirm saved settings
         if: steps.settings.outputs.accepted == 'true'
         uses: actions/github-script@v7

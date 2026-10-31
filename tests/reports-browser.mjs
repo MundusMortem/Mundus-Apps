@@ -3,10 +3,14 @@ const browser=await chromium.launch({headless:true});
 try{
  const page=await browser.newPage({viewport:{width:390,height:844},serviceWorkers:'block'});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.route('**/apps/reports/data.json',route=>route.fulfill({json:{generatedAt:new Date().toISOString(),errors:[],articles:[{id:'1',title:'AI industry update <safe>',source:'Example',url:'https://example.com/story',themes:['Technology'],publishedAt:'2026-10-31T00:00:00Z',summary:'An industry update.'}]}}));
+ await page.route('**/apps/reports/email-status.json',route=>route.fulfill({json:{backend:'native',state:'needs_setup',message:'Email needs a private sender setup before Reports can send.',lastSentAt:'2026-10-31T11:26:38Z',nextDueAt:'2026-11-07T11:26:38Z'}}));
  await page.goto('http://127.0.0.1:8000/apps/reports/');await page.getByRole('link',{name:'AI industry update <safe>'}).waitFor();
  await page.getByRole('button',{name:'Save AI industry update <safe>',exact:true}).click();await page.getByLabel('Saved articles',{exact:true}).check();assert.equal(await page.locator('.story').count(),1);
  await page.getByLabel('Search headlines and publishers').fill('unmatched');assert.equal(await page.locator('.story').count(),0);await page.getByLabel('Search headlines and publishers').fill('');
  await page.getByRole('button',{name:'Preview email report'}).click();assert.match(await page.locator('#digestText').textContent(),/https:\/\/example.com\/story/);await page.locator('#closeDigest').click();
+ await page.getByText('Email needs a private sender setup before Reports can send.',{exact:true}).waitFor();
+ assert.equal(await page.getByRole('link',{name:'Set up email sender'}).isVisible(),true);
+ assert.match(await page.locator('#deliveryHistory').textContent(),/Last sent:/);
  const palette=await page.evaluate(()=>{const s=getComputedStyle(document.body);return {background:s.backgroundColor,scheme:s.colorScheme,font:s.fontFamily};});
  assert.equal(palette.background,'rgb(8, 9, 16)');assert.equal(palette.scheme,'dark');assert.match(palette.font,/Plus Jakarta Sans/);
  await page.getByRole('button',{name:'Customize',exact:true}).click();

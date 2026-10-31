@@ -59,6 +59,11 @@ the request form verifies the owner through GitHub, while browsing the app catal
 All generated apps must use the store's shared dark theme.css and follow AGENTS.md.
 Reports settings now use **Customize → Save settings → Create issue on GitHub**.
 The owner-verified workflow applies confirmed changes with no pasted token. The
-optional **Send reports to** field changes the recipient; blank uses connected Gmail.
+optional **Send reports to** field changes the recipient; blank uses the privately configured sender address.
 A custom recipient is visible in this public repository if saved. This does not
 change the storefront's existing request-authentication flow.
+
+
+Reports email now runs directly in its scheduled app backend, not a ChatGPT task.
+See apps/reports/README.md#sender-setup for the one-time private SMTP configuration.
+The app shows native email status and preserves existing delivery history.

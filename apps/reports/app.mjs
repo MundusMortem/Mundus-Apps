@@ -1,7 +1,7 @@
 import { settingsRequestURL } from './settings.mjs';
 import { defaults,validateConfig,selectArticles,digestText } from './model.mjs';
 const $=id=>document.getElementById(id);
-let config={...defaults},serverConfig=null,data={articles:[]},topic='';
+let config={...defaults},serverConfig=null,data={articles:[]},topic='',backendStatus=null;
 const load=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}};
 let saved=load('reports-saved',[]),read=load('reports-read',[]);
 if(!Array.isArray(saved))saved=[];if(!Array.isArray(read))read=[];
@@ -21,10 +21,18 @@ function render(){
   }
   $('emailStatus').textContent=serverConfig?.emailEnabled?`Email enabled · every ${serverConfig.digestHours} hours`:'Email reports are off. Enable and save in Customize.';
 }
+function renderDelivery(){
+  $('deliveryStatus').textContent=backendStatus?.message||'Email backend status is not available yet.';
+  const details=[];
+  if(backendStatus?.lastSentAt)details.push('Last sent: '+new Date(backendStatus.lastSentAt).toLocaleString());
+  if(backendStatus?.nextDueAt)details.push('Next eligible: '+new Date(backendStatus.nextDueAt).toLocaleString());
+  $('deliveryHistory').textContent=details.join(' · ');
+  $('emailSetupLink').hidden=!['needs_setup','error','needs_review'].includes(backendStatus?.state);
+}
 async function refresh(){
   $('status').textContent='Refreshing your briefing…';
-  try{const responses=await Promise.all([fetch('./config.json',{cache:'no-store'}),fetch('./data.json',{cache:'no-store'})]);if(responses.some(r=>!r.ok))throw Error();
-    serverConfig=validateConfig(await responses[0].json());const next=await responses[1].json();if(!Array.isArray(next.articles))throw Error();data=next;
+  try{const responses=await Promise.all([fetch('./config.json',{cache:'no-store'}),fetch('./data.json',{cache:'no-store'}),fetch('./email-status.json',{cache:'no-store'}).catch(()=>null)]);if(responses.slice(0,2).some(r=>!r.ok))throw Error();
+    serverConfig=validateConfig(await responses[0].json());const next=await responses[1].json();if(!Array.isArray(next.articles))throw Error();data=next;try{backendStatus=responses[2]?.ok?await responses[2].json():null;}catch{backendStatus=null;}renderDelivery();
     try{config=validateConfig(load('reports-settings',serverConfig));}catch{config=serverConfig;}
     if(topic&&!config.themes.includes(topic))topic='';render();
     const stale=data.generatedAt&&(Date.now()-Date.parse(data.generatedAt)>3*3600000);

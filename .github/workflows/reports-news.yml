@@ -5,6 +5,8 @@ on:
   push:
     branches: [main]
     paths:
+      - scripts/reports_email.py
+      - scripts/reports_plan.mjs
       - apps/reports/config.json
       - scripts/reports_collect.py
       - .github/workflows/reports-news.yml
@@ -21,11 +23,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Test news collector
-        run: python3 -m unittest discover -s tests -p 'test_reports.py'
+        run: python3 -m unittest discover -s tests -p 'test_reports*.py'
       - name: Collect current news
         run: python3 scripts/reports_collect.py
       - name: Preserve the latest briefing
@@ -36,3 +41,12 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m 'Refresh Reports news briefing'
           git push origin HEAD:main
+      - name: Process Reports email delivery
+        run: python3 scripts/reports_email.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REPORTS_SMTP_USERNAME: ${{ secrets.REPORTS_SMTP_USERNAME }}
+          REPORTS_SMTP_PASSWORD: ${{ secrets.REPORTS_SMTP_PASSWORD }}
+          REPORTS_SMTP_FROM: ${{ secrets.REPORTS_SMTP_FROM }}
+          REPORTS_SMTP_HOST: ${{ vars.REPORTS_SMTP_HOST }}
+          REPORTS_SMTP_PORT: ${{ vars.REPORTS_SMTP_PORT }}

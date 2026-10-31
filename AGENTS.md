@@ -30,3 +30,12 @@ Preserve other apps and catalog records. Each completed app has one permanent
 apps.json ID. Run repository and relevant app checks, verify the matching Pages
 deployment, and report any verification limit. Use relevant tests, including real
 workflow checks when changing authentication or settings writes.
+
+## App runtime behavior
+
+Build runtime features, including scheduled email, into deterministic app/backend
+code. Do not substitute ChatGPT tasks for app functionality. Reports uses its own
+GitHub Actions backend and SMTP sender. Keep the old GPT email task disabled.
+Preserve Reports settings and delivery history; never reset a pending send journal
+or mark a report sent before provider acceptance. Show concrete setup/errors in the
+app and keep all sender credentials in private GitHub Secrets.

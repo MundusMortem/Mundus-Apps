@@ -24,7 +24,7 @@ jobs:
       - name: Validate request handling and app catalog
         run: node --test tests/*.test.mjs
       - name: Test Reports collector
-        run: python3 -m unittest discover -s tests -p 'test_reports.py'
+        run: python3 -m unittest discover -s tests -p 'test_reports*.py'
       - name: Check JavaScript
         run: |
           node --check app.js

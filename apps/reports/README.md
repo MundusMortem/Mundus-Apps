@@ -1,64 +1,89 @@
-# Reports — issue #2
+# Reports
 
-A personalized, installable industry-news briefing at `/Mundus-Apps/apps/reports/`.
+A personalized industry-news PWA with its own deterministic news and email backend.
+No ChatGPT task, Gmail connector, or model execution is used for email delivery.
 
 ## Use
 
-Open **Customize** to set any topics (up to 8), publisher domains, excluded headline
-words, edition/language, result count, email recipient, cadence and digest length.
-Select **Save settings**, then confirm with **Create issue** in GitHub. Your usual
-GitHub sign-in is used; no personal access token is required. The **Apply Reports
-settings** workflow accepts only the immutable owner ID 52387967, validates the
-configuration and applies it with the refreshed briefing. A public visitor can
-browse or edit local preferences but cannot apply settings to collection or email.
-The confirmation issue closes when the settings are applied. Reopen an unsuccessful
-request to retry. The page updates after the tested Pages deployment.
+In **Customize**, choose topics, publisher domains, exclusions, edition/language,
+article count, recipient, cadence and digest size. Select **Save settings**, then
+**Create issue** on GitHub to confirm with your usual sign-in. The owner-verified
+workflow accepts only numeric account ID 52387967 and validates the request.
+No pasted GitHub token is needed. The repository is public: confirmed settings,
+including a custom recipient if chosen, are visible here. A blank recipient sends
+to the privately configured sender address without publishing that address.
 
-Settings in this repository are public, including a custom email recipient. The
-form explains this before confirmation. Leave **Send reports to** blank to use the
-connected Gmail account without publishing its address. One custom recipient is
-supported; invalid addresses, multiple addresses and header injection are rejected.
-No passwords, tokens or email credentials are accepted by this settings form.
+Reports uses the same shared dark theme as the store. Saved/read articles and
+local preferences stay on this device. The feed supports search, topic, saved,
+unread and publisher sorting, plus a digest preview/download. Its manifest and
+service worker are scoped to apps/reports/ and cache the offline shell.
 
-Collection runs on published settings changes and hourly through the **Refresh
-Reports news** GitHub Actions workflow. Google News RSS supplies linked headlines,
-short feed descriptions, original publishers and dates. Failed collections preserve
-the previous file; the page reports stale data after three hours. Publisher filters
-are Google News `site:` query filters. No credential or paid API is needed.
+## Native news and email backend
 
-The browser supports topic, search, saved and unread filters, sorting, local saved
-articles and digest preview/download. Saved/read state stays on this device.
-The app has its own scoped manifest and service worker; offline shell access does
-not pretend that cached news is fresh. Clearing browser storage removes local preferences.
+The **Refresh Reports news** workflow collects public Google News RSS hourly and
+runs `scripts/reports_email.py`. The settings workflow runs the same code after
+applying owner-confirmed changes. Email eligibility uses `deliveryPlan` from the
+app's `model.mjs` through `scripts/reports_plan.mjs`: enabled, due, matching settings,
+fresh non-future collection, unseen HTTPS articles and configured digest size.
 
-## Email
+Email is sent directly over certificate-verified SMTP TLS. Feed content is escaped,
+links are validated, and no generated claims are added. The public app reads the
+sanitized `email-status.json` to show sender setup, last send, next eligibility,
+errors or a pending review. Credentials never appear in source, page inputs,
+delivery status or logs. Provider acceptance does not prove inbox placement.
 
-The linked **Send Reports email digests** ChatGPT automation checks hourly. Email is
-off initially; choose your topics, enable email, and save settings to opt in.
-It emails the configured single recipient, or the connected Gmail when left blank, following saved cadence and length,
-and skips already-sent stories, stale feeds, unmatched settings and empty updates.
-There is no SMTP password in this repository; a custom recipient is public only when you choose to save one. Gmail and
-GitHub must remain connected, and the task must remain enabled. Hourly checks and
-service delays mean these are approximate intervals, not guaranteed delivery times.
+The previous GPT email task is disabled. `delivery.json` preserves the existing
+send history so migration does not resend already-delivered stories.
 
-`deliveryPlan` in `model.mjs` defines eligibility. `delivery.json` records only the
-last successful send timestamp and delivered article IDs. When state persistence
-fails, the task checks its deterministic message subject in Sent Mail before retrying.
-Email content must escape article text and treat feed content as untrusted data.
-A send acknowledgement verifies provider acceptance, not inbox placement.
+## Sender setup
 
-## Tests
+One-time setup is necessary because a ChatGPT Gmail connection cannot be reused
+as a credential by a GitHub-hosted application backend. Do not paste mail passwords
+in ChatGPT, this repository, a settings issue, or the app.
 
-`node --test tests/*.test.mjs`, `python3 -m unittest discover -s tests -p test_reports.py`,
-and `node tests/reports-browser.mjs` (Playwright installed, local server port 8000).
-Coverage includes RSS safety and parsing, source queries, exclusion, deduplication,
-partial/total feed failures, owner enforcement, settings validation and UTF-8 confirmation,
-email opt-in/cadence/staleness/deduplication, saved articles, filtering, digest preview,
-mobile layout and token clearing. Actual collection and provider delivery are checked
-separately against their live services before the issue is marked complete.
+In [GitHub Actions secrets](https://github.com/MundusMortem/Mundus-Apps/settings/secrets/actions),
+add these **repository secrets**:
 
-## Appearance
+- `REPORTS_SMTP_USERNAME`: the sender's Gmail address.
+- `REPORTS_SMTP_PASSWORD`: a [Google app password](https://myaccount.google.com/apppasswords),
+  not the normal Google account password. Google requires two-step verification
+  and an account that supports app passwords.
 
-Reports imports the shared root theme.css and uses the same dark palette, font,
-lime/purple accents, rounded panels and subtle neon borders as the store. Root
-AGENTS.md and the app-building automation enforce this for future generated apps.
+The default is Gmail at `smtp.gmail.com:465` with implicit TLS. If using a different
+SMTP provider, set repository **variables** `REPORTS_SMTP_HOST` and
+`REPORTS_SMTP_PORT`. Other ports use mandatory STARTTLS. If its login username is
+not an email address, add the secret `REPORTS_SMTP_FROM` with your verified sender
+address. The app's optional recipient overrides the sender-address default.
+
+After adding secrets, run **Actions → Refresh Reports news → Run workflow**, or
+wait for its hourly run. The app's email status will update after Pages deployment.
+Normal cadence still applies: checking setup does not force a duplicate report.
+There is no paid service required by this implementation.
+
+## Delivery safety and recovery
+
+All news/settings/email workflows share the same concurrency group. Before SMTP,
+a pending delivery journal is committed using a fresh GitHub blob SHA. After
+provider acceptance, lastSentAt and delivered article IDs are committed. State
+updates merge the latest contents and retry only SHA conflicts, never the email.
+Failures known to precede provider acceptance can retry on the next run. An
+ambiguous disconnect or an interrupted confirmation leaves the pending journal
+in place and blocks automatic resends.
+
+If the app says a send needs review, search the sender's Sent Mail/provider logs
+for the journal's Message-ID or `Reports digest [key]`. If accepted, merge its IDs
+and actual timestamp into delivery.json and remove pending. If definitely not
+sent, remove pending to permit the next run. Use GitHub's owner-authenticated web
+editor for recovery; do not clear a pending record without checking the provider.
+
+## Validation
+
+Run `node --test tests/*.test.mjs` and
+`python3 -m unittest discover -s tests -p 'test_reports*.py'`.
+Chromium checks run with `node tests/reports-browser.mjs` on the local server.
+Tests cover RSS safety, parsing, deduplication, exclusions and feed failures;
+owner-only settings confirmation and recipient/header validation; dark theme,
+mobile layout, filtering, saves, previews and offline scope; shared email cadence,
+TLS authentication, HTML escaping, durable send reservation, refusal, ambiguous
+failure, and state persistence failure after acceptance. Real provider delivery
+can only be verified after the private sender secrets are configured.
