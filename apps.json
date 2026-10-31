@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "issue-2",
+    "name": "Reports",
+    "description": "A personalized industry briefing, saved stories, and configurable email updates.",
+    "icon": "R",
+    "accent": "#7fbdc6",
+    "url": "./apps/reports/"
+  }
+]

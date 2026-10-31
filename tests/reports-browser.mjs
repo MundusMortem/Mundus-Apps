@@ -11,5 +11,16 @@ try{
  let writes=0;await page.route('https://api.github.com/user',route=>route.fulfill({json:{id:123,login:'MundusMortem'}}));await page.route('https://api.github.com/repos/**',route=>{writes++;return route.fulfill({json:{}});});
  await page.getByLabel('GitHub token · Mundus-Apps, Contents: Read and write',{exact:true}).fill('fake-secret');await page.getByRole('button',{name:'Publish saved settings',exact:true}).click();await page.getByText('Only MundusMortem can publish settings. Check your token.',{exact:true}).waitFor();assert.equal(writes,0);assert.equal(await page.locator('#syncToken').inputValue(),'');
  await page.locator('#closeSettings').click();await page.reload();await page.getByRole('button',{name:'Clean energy',exact:true}).waitFor();assert.ok(!(await page.evaluate(()=>JSON.stringify({...localStorage,...sessionStorage}))).includes('fake-secret'));assert.deepEqual(errors,[]);
- assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));console.log('Reports browser checks passed: filtering, saving, digest preview, settings persistence, owner enforcement, token clearing, mobile layout.');
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));const offlinePage=await browser.newPage({serviceWorkers:'allow'});
+ await offlinePage.goto('http://127.0.0.1:8000/apps/reports/');
+ const scope=await offlinePage.evaluate(async()=>{const registration=await navigator.serviceWorker.ready;return registration.scope;});
+ assert.ok(scope.endsWith('/apps/reports/'));
+ await offlinePage.reload();
+ await offlinePage.waitForFunction(()=>!!navigator.serviceWorker.controller);
+ await offlinePage.context().setOffline(true);
+ await offlinePage.reload();
+ await offlinePage.getByRole('heading',{name:'A wider perspective. Precisely yours.'}).waitFor();
+ await offlinePage.getByText('Could not refresh. Showing the last available briefing. Check your connection.',{exact:true}).waitFor();
+ await offlinePage.context().setOffline(false);
+ console.log('Reports browser checks passed: filters, saved articles, preview, settings, owner checks, token clearing, mobile layout and scoped offline shell.');
 }finally{await browser.close();}

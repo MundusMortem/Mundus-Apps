@@ -61,3 +61,5 @@ jobs:
       - name: Deploy tested apps
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify published Reports page and live feed
+        run: python3 scripts/verify_reports.py
