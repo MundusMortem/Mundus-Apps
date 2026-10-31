@@ -1,11 +1,14 @@
 {
-  "themes": ["Technology", "Business"],
+  "themes": [
+    "Ace Hardware Retail",
+    "Minnesota/America Economics"
+  ],
   "country": "US",
   "language": "en",
   "sources": [],
   "exclude": [],
-  "maxArticles": 30,
-  "emailEnabled": false,
-  "digestHours": 24,
-  "digestLimit": 15
+  "maxArticles": 10,
+  "emailEnabled": true,
+  "digestHours": 168,
+  "digestLimit": 5
 }
