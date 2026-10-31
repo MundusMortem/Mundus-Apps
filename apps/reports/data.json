@@ -1,679 +1,239 @@
 {
-  "generatedAt": "2026-10-31T10:49:49.752811+00:00",
+  "generatedAt": "2026-10-31T11:05:24.460032+00:00",
   "config": {
     "themes": [
-      "Technology",
-      "Business"
+      "Ace Hardware Retail",
+      "Minnesota/America Economics"
     ],
     "country": "US",
     "language": "en",
     "sources": [],
     "exclude": [],
-    "maxArticles": 30,
-    "emailEnabled": false,
-    "digestHours": 24,
-    "digestLimit": 15
+    "maxArticles": 10,
+    "emailEnabled": true,
+    "digestHours": 168,
+    "digestLimit": 5
   },
   "articles": [
     {
-      "id": "822426602ad76b795bb6bbb9",
-      "title": "Café Glendi’s recipe for nearly 30 years in business - NPR for Oregonians",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY1BTd3dheVZzbkNtRFFMU3NULW52NmlyWTRvclRCdnItRnNvRHFZUVllSXBoUi1nV0lhLTAxY2VuaS1CcENLWDJyNzdaUjR4M2hLRGE4bWR1enRPekJvd1Z0d0o0OVZ6cmJ6UWhNMTd4aDhFVUJvTXBKOF91eDRHWjM1Yy1QR3lzMXprUER0bzRUWG1wNlUxOFQ5WnNVY0M5S2c?oc=5",
-      "source": "NPR for Oregonians",
-      "publishedAt": "2026-10-30T22:29:00+00:00",
+      "id": "c9d74fe731e5a25b541ceb28",
+      "title": "Costello’s Ace Hardware Of Henrico Now Open - Red Book Lumber Data",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORkI2Rk00dFRyelItUDRzdkhEQmVsUGZQeFhvVzBCM0ZRdjItLWE2SnA2VlFYVFhiT1NFYXYtNVJJeDR6S25JOHBtVnB3YVZQLUFRd2oySFVXSGNNbEh2ck43Z3dvcEkwbVhtRjFUQjRjZWp3a1gxTTBiVGNqdmhMODYzb0dXYktlSUdaT3M5cjc4QQ?oc=5",
+      "source": "Red Book Lumber Data",
+      "publishedAt": "2026-10-30T22:10:52+00:00",
       "themes": [
-        "Business"
+        "Ace Hardware Retail"
       ],
-      "summary": "Café Glendi’s recipe for nearly 30 years in business NPR for Oregonians"
+      "summary": "Costello’s Ace Hardware Of Henrico Now Open Red Book Lumber Data"
     },
     {
-      "id": "45e47ab5a490e89316135d9e",
-      "title": "Tech bills of the week: Creating a Congressional Office of Technology; Enhancing data center transparency; and more - Nextgov/FCW",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOdXZqMDBoNWN0Z0ZWb1VRNUdBUldUdzJhaGw3V3dWaTN4dlJ4MTZUS3VZRkFTV2lUbmJiTHlnWnhQUG13YzFobk0xR0NsajJURW5wVEJ2dnBDaHZ4NmNpdXJFNW1uUF8taThwVVFUTFp1NmF5SEdTbHktVHB0SnZaWDFjMkJoTXo5cmFQQlU1MFI4U0o1bjhfRzhvbWFzMVlLT2QtVVJMTWZscTFpTXlNbjFlTDBiblQ4MjdUVldEaS1MNVVaTGxXeG41elBkUVpndzlYS0xHOVlCbGRzNnVXWjhtcktCdDJQYk5SSVZNRy01TlNncmtaT0oweWF1Tk0?oc=5",
-      "source": "Nextgov/FCW",
-      "publishedAt": "2026-10-30T21:57:00+00:00",
+      "id": "385090ca9212e611fdd5d111",
+      "title": "Westlake Ace Hardware Expands in St. Louis Area with New Fenton Store - LBM Journal",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUnREUy1RTGFWS3VfMnRuSGF6OTlsTC0tRDRRRURvdmVQRnlhcVJJWlFrRWxrSHplNV8wMjRNUGEzTXJfNkFuTlZCQnZfVWc4SWNOa2F3V0lubXdJVEhsOUM5a1FzZ2ZycWFMZmZ3RVpHc285R0p4bjJHcVJuWnYtOTBkdmpuU1RVdWU4cTllUmF1RUd2RFRObWMzb2FfbWtQaVJNbFJIZ0dhWTZKZlNHY0NubVdhTlVjSUFXeGs0eUJEa1RKTkZ3djNnenZrZ1VzMGN0aXFKaXdFWUpoaFhTTzg4azNJOUs4VkZ5dHhqSW0xS1VLN3VLaQ?oc=5",
+      "source": "LBM Journal",
+      "publishedAt": "2026-10-30T20:52:36+00:00",
       "themes": [
-        "Technology"
+        "Ace Hardware Retail"
       ],
-      "summary": "Tech bills of the week: Creating a Congressional Office of Technology; Enhancing data center transparency; and more Nextgov/FCW"
+      "summary": "Westlake Ace Hardware Expands in St. Louis Area with New Fenton Store LBM Journal"
     },
     {
-      "id": "079f7f1d344ed186175f4155",
-      "title": "Inside the Field: See who's playing in World Wide Technology Championship - PGA Tour",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaWx6RVdOMEVOODBsa1dFWjhwT25PdjVoVjNaM0VubGZJUElSUWxoNF94S1M1ZmpvdnBvNzAxY0NQREJMM1A1UE5QMi1ZNFFFakdXREF6QWsyaTlVME52NzI0ODBsQzV6d19FWmxIQUJ2aTJxV0JZdlgwcElwZjVHeWoxVzlXUjJBZUlaT1pXWl81blFkRVVmRWhkMWhtcTdRT0ZaMC1sUHdUQW1DQktUcjdNNlhuRzZsTHV4VTE0RWFHMVZHT3JWRkRUNVFJQndHU29jdnhweGVHT3dLck5fclp3?oc=5",
-      "source": "PGA Tour",
-      "publishedAt": "2026-10-30T21:32:01+00:00",
+      "id": "f2707adc324cf9523f4d3e32",
+      "title": "Kuipers Ace Hardware is closing after 71 years in Golden Valley - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVWJsVGdZcEdUMU1jQmFSanpMVldyWVFsZFh6bE16Q1NmYzdfSElQR21fS0JUcTV1S3hSZ2N5UzFVMnJ4YVZtWGJjdE5yck5qcm94UnhUR2syM3ZJcjJqdE9CWkVpMjM2ekJYN29zSWt1dzhuNlFpbVBqY3lXWmplajlTV2lyT2NEWFE?oc=5",
+      "source": "Yahoo",
+      "publishedAt": "2026-10-30T18:49:25+00:00",
       "themes": [
-        "Technology"
+        "Ace Hardware Retail"
       ],
-      "summary": "Inside the Field: See who's playing in World Wide Technology Championship PGA Tour"
+      "summary": "Kuipers Ace Hardware is closing after 71 years in Golden Valley Yahoo"
     },
     {
-      "id": "a25c799c71375ee15305ff57",
-      "title": "Taxes and safety top concerns in Seattle business survey - KUOW",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcjlKa0p6TnA5SU9ZNXdaYnBmcXBRLWZUSmx5RW5qUGtwcVhLWHNqbFFXRXlObURhdkRIVkNZQkJKTVphNUtjaFB1bWNZTEYxS0xZQ25vMUlObGFXRkZpYUxHRzgxUjRuT0RfZHBucW90VzVERm1xaG5yZGRXWEZ6bGFpOEdVZk9BM09paG0xcV9neTZFMG9jczV6am81dEN0RURUMmMwdw?oc=5",
-      "source": "KUOW",
-      "publishedAt": "2026-10-30T21:17:00+00:00",
+      "id": "97660200fcfd0d72b5abdeaf",
+      "title": "Are American voters actually gloomy about the economy, or is something else going on? - The Pilot Independent",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOOHJpeTYybEFwUjJUNXpWdHZtSHQ5WWNTbWVudnRVeFB2UTNHcUliSFp6ZDZERmdUc0xVV2JBRnlXb0VlVXI4N1BtOHdESGNDMXZIQi02MGtIYmFnR1NWVE92MGw2bk5sUGUwQ2xaV2x0SnBzUnlzMzcxbkg4eU9mU0tFMmtZaW9yVkZJeEp2bnNrUklpbzZPVlZSclJRMWk3LV9HdklCenhmRG1WTFU3dmpwdkd2M2FFdWprX2toRXNzaFFGeTJUQ3Q2ZlhUbnZVNXlZa21nTV9BUF85R3lrY01QcDNhWHlpeGNIOGZlaDZSOWYwN3M5MjJ5TGVRTU9PVF9mZE13Z0Y?oc=5",
+      "source": "The Pilot Independent",
+      "publishedAt": "2026-10-30T13:32:06+00:00",
       "themes": [
-        "Business"
+        "Minnesota/America Economics"
       ],
-      "summary": "Taxes and safety top concerns in Seattle business survey KUOW"
+      "summary": "Are American voters actually gloomy about the economy, or is something else going on? The Pilot Independent"
     },
     {
-      "id": "a65408e167e8e804a56872a9",
-      "title": "New York Ranks Second Nationally in Quantum Technology, with Stony Brook at the Center of Statewide Investment - Stony Brook Matters",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeXMxTE1HSVFjdnJ0aC1aTGNoVjdGMW1RYzNmQWxNOGFHbEVUcXRzNXVEOXZEbVVKM01HNlY1Ym9nQnlUVXM3anFDRlc5WWQ3cUFsZ0VqNTE2eWt6c3hFNW10V2JudmRxSEpUSFlGQnVlVWhFNVYyMFhtQ21JUnFUQ01HYzh3bUY0bFQ0WmNTQnU3VnFMMkJLNEdYNG83U2tQV3RETkZtOFVQVFA2YkZKSS1nMFVRRldqTjB6TS1raF9SanllcHlTVEE2Z0YtYWZuOHRuNVVIb3hnNjA?oc=5",
-      "source": "Stony Brook Matters",
-      "publishedAt": "2026-10-30T21:03:51+00:00",
+      "id": "a437806e18a389d4411a3f7b",
+      "title": "This busy area near Columbia is getting a new Ace Hardware store. Here’s when - The State",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jemhzeTJsam5nT2RDdkl6bjk2OHZlbnFULWg1aVZIcXM0bmdpZWN5ZGk2N051SHVQTnJvcmZFSUFGbFczXzU2bU13YlZaVU5QY1R2M0RidTVwWmZhd0Z6SXhfeHZMTWFq0gFoQVVfeXFMTnNVZ1BKNUxqODhGd2lKemhoOUFCaUFabnljcEtuU29kSXpQU2hTY1pFU2kzdHAxeThQM3FDWWU0ZUVaQllUZ1dkWG80alhMb3pyOWsxUlJVRVNmNU1JQ2dqcHBsVkJhNFE?oc=5",
+      "source": "The State",
+      "publishedAt": "2026-10-30T09:15:00+00:00",
       "themes": [
-        "Technology"
+        "Ace Hardware Retail"
       ],
-      "summary": "New York Ranks Second Nationally in Quantum Technology, with Stony Brook at the Center of Statewide Investment Stony Brook Matters"
+      "summary": "This busy area near Columbia is getting a new Ace Hardware store. Here’s when The State"
     },
     {
-      "id": "0930ff50979994c2bd6ea963",
-      "title": "Why Are We All Just Waiting For The Inevitable AI-Driven Catastrophe To Happen? - Big Technology | Alex Kantrowitz",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aYzhmNk5kc1JhenA0OEtvRnVacG1WWGw0WDEyQ21yV1RaQ1F5SVR4d2Nac1NXYjg2czI3akRTNmtzMlJaOHVpUjdlNGxDZHJzNTUzakpIU2k0SjcwbnZCNEw0QnZrdWdqTTJrUXlmOXUwSVlVTkE?oc=5",
-      "source": "Big Technology | Alex Kantrowitz",
-      "publishedAt": "2026-10-30T20:51:13+00:00",
+      "id": "8c83db299d05971937b19115",
+      "title": "Westlake Ace Hardware Expands in Missouri - Hardware Retailing",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hZDVEV2x3eDlDeV9fMmpoV19ETFhnamlSQWlHLUY1SVZfVlEyX2dRMmxtc3hoWkNqaVhlVkFaQjM3clNVdEhrdzhKUFduaFBPNHdwSnJJWkcyMXk2bVpqaU5GekxZV21lLVpCTmk0bUZ0elprWkRwNFJxRTU?oc=5",
+      "source": "Hardware Retailing",
+      "publishedAt": "2026-10-30T03:52:56+00:00",
       "themes": [
-        "Technology"
+        "Ace Hardware Retail"
       ],
-      "summary": "Why Are We All Just Waiting For The Inevitable AI-Driven Catastrophe To Happen? Big Technology | Alex Kantrowitz"
+      "summary": "Westlake Ace Hardware Expands in Missouri Hardware Retailing"
     },
     {
-      "id": "41c604d9980e981dc0a3b8fb",
-      "title": "Samuelson Law, Technology & Public Policy Clinic Marks 25 Years of Innovation and Impact - UC Berkeley Law",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWGo5cjFJbUdMZDZGdW1fNERsTEJwVEJ6aElBMF9hdlFLU3pIUlB6dzN5VkRDaHEyald0MWVMWlgzMUVpNlZ5dWxEemdodG0wZERKUW9td1RSeDNhT0JBVVo4aENEM3A5YmpHOXBPQkV1WFZtREEzcWdPTTNiXzZ6U3RXbnJ5TlgwZUN4VFU1NHA2TjItQjNETW1UT2kwQ185TnhYR3pMdWFibTZ5dEdoTm14RWRhZXYtN2pZMkQxVms?oc=5",
-      "source": "UC Berkeley Law",
-      "publishedAt": "2026-10-30T20:32:36+00:00",
+      "id": "25813ed045840dc479e98cde",
+      "title": "New grocery store expected next year in shuttered Ace Hardware location in Elgin - Chicago Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ1JfYTc0UWFlYW83T0pUMEk1SWNzSzdkaEVpdnNJX082dmtKSWgzc2RkXzFmRUU0YUQ5T3JTdDQ5ay1YNEJ0dnk4QzB2a05idjl0T0tJQzJmMkhuOUJtUENGNFFld3lBRVJHMUV3bERSWDhBbTlRRmIwVGJDLXJWcVdrb3pORVhG?oc=5",
+      "source": "Chicago Tribune",
+      "publishedAt": "2026-10-29T18:14:00+00:00",
       "themes": [
-        "Technology"
+        "Ace Hardware Retail"
       ],
-      "summary": "Samuelson Law, Technology & Public Policy Clinic Marks 25 Years of Innovation and Impact UC Berkeley Law"
+      "summary": "New grocery store expected next year in shuttered Ace Hardware location in Elgin Chicago Tribune"
     },
     {
-      "id": "8da252a6e96ceb38c2e166cb",
-      "title": "SFA’s Sports Business Society raises nearly $2K through silent auction - Stephen F. Austin State",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVkFkMnRndTNpQm5YSDlscHZNUE41UEpqYnZ5aGRSa2llN2MwRkNXa25TQ2prNVFJMEFSRl9SNTc1Vjd3bDk4YkhIdnA4OURUeVNWLUEzb21ZSnVZNmhHYThXd1VvU0ZIVHJod0tUTkxDSVVNMXctbXhZSFo4VXhxWEdBazA2Ui1NQS1wQkY0N3pXQnZLMTZLaVJ3YVphcWo2dzA4?oc=5",
-      "source": "Stephen F. Austin State",
-      "publishedAt": "2026-10-30T20:27:22+00:00",
+      "id": "95267b84c4c90fd97a57e365",
+      "title": "Since Metro Surge, Minnesota has recorded above average population growth but below average employment growth - Center of the American Experiment",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMkJ3dkFCUW1kMDZvMzI3WTdHV2hQdTZLN3h5NGhZNDJKVlB6M1BBaVlRVEdsSzlncmJUbXl1QTRXZlhLeUtlaDhubW5raXp1S1NHMVJ6SXFyaVhDbi1BdzFOdG5xMjNNMC1HRU9YcnBsci1fVTgyZUdmSVhhSlhKcG1WRzBzTWFkR1VYSnQ3eW5aZ0dNclBWWmowWkR2Q2toQ0xxYXlwV20xRUhpZU5pUm9JMVEycmJXaDJWR29oOW9ldFRkUmxBbGNCLWFPZjBFeGcyZUFiVmxGSlY2?oc=5",
+      "source": "Center of the American Experiment",
+      "publishedAt": "2026-10-29T16:44:27+00:00",
       "themes": [
-        "Business"
+        "Minnesota/America Economics"
       ],
-      "summary": "SFA’s Sports Business Society raises nearly $2K through silent auction Stephen F. Austin State"
+      "summary": "Since Metro Surge, Minnesota has recorded above average population growth but below average employment growth Center of the American Experiment"
     },
     {
-      "id": "1b632f00b792977aea84f92c",
-      "title": "The New DNA Technology That Linked Ted Bundy to a 52-Year-Old Cold Case - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xYTJfVDRCXzhvbTNQc2lBS3Y0cUlMT2d2ek0tcVdNRkRUdFA1N0ZrR2ZRYzZPSkFqV2RMbTZVT28wdjRzUmJVc1FfeTJILVFwMWl4QkxJY0dMU1B6eFd5ZnFCLS1Dc3Frc2cwRlNMYlJueGRDMVI1UmszYw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-30T18:54:00+00:00",
+      "id": "3beaead87dd388504cad7002",
+      "title": "Bowers Ace Hardware expands to 6 locations with Irmo store - Lexington County Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUDdrMWZDcHJqeC1qYVJGM2dnd01UbDBzYkw0TWdSQURwZEFSSHJCcWRXaUFjNzdud2JaRE9aR01OT2hOelBCczN4dTBEV1dDLTVLTEpJSXlyVDZ4X0I1b3ZuTm1oVlZ5bEhsbVhwLWd4ZXVkLXJLMUw1SURlWUxUanZqWjA0ZEw2NXZOTDhyZ2JwQ0VUcFBCamRoV3VUMW1naHNlOFFGY2pTUVFP?oc=5",
+      "source": "Lexington County Chronicle",
+      "publishedAt": "2026-10-29T16:35:00+00:00",
       "themes": [
-        "Technology"
+        "Ace Hardware Retail"
       ],
-      "summary": "The New DNA Technology That Linked Ted Bundy to a 52-Year-Old Cold Case The New York Times"
+      "summary": "Bowers Ace Hardware expands to 6 locations with Irmo store Lexington County Chronicle"
     },
     {
-      "id": "662576a673322d934a2806c5",
-      "title": "US, Finland Sign Technology, Critical Minerals Agreements - MeriTalk",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTE53RW5BZ0g3aFlMWklFZV9jdjNBTlV6U05iR3VwN2E3MExRWERrU2FaQW5oNmhiYjc5UHpEajRlRU1FNm5sd0ZZLVBvS3VRWDY1b3UybzhGMzlOOWFTZWVkVWh5Q3pWVFNHUkxvN0JGc1BPZDQtSXp3SkxJTGhKTzFPX214N2xrQkRPMU1WRWNsTU9i?oc=5",
-      "source": "MeriTalk",
-      "publishedAt": "2026-10-30T18:40:17+00:00",
+      "id": "d95bab9cd2f9416b84d03968",
+      "title": "United Nations Condemns U.S. Economic Embargo of Cuba - Democracy Now!",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSE42OEozd2ZNYUp5eExyWkZkOWR4cFQxWFl5OWFHRHNFZ0tkV1AtZjVHVUVYeVlDb0RHVFdtX2xncFdYR3UxMUpNSGVnY1M1d0MwX1M0ZllKMHB3bUQyYnNkZHVWLVI5NzFmamRuSzdOd1c2REpFazBYZEZIckMxckctVUsySXU3QUVmYzYxQlhIYWlxX1FPYTFDeVEwX0o1bi1Z?oc=5",
+      "source": "Democracy Now!",
+      "publishedAt": "2026-10-29T15:41:48+00:00",
       "themes": [
-        "Technology"
+        "Minnesota/America Economics"
       ],
-      "summary": "US, Finland Sign Technology, Critical Minerals Agreements MeriTalk"
+      "summary": "United Nations Condemns U.S. Economic Embargo of Cuba Democracy Now!"
     },
     {
-      "id": "432a2e3cb32c282415fd0485",
-      "title": "ALE Investigating Business Located at State House Candidate’s Property - The Assembly NC",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNktSZjJFcEZ6MS1IUTZ6T0JfMDVSUjZzQWxCNDNVc25DTHY3Y0ZPdTViWGZCa3VScnA4ME5JWkJCcHp0ZFdkSXMtbHJ4SEZ2UkNPVVhqVnBzZGYxVDBnY3VNUFBFZDRKVjFIVVJsZm1oS0lpWDEwZC0tbDBRWmhLQ0trSFd5UTJWRXQ0?oc=5",
-      "source": "The Assembly NC",
-      "publishedAt": "2026-10-30T18:05:34+00:00",
+      "id": "26bd730d9673e0a9c4852f4b",
+      "title": "The cost of healthcare is hitting America where it hurts: The wallet - Minnesota Reformer",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZVdPZkdGV1hucEVwQmt6LUc0b1gxZ01jTHNpQU9ocm1Kc3VVSnNaNVlFWVVtQlNHM3h0dHZGU0NVZlBJQTVvNmZZNU1teWZRYTJFc3JPWUxORXZuX181OTUzT0JPUmhqQmRJTXhTRjBpbHRJN2huOFo4cFVFUnF5YV82SzBFQXBvOWdFNDdlb0IyV2F6X3VLVFRUS2hMYnllb0ZUaHJMS3YxN3ZGRXc?oc=5",
+      "source": "Minnesota Reformer",
+      "publishedAt": "2026-10-29T11:02:51+00:00",
       "themes": [
-        "Business"
+        "Minnesota/America Economics"
       ],
-      "summary": "ALE Investigating Business Located at State House Candidate’s Property The Assembly NC"
+      "summary": "The cost of healthcare is hitting America where it hurts: The wallet Minnesota Reformer"
     },
     {
-      "id": "e54d0a6ea9dc84e203500b20",
-      "title": "School of Business Administration Honors Distinguished Alumni - University of Mississippi | Ole Miss",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWHdpTlFpSE9MTVRZNnhyZ3lRTlZmV3kycklhZDg0VU5Wdlo5aEZKZWNBLVhzbl9zaG1SUUNDazlKQnhacGphdnptU1kweG5sY1U0dk9DbUpiQVh5RVFkdUM2RjJTV0dCMUdkWDhwTjdNUGVRMWNRTEExVzVtR20tajRJUGNFRmRWNm5uMlZuV08xczh0TE5uWHBrTGtZX3JaN0JheVI4dHc?oc=5",
-      "source": "University of Mississippi | Ole Miss",
-      "publishedAt": "2026-10-30T17:05:24+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "School of Business Administration Honors Distinguished Alumni University of Mississippi | Ole Miss"
-    },
-    {
-      "id": "9c01e1c960dc0e2a01cdf755",
-      "title": "Voices of UNH Manchester Wildcats Series: Meet Mechanical Engineering Technology Major, Kieran McCurdy, '25 - University of New Hampshire",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYWRJUnU2dVlUWnJfQi1sSWNKdVAyZUViUnNtd2JpbVJ2MVF2S1dCdnMtRzNNZUlYODRfb2hXS3J2WW9fUzFJQmpDbmNsbGsyZXhUbnBYMmRTdVZDR3c4TlhST3BVc1YyYlNqN0Y2X1U2YWpfNU5DU3hxZU1EOGl2MlBNSXhOSmwwaERnSHNGOWV2cWh3VkRlWWJNSmFnYmFFendOVDU3M2lfQ2xXU2pldEZncGlqejl4WjBaZ0Vhc2k2VkhhM3NaTUY5ZjZXR2REQmtLLXI3cWZIVllqbDZrdg?oc=5",
-      "source": "University of New Hampshire",
-      "publishedAt": "2026-10-30T16:01:11+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Voices of UNH Manchester Wildcats Series: Meet Mechanical Engineering Technology Major, Kieran McCurdy, '25 University of New Hampshire"
-    },
-    {
-      "id": "dc006dcb8345ed0bc518dc64",
-      "title": "Lunar Surface Innovation Initiative - NASA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDVYcWxsTHJOMG1UY1hkM1pzajN3QUtRbDFGeWxva2FEb2p4anJyVU5lS0h5OEdTN1ljZGNzU1lNT0NkX3NFeHNMNlZ0cnhJZ2Fpd1I0YVpVQUF2U010aktNRUZIa3pxYkdFYjVVUExiVHl5OW9LQzdvY0V2NHZ4TmVRSDM3d094bXFyUUt6cUxpMkFRR0ItaXN3?oc=5",
-      "source": "NASA (.gov)",
-      "publishedAt": "2026-10-30T15:46:56+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Lunar Surface Innovation Initiative NASA (.gov)"
-    },
-    {
-      "id": "6e689cd7a06bbce2efef5fcf",
-      "title": "Salesforce pushes further into defense tech via Rune acquisition - Washington Technology",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRzlzVjc0UDROUlQ3b3lyajc3NjNYOE9tQ0hzWko3eGh0R3gyd0pOaUtiSTR1aDBqTEJBeXJOaFlqMFV0b1h5d0pTeU0wX3ZQTjd0QVFYQVRneTYxdjdvZUdsUzJoNmxZWm9LNzlSeVE5SXlqTVRzc3RhYU5FYjJFNUQ1R3BSQWpLenh3Zmh5TVpkcndIUm1JcVhZNXI5SHE5QUcwb3RGNGkzeU9WTHVsWG5TZW9RNHljZGc?oc=5",
-      "source": "Washington Technology",
-      "publishedAt": "2026-10-30T14:49:51+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Salesforce pushes further into defense tech via Rune acquisition Washington Technology"
-    },
-    {
-      "id": "e664b442a90272216d59ae35",
-      "title": "NAR REACH Wins 2026 Inman Award for Advancing Real Estate Technology - National Association of REALTORS®",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHZ6YTVWWkdEcWtlR2NsQVBnV2dkanE5OS1IeDkzM1M4SUxUNFQteDhrd1QxT0NCemV1UFlqeGdKUFJEODRaTlRYOWh5Z1F4cUI1RFVZTHVWSjhWWTlqUHhubWRsTFFuREo5Zk82S0dSWHZxRHdBZzlqZ0VlSkp5S0cwUFRlYlR6S093RGN0NkJST2ZfT2txX1FzWWtxTWxrSFliRmtsVEczeGw4d1RxeHpYREM?oc=5",
-      "source": "National Association of REALTORS®",
-      "publishedAt": "2026-10-30T14:45:00+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "NAR REACH Wins 2026 Inman Award for Advancing Real Estate Technology National Association of REALTORS®"
-    },
-    {
-      "id": "3f5b945400f999c7c592b2b2",
-      "title": "Is Marvell Technology (MRVL) Cheap After Its Lumentum Deal Talks Sent Shares Lower? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMXJJcXFOVHBHMDFPc3l1TkdSNE90ODRhSmZnY09lVDMyMXk3YV9NNzBGNm5tTTVXQUJZMncyU0VOM2pHRWlCbGUzNkhXaWk4YVhFS3RzUVl4QkZvbWlBdzA0ay1VR0MxVjhEc3N0LWNUdlk3X0VLemd1TkozelNLRXU4NVdidVF2MUcwc1V3X2NyRHpQV2lxaVNJak95MGpQY2hNb21R?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-30T14:10:38+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Is Marvell Technology (MRVL) Cheap After Its Lumentum Deal Talks Sent Shares Lower? Yahoo Finance"
-    },
-    {
-      "id": "7a66d5a4baf695b6233ea7d4",
-      "title": "UConn Professor Co-Chairs National Academies Study of Federal Small Business Innovation Programs - UConn Today",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZU1IUGE0Zm9jblA2OTZ4al83Z0xxU1lTSUNjU3JrRDFEbDBvUnFkd3liR3psVFNjYzVidXBNWURFQV9fTHk4S21iLWRjZ3Q5d0Z4bEtnRHRIVnNfMnhHRGQyRnRzLXdjdTU5dzBnRzRiY0dZR2hnOVZDV2NkdU1sZVpVTFZCUFpEUWJQLWY0SXN5NmVnX2F4eDZGRzVVVGo0S2N4RFRuV0ZJYnNueGY3a3FGX3p5bkdsckZZSHJOUTBISWIzeHFBRg?oc=5",
-      "source": "UConn Today",
-      "publishedAt": "2026-10-30T13:15:02+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "UConn Professor Co-Chairs National Academies Study of Federal Small Business Innovation Programs UConn Today"
-    },
-    {
-      "id": "2e4c2414b3fea6dd5d6415e6",
-      "title": "Quantum: 12.9% of technology signals are already at operational level - EU Science Hub",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWmZfNjZvNng4bTlvMmZZRUVRc2RvUUZVbHFhSDRxN0xYaXJWaEFFNjUzai1PbnlkSTAtRnZMLVZwSTBYR3hOTlAwMjhEM2hFdkZmMWplNG5kTGdhTks3WEZ6X0k5VFN2VTIySDN4ZGVTTkZ2STNPaEV4SUI5YUxHOV9lQkRobHdrdkJGSWNwdE1JWFY3UFJLX3hpeXpXVDdQNTA4akNHcE9GS1lFR2VKQV9CZzg5NnZhOWhEckpDeWxqek1JLWxPVTRIakVhZFNNbUVsTw?oc=5",
-      "source": "EU Science Hub",
-      "publishedAt": "2026-10-30T12:09:34+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Quantum: 12.9% of technology signals are already at operational level EU Science Hub"
-    },
-    {
-      "id": "98cb53d392517dcf2d3d30b3",
-      "title": "Technology governance scholar Gillian Hadfield on AI safety and security - Johns Hopkins University",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4weFJPWi1hQ3Y5UlZTakM4ODAzdU9jbWJhaEJVdk9NZU82UnM2QlQyZUxzWFg0QlRhUzJYVlplb1d1Sm1oZFU3aGVCY2hFb3BrSlc3akRra2dPYTc4UVNwMXJqVTV6WXEyMXFkdHM5dUNjV2s0TlE?oc=5",
-      "source": "Johns Hopkins University",
-      "publishedAt": "2026-10-30T11:00:00+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Technology governance scholar Gillian Hadfield on AI safety and security Johns Hopkins University"
-    },
-    {
-      "id": "ae7a052a5a1c2593bb4b8b72",
-      "title": "Thieves make off with $6.3B from Binance: 'Biggest hack in history' - Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUUg5ZXd1WkhSMnhVaGRUdlNRbV9HOS1GdDdHUjJWUW1rcXNXdzdrVUhSUmExMFBrR2V3RWgwOWczZDNHeTdnMXI2akNqNElmaVM2ODM3bnczMUcza1V0eWM4MlhYZEprUHo1bTNGX19yb1I0ZUpPZEVkXy1pS0JURi02aVRtNjZRM1RYZUpmS0pwaUpvUS1BTW9ZN2l6NWwzNTNOX3M0UzhLOU1UOVJsY3Z30gG3AUFVX3lxTE5UbkVFZEpfU3BOY1ZZVTk2cE1PYlk1aVdTSVFBa0RhS2J3d2RlbkFqdUJNWHYtQmVMemhBODdONXRjejlCcU1rNTFGM2tCNnR0SEtQRFV4bXhKa3RIWkp0Z1R1S09wVnI0UkQtLU5qOFdUbm80czRyVHZSZElQVUUyUDV5NUR1c3NraktpZlI0REJqRTNSVjZJWGRwRlFDbmwxa2dEU3dlcnE4S3d1RnhRY0xIbXg1SQ?oc=5",
-      "source": "Fox Business",
-      "publishedAt": "2026-10-30T10:45:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Thieves make off with $6.3B from Binance: 'Biggest hack in history' Fox Business"
-    },
-    {
-      "id": "8fa55f753880ab7ec6b845d6",
-      "title": "Male Insecurity Over Penis Size Is a Booming Business - WIRED",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT3FOVlVtU3NIZUhIdVdkZ2ZaWUMxRmkzT1pRLWRIRzNsNW5vclpKS2JnUENqNFhycjcwVTNTbmVQOUJNa2lPZ0wtejZRcjBMcHVWUllzQm95VUkwOVNTRW85TFVvOFNWRnlIbU9sbnlTWi1Gc1dCdmxYWmV0NDItYU9lQTMwUnNQOEE?oc=5",
-      "source": "WIRED",
-      "publishedAt": "2026-10-30T10:30:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Male Insecurity Over Penis Size Is a Booming Business WIRED"
-    },
-    {
-      "id": "2de66ef7d724172bee0f9d1b",
-      "title": "2026 Technology Demonstration (EX2701) - NOAA Ocean Exploration (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TRXVLRHZ6OGFwSkRjTzJ1QnFiMHlpYy1JMDA5cnNsZEs4ZVRvUGVJeXRSZXFRcVNOTlRHWVZHMkRTX2MwTnJkYi1JTU91U1I5WVRBN3lQcHlaZENhcmc?oc=5",
-      "source": "NOAA Ocean Exploration (.gov)",
-      "publishedAt": "2026-10-30T10:13:14+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "2026 Technology Demonstration (EX2701) NOAA Ocean Exploration (.gov)"
-    },
-    {
-      "id": "ace97deec4fe6f5f34c0b4e1",
-      "title": "I started hosting candle-making workshops as a fun side hustle. After a layoff, I made it a business. - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdS1QWkFlcGJBeEwwbkJnOGRFMEEzeTFrR0M2dkIyd3hhNkxwNnA2a3BQZDFyeEVQdE5BcVdQM18yNkxIcmZPbjJPSWVXSDl4UWhNQlUyQVNSMzlRSzdPaG5JeS15aGI2emdSenFDS3hULXc4RmtEemlZSDNkNFd6cmhKNXZTYWl3aGN2RkxDVGlzME9yTzgtaGRoMnpZYzN4TjN4QzJB?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-30T10:10:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "I started hosting candle-making workshops as a fun side hustle. After a layoff, I made it a business. Business Insider"
-    },
-    {
-      "id": "1e933c51c63819b56bd5e9d0",
-      "title": "Google is happy AI is cannibalizing its most profitable business - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRWR4SHVieFhPVGxKem9qUHk2U3hCSjQtMXdWSUZ0dGhYY0txYWxuRHR5cWpicjI5Q1YyYldXZzVoUURZMUpiUzVQQXBaRUx4dlgyY1k5ZExnTVpGYUhsdU5hbTdUanNDUHk2QnkyY3kwOXZ4ZTVUOXRneXNCaFQxQ21lTXdTMTZ0Yl92RG1iZmd6Wk02bGp5TmJOcmRTa0ZhNVNvR19TenBGVS1jZGt2QUJ2Z3pFd05MelpUMk1obUoydw?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-30T10:00:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Google is happy AI is cannibalizing its most profitable business Yahoo Finance"
-    },
-    {
-      "id": "9aba69d105033ce2ad88f13d",
-      "title": "Microsoft's massive employee buyout spooked everyone. Here's what's really going on inside the company. - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcFJDY29LSGROYUJzS2ZIZ05MTkh2ZDZ6WVpfRkUyeFpfM2RjUmFUTmZqSVAwVjdOZGZaNjZ6eXVDVi1TaHlxdkRNS3pyaUVXWWcxMXkycG9OaGktR0VCV3hpRWRKcWhtQUkyNFdob3FiZENraG1WSUhpTlNTcHlNMDdRbnlPXy1mLXp0WG9kNGdnUEM2dEsxd3FrOEVtNE9vaDhTWXpVZWc?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-30T10:00:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Microsoft's massive employee buyout spooked everyone. Here's what's really going on inside the company. Business Insider"
-    },
-    {
-      "id": "33adb29eeb30f1c0508b09ab",
-      "title": "How Nuclear Technology Is Helping Cities Become More Sustainable - International Atomic Energy Agency",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMnZ0SUE4TlZRSXlpTXBPRXBhOE5maXpUMFpYak1NM1B6V1NzTUNIVE5Lb2JXczVMU3p6ZTZ4ZGExUm1sN3F3MmZVSm0yUXVVRGxRYnUyNmpFNFNNQlBWSERoSlFuTXVqOVZpNU9id0tvVUUxbVNaV2JCY3FNRWx4d3pxN20tckRNREtieWhIbmJrajNFd1o5VWotT3kzbnR0bFM4?oc=5",
-      "source": "International Atomic Energy Agency",
-      "publishedAt": "2026-10-30T08:00:00+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "How Nuclear Technology Is Helping Cities Become More Sustainable International Atomic Energy Agency"
-    },
-    {
-      "id": "84134027008178a8d00dc2e0",
-      "title": "‘This Data Center Crap’: Land and Technology Clash in Kentucky - The Dispatch",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCTHFwc3FzdXNiZzZRZzdSdzRDYzQ5Y1Q0QXR1bTYxdURoSEd1SzRKNWxudG0tMTFzbDJ5Q3dsRVJsNnNvZkkwUW9GcXZnSHRNN1BCLVhXcmdtVFJ2dXZKV296V1VIbkhTS296cGR1dkNUUkRWNVVaVTdB?oc=5",
-      "source": "The Dispatch",
-      "publishedAt": "2026-10-30T05:00:44+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "‘This Data Center Crap’: Land and Technology Clash in Kentucky The Dispatch"
-    },
-    {
-      "id": "bc6df3968dfdbb36b21e12cd",
-      "title": "The Easy Money Offers That Disguise a Deathtrap for Small Businesses - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbFdJd3ZYeFMyWnNIMzJrU2s5NUs5b3dldi0xRC13dWlEWDl2alUxS20tZ1pfQjk2bXpWSnhWSzBvNFpWZ2gtWVFaWmM3bXNXY0Y5SUJuQzd2TjRwZ1FXYmhOUUpkYXFPbHJ3T1d1aFZsRm9QT0lKT2p3bVU4Tno0ck40bnU1MUQyWkZVMW4waWw5YlJUbTRRUA?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-10-30T02:00:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "The Easy Money Offers That Disguise a Deathtrap for Small Businesses WSJ"
-    },
-    {
-      "id": "43745361a146d3d3f4aee27d",
-      "title": "Salesforce Signs Definitive Agreement to Acquire Rune Technologies - Salesforce",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ0tKdlZreVpBOC1MZUY3N0p3dFVQa09aWG56SjhqaG5Wa1hJY1UwYlprZkdQMmdRYVRzUWZEUkQtLWN5VDJENDMwelNrMWNjQllCREFpMXhtV25rWE5rQXg3SGJIY1p2OF9tcTdIZmdVZU5YM2t3T2ZQb3Y2QnNSSE12ZlJRWmxYS1NJWkwtWHdtTF9UYWN2Rk13ZnJUUXhmWVpJNlhEaFFjMkk?oc=5",
-      "source": "Salesforce",
-      "publishedAt": "2026-10-29T20:17:26+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Salesforce Signs Definitive Agreement to Acquire Rune Technologies Salesforce"
-    },
-    {
-      "id": "c67bbf20a45390b5e4481cc1",
-      "title": "Wolfspeed Commercially Introduces Transparent Silicon Carbide Technology for Augmented Reality and Quantum Computing - Wolfspeed",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNZGtRTTdoRVNhZjF4cDdvWVh4eXlBRnNDNjNlaDdJYTFFbHlDRE10QnpZRVRqRlJVVDIwZXJsS1pvQjhERWt4bDNtZS1jUDRQY05jYjgxS3Qxa0lvenhBQWZTX3I5LWwwS2QyUkRSUkFTaEc2V18zVjkxSUo5ZVdYWmhacWkxZ0ZvcFdyMXJRWGlOc0ZfSlFHcXVsNTR5YUhkcDdwbTRPQWJNSVBOUnRybGRQd0hjX2NIX0hPZ3NWVXZpOF84bkRqSHJHcHhxV0Jma3dnWnNYb09zcXJxTEg1Q1hKVkRPYmlIRVU0ODYxVDZyMmstTGE4YkJ6SDlzaGJpRG5YZEVDc2RkcTE1M1FQRQ?oc=5",
-      "source": "Wolfspeed",
-      "publishedAt": "2026-10-29T20:07:52+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Wolfspeed Commercially Introduces Transparent Silicon Carbide Technology for Augmented Reality and Quantum Computing Wolfspeed"
-    },
-    {
-      "id": "ec32c0e704b8feffbaef2483",
-      "title": "Advanced Small Modular Reactors (SMRs) - Department of Energy (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBPVUJRRUU2RXBmUU5TN2NVc21mVFVaZ0NscGpnVk84WWZHV2Mxd1I2VmpldkJCUEt5a2xpQ0s0VWtZeW5waDYwRXJ5NkZBNUZtcC1JWURVT0czNlVxbFkwZmNNdThHd1dNejVQZEtaMA?oc=5",
-      "source": "Department of Energy (.gov)",
-      "publishedAt": "2026-10-29T20:00:00+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Advanced Small Modular Reactors (SMRs) Department of Energy (.gov)"
-    },
-    {
-      "id": "7a42d9d20365fbccd599e8c4",
-      "title": "Instagram is trying to woo YouTube creators with six-figure checks - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVW9KMXRiVXFGVzRWQzJCdmhLeXY4TmZkT0o5WjI0UkNla0xsczhYaVpuN3N3cW1YbndNeGN3TmtHXzFTSV9xZHFaTERLVFZrak9XMV9SQWFWejYwUTNBU1BWMU81d0RnU1ZsRmlVOE0zUDBubUdnU25QVExObHdpX0JBRWJFajNXX1FhSS1ZNjE2SHFiZkhKM2x0UU1TTW9BVzBCQzZyT0U?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-29T19:25:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Instagram is trying to woo YouTube creators with six-figure checks Business Insider"
-    },
-    {
-      "id": "cd76074d78399aad4ceb9204",
-      "title": "Founder of the doomed 'never-ending' cruise speaks out: 'I'm the villain in the story, but I'm doing everything I can' - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTmdVZ1ItUkJxSWJaMDI5ZmExSUMxdzBSSldoRWpYMGNYb1BjZndXdC1jMDlVcnZ6UzMzd0hRMjZPeEN6SnJqVUotZGtjSk5kZlhUd3pHN2tITUFRUXdYOTVaaFI2SHBTNU5CeEE5THo3UDNneGdXVzZNQnBZaktZbGVkY3k0TFhXVjFWQkpkTlMzSWt5MFFLaVUydkN0YzQtLWc?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-29T14:01:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Founder of the doomed 'never-ending' cruise speaks out: 'I'm the villain in the story, but I'm doing everything I can' Business Insider"
-    },
-    {
-      "id": "39d2e0be456f776201c4fa67",
-      "title": "Security Council LIVE: Can new technology keep the world’s sea lanes safe? - UN News",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kT3NsSDhrMzNVcDQ4MG5xeTQ2MzR4Q2hTc2RWaWhwOHJEMWo1S1FCTW15eEVCRllBUTEwTFNjdDd5anhOUk9YNkpaVnB4SkczZElDbG10TQ?oc=5",
-      "source": "UN News",
-      "publishedAt": "2026-10-29T13:47:39+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Security Council LIVE: Can new technology keep the world’s sea lanes safe? UN News"
-    },
-    {
-      "id": "70223f9b0220cb1554538a5a",
-      "title": "Elon Musk says long-term saving is 'pointless' as he touts a future of abundance - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPelRxM0FjUlRfZVhCaFcxa1pyQm5qcGo0QkhVSEJOeko2MjRPcWV1TVZDOVMxQ0NnRkxQQURydTRCcTFaSmdVTWdIbXo2QW5yTm94QmN3Y09rVmdjYXdHcDBJZkJKbzZ1bkpNZlpwS3ZHdGJ5UmR2OUR0YVF6N0hDU0U3Tzl5Qzlfa05UTHpCZk5tT1VUa1BGVHdxcG1CY1ZwbGlXNEtDek45bHdvVFBkS3RR?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-29T10:58:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Elon Musk says long-term saving is 'pointless' as he touts a future of abundance Business Insider"
-    },
-    {
-      "id": "d728f169da1bf9e0cd2941e7",
-      "title": "We urgently need to monitor AI agents’ actions in real time - MIT Technology Review",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY1ItSDhOMXF1UWsxLWpTVmpYTDJSa01hSlVIcVlDMUVuR1VqbV9CYXIzN3BQQlNqRDNTN2wyVTlMT2NxQ1I1LWJvR0NBVTJTT2dvbnA1cHBNVTFYblFmenJzZnRjTzd1R1NHaUh3bDh2Ri1kNXpjdzdVT01uQnZwclFNTWk1amxLLWtDdkt6VmlBQdIBlwFBVV95cUxQYTNZVFBuNGRWbm9xbmlHbHdQMWFjR2J6a2JpVGVXeGFkcU5MQTFoaWVYNXI4Y2M1QkNvMDRSZU9wQ0M2dnJ6OGJCZnpuQUh1cFpLekpIZFJUVzJOSTY3S2JfZnBocXQ1ZGRKdlduaHhHdGl0MVBOeUkzTmx2eHhnZ1hKQ0hHaUE3czB1bGFfZVRPNDdTQVlR?oc=5",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-10-29T10:11:12+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "We urgently need to monitor AI agents’ actions in real time MIT Technology Review"
-    },
-    {
-      "id": "64e1d6e6a9e313684163d76e",
-      "title": "Tech Gifts That Won’t Rot Their Brains - The New Yorker",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaUhHejg2dy1iSGhZVzBGdlp1TEZlbEgxaTIxb2pKUnJpSlRhRHcyZHY1SkZ0RHJ6Umg1eWR1MDdZd2pMQ0p0TWhmV0ZKeU9uVjk1X0lpTUptbmY3YzdFUE8yOXhCclk3Q1NXUHlFdnNpU0pJSTBBNTZyS2dfTEQ2MlR6MkVZZHpOdVlN?oc=5",
-      "source": "The New Yorker",
-      "publishedAt": "2026-10-29T10:00:00+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Tech Gifts That Won’t Rot Their Brains The New Yorker"
-    },
-    {
-      "id": "196db15aefb809771c87dae4",
-      "title": "Inside Microsoft, a powerful new AI executive is shaking up some of the company's most important businesses - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFp2TENUQ1BtQWNWdjA2S0tabV9zVjd3ZW84eGdkdWFSajRVblVXWmpvUTR6c1JKNC1XQmRmS0Z5TmJyZlFFRjlGTVZMMG1jZk55MExzU2tORmhsMEtaVGx0enUxTm9KZk16b0dRNDV3OWUzTUJtMmJlYkJGVXZJTzlBOGtXczRFUTFRajZxZ1NFbUJYUkdMZ3RBczFVRUJ1cFRmRVRLTQ?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-29T10:00:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Inside Microsoft, a powerful new AI executive is shaking up some of the company's most important businesses Business Insider"
-    },
-    {
-      "id": "8be6bef189f331f8638dcf7a",
-      "title": "Business as a liberal art? Some high schools say yes - NPR",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3Zrb2VzYmR1XzJBc3VFV0hod1VtWkZHaW4yZUs2bTQ1dEhmb2ZjQkZaRnNVMFBydGpvMjdLbE9VeXhfaEk1dDRZdXd2TzhCZjNyRnk3MGRucTdBZjFEZkQwczBVaGtremFXUm1VVUlwdzV0YnpFUXhkaGQ4TXI1VFZrZ0tQeFk3VHhMNkRzMUwzaHR3UV9v?oc=5",
-      "source": "NPR",
+      "id": "5aad82cf6a8764d038c5b37c",
+      "title": "Frentz, Henry spar over spending, regulations and Minnesota’s economic future at candidate forum - Southernminn.com",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNY09WaXY5TGYtdEdxRzNNaG90Ml9XTldQMTF5X1cwdm5yLXdiaFF6SmtuTlowOVFaZ0x2Z0ZzSVk2N2JLWDkxNU90T0dNRXBWb0VWeUVyMVhsWHg0OTdBRm9BQzJtcXdnZEN3WlB2WnRJSHM2ckg5S3FuNFAzMGlCRG9nYm5saXpPSVdGZUJrWG9sWk5wQ2JOM0dJa0g3RzRHMVJiV1YzNmRCVVBsSGZPU1V2bklvak9YYkhxcFQ4cEpyRVZmWW1TRS1rSnFxQ3dKY0w0bEtwV0t3UmtJeTFtMFI3TjhqXzVYTzBPMTRhUWZuQ2dZeXhtQm92ZkFURFdIQUtJSHBMajhCbmUyWEk4aTFGNHlNSzFyQmw0SVB3?oc=5",
+      "source": "Southernminn.com",
       "publishedAt": "2026-10-29T09:00:00+00:00",
       "themes": [
-        "Business"
+        "Minnesota/America Economics"
       ],
-      "summary": "Business as a liberal art? Some high schools say yes NPR"
+      "summary": "Frentz, Henry spar over spending, regulations and Minnesota’s economic future at candidate forum Southernminn.com"
     },
     {
-      "id": "cc89cc53f1889168c02312b2",
-      "title": "Marvell Technology in advanced talks to buy optics maker Lumentum, source says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR2xWTFdaYmFQNV9rVnZVcmltcTJqWGoyUVBzUlVPcDJaZm4xLXVCMmt4Szk2YnF1VjVXUEdjV0xDbGxRdjc2WjBzQjVnTnU0SWpSWkJmdlg0WS15eGNhc09ZNWpHUVc2Znk0aE9haUpPVlZOeUdqNl9CSzdHaUtITm1BTWh1d0tKTWtCYWM1M183ekZkSGptb3B4MUthVzhiM1hUOEhR?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-29T02:45:24+00:00",
+      "id": "c8e1ad514567eb41004f905f",
+      "title": "Local View: Immigrant workers vital to Minnesota's economic future - Duluth News Tribune",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObjZOd2IzUG14MF8tcjRRbzI5Mm80cWhVUXRwNHB1RjFfNFJVZW9YYU5YajljdGJRNThXSE1zeUEyT1ZUd2IyNTJCNUNEZGM5akVwY0RDQndLVW05Z1JRTnI2dXNsTVpMMGxFT3FsQzE1ZDlEb2xhODg1RWR5RWhGc2xaaVBTMzdKSWZWdWJwdTRmckRCTmRYWUUwWWN2M0RJSUdRemVXenhTbElOUEgtRTBmTFE?oc=5",
+      "source": "Duluth News Tribune",
+      "publishedAt": "2026-10-28T14:24:00+00:00",
       "themes": [
-        "Technology"
+        "Minnesota/America Economics"
       ],
-      "summary": "Marvell Technology in advanced talks to buy optics maker Lumentum, source says Reuters"
+      "summary": "Local View: Immigrant workers vital to Minnesota's economic future Duluth News Tribune"
     },
     {
-      "id": "db08c4268751dadce9ab2bb2",
-      "title": "As Waymo expands overseas, it remains a niche cash-burning business - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnFOal9qb29IdlNMWEd0c3I0ZDM3aXBxLTQyYW41ZFlMTnpQLTNadzdQX0p0RnBOLUR5MUFxQUFjRzlPU1pBQW5RZjVwWG52MjNVZFFDUTBwVTlVcU1yYjRxdUtwbVNqM0pWMXBZOG90ekJNSmJ6ckpJam9sZ1dzRUE5SUo4OUsyYlRBSG1BQ0xoRDlhcTFLNUt0a3pFT0lZeHllOERR0gGrAUFVX3lxTFBnV2JPdjVVQkhmSVJVN3ZyRjNjZk95NHZCandZR0FMQTlCbkhHRy1HLXRZMVAxTGNYMU40QUNBSHYxOXZHRzlIRE42VWI5eG1TMlJlOWpEM3pOb3g0UDJUMGVYWVR6cGZUUHV2cUUtQmszSG1yM1JINnc1c2w5NEhwWFp1VC1ITWczUzJPa3U1MVZHNVJad3VYX1Q2MGs1UGE5QjBFcXR2Vl9IZw?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-10-28T23:53:58+00:00",
+      "id": "85bd04f1cedc7fcecbb19d3a",
+      "title": "Immigration restrictions are hurting already struggling Minnesota colleges, universities - News From The States",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2ZHQmxJd0dwUU16bmlUMWg2SkpaYVpIT0xwcEd2RU11akx4UGpVY2VBWVpYZEFZUzkyN3d6TGF3dGl1MWsxZXZhcFJQZ3VRYVNNa1JRdjRyUXkwWjhBNzducGlmMlhmYmhsMFNkS0h5UlplZVVxSnZYajJwNEZ5UGtfUWw3cUk3Q3pmY0hhV2pXNFRHdjBWQnlIM1ItMVotQjU5UTBHY2ctQndYYktnVnJtRHFiZ2s2T0c5a0Y5WkxxM1haTzlZTQ?oc=5",
+      "source": "News From The States",
+      "publishedAt": "2026-10-28T12:45:37+00:00",
       "themes": [
-        "Business"
+        "Minnesota/America Economics"
       ],
-      "summary": "As Waymo expands overseas, it remains a niche cash-burning business CNBC"
+      "summary": "Immigration restrictions are hurting already struggling Minnesota colleges, universities News From The States"
     },
     {
-      "id": "58b7b07a397b7a37a87215c9",
-      "title": "Passengers living on a round-the-world cruise were given 8 hours to pack up their lives and leave the ship in Cambodia - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJSdzF5aFYtU3plbzU4Z0pfTHpaYl9aVjlVRUVNV29mM2w3bzJWMkVGVHJNSGRaX0JoUzVTdXFFakNXWHMxUTRkTDhEeERXMGFnTEtaWklyMUpnNzgxRmFmS2NGMi00SVNWMV9kTWVYMERkZ0puZ1lzMVVfelRtV19FWHBZOEgySFdzNEMwbGlkSl9wd1RYMUxvRnlxaXVqLWd5Mg?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-28T23:16:00+00:00",
+      "id": "ab9a806ab4ac82dbd7218acf",
+      "title": "Ramstad: The Great Wrecking of Minnesota still underway, 10 months later - Star Tribune",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa0VUR1FoeU5qLU53X0RhR2kxcnFzaWR6MU5NSXlUMVZTaXNZZFpuQUJROVN3VzBHOE54MmJXMU1SN011THFSeG5OYzhHS2JJNUVzVHd1d0NabE1wNTUzb2N5T2tHMFVfOEdoNGxSMllzYTNfWE1SY3I5U2p0VlpxZWl6Z0d3eDl5Z1FhcTNsZTRZUzd2dkdweHppMFlSb3RiTDNxOE1IT3E3bnI1cUpj?oc=5",
+      "source": "Star Tribune",
+      "publishedAt": "2026-10-28T11:51:11+00:00",
       "themes": [
-        "Business"
+        "Minnesota/America Economics"
       ],
-      "summary": "Passengers living on a round-the-world cruise were given 8 hours to pack up their lives and leave the ship in Cambodia Business Insider"
+      "summary": "Ramstad: The Great Wrecking of Minnesota still underway, 10 months later Star Tribune"
     },
     {
-      "id": "093f5566701082be9c2d2b6a",
-      "title": "Microsoft expects 'very few people' to accept buyout, CFO says in internal memo - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRG95SnZ6TDlZRkN2X3YxaVl0UjJuci1GaGQ3a2Z5NFludTF5UlNjdnltSFBTY3ZQQ1JqOTlwdGFMQ2xGeVF2VHVuNjhkbk5sNGk5MXJsdXl1SVNYTDdKRjd5djZ6UWI1NEJXMkQ5dHl2RnM0Z3NENG5zQ2cxYzlhVUNzSFhzSi1RUHJoNWQ2enNkWkY0U2xpam9qRmV4YmJxUFE?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-28T21:30:00+00:00",
+      "id": "2972bcfe7e299a557e472403",
+      "title": "Miller’s Ace Hardware hit with burglary - Citrus Heights Sentinel",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa1BVSWhsV0N4MHRzbnBUVnJDUS1EM3pUWTBGUjZLYVRjMjV1TEpWcUpwTTNNVnY5bGlsVWhZczdLNnMxQXh3N2V4SldnU1lUMmlQMmRqOGFsbC1jallQRjNwWHRIS0hBX1UzZTF0bnVKRVAyVGZ0V3hWb1pmWFFTdTJMejN0TlExNGQwX0dKOA?oc=5",
+      "source": "Citrus Heights Sentinel",
+      "publishedAt": "2026-10-28T07:36:04+00:00",
       "themes": [
-        "Business"
+        "Ace Hardware Retail"
       ],
-      "summary": "Microsoft expects 'very few people' to accept buyout, CFO says in internal memo Business Insider"
+      "summary": "Miller’s Ace Hardware hit with burglary Citrus Heights Sentinel"
     },
     {
-      "id": "4639fc80adec73ca02929cf4",
-      "title": "Federal Reserve makes interest rate decision ahead of midterms - Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0hLUjN3TllXcDVjaXRBaUwxOW1QcnJLRkc3ZGR3SnR1U283WVdPeWozMmw2eFlLa3ZVb011TlEtMHI0RjV6eWE0T2ZXcXRNQVR5eEIzbVhRektfTHkzLWNLbVc5U0RQaXUyRnFSZ2VCUmZNOFlpcTQyWXc5S21zRWxpb2FBSS1FSkpiVnc0VnV5S2o50gGaAUFVX3lxTE1DUFpkcUswb2dYdVhleE1XejZfZVdTSHJsbUhOelF3Z1B4UUpGdWhqUGQzTmxvTmhGbFFQZ1VNdmhNenprZE1Hbjh6bW9RUTFGN0lfYkZMZ3g4YUh1VlM2eUhGNHNpVUN5ZG12R2RrSnpxTDRKTVR6Y29oMUhHNVdMZ1N1UzFLUjF3LUNnc0pvUFNQZXA1T1JnQ0E?oc=5",
-      "source": "Fox Business",
-      "publishedAt": "2026-10-28T21:17:00+00:00",
+      "id": "515d6dc1852a01ced3805070",
+      "title": "News - mn.gov",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lSXV0b1BzUTY4YnJVVmZhNEs5cUdLU0V2LVltOWs4bVhsT1ZpQkFKUFVreXVJWEJZc0VqRmFPd2U3dFhLak9rd29QS3QzQjVscHZpc2I2Y2k2YjBIaHBxX2xldU5YX1dacEtyc1RsWnAxRUE?oc=5",
+      "source": "mn.gov",
+      "publishedAt": "2026-10-28T07:00:00+00:00",
       "themes": [
-        "Business"
+        "Minnesota/America Economics"
       ],
-      "summary": "Federal Reserve makes interest rate decision ahead of midterms Fox Business"
+      "summary": "News mn.gov"
     },
     {
-      "id": "4ef392611413c7106555818d",
-      "title": "Mike's Mid-Week Chat: Can the Packers take care of business at home? - Green Bay Packers – packers.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdi1kUUJEZzVMY1dfaTN5QWZXcmVidjl3TTloSm41TXNJOXhWRmxrYkV2VmZ2LUpvZm5hRkRsWEQ4MThSV2RLc2d3OEZsbUQ0VDlLZmpiN1F6QzA1ejNJMUZCLUtZZUpkakdGSkpnLUZuZGhrZFdLUVg2d3ptS1BOeTMyd2dEMjhoaWtqaW9wam9oTGtWdVBSR1R4ZGtLRjFOWHAxMU9GV3ZRUTQ?oc=5",
-      "source": "Green Bay Packers – packers.com",
-      "publishedAt": "2026-10-28T18:12:24+00:00",
+      "id": "8608aa22066804daa62ee83a",
+      "title": "Attorney General Ellison again leads court defense of Temporary Protected Status for immigrants from Somalia - Minnesota Attorney General's Office",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcUVLV0JHcEFkdENHU1F0R1NOSGdCMUhvc1J3VF80QWQ3LWNFMUJEOHpSQlhHOGN0ZzlOZjZrY0JyemJQcE93MDI3WERxSmFKUkZIaWJRUnh0ZUxtTkhQR0YwcU5EckxRdXF1Ymg4TGVBT2FtWWVMTGdxU0c5Vkhwa2daYTRWdktvSU05YjBZV2N4WjNo?oc=5",
+      "source": "Minnesota Attorney General's Office",
+      "publishedAt": "2026-10-27T21:27:52+00:00",
       "themes": [
-        "Business"
+        "Minnesota/America Economics"
       ],
-      "summary": "Mike's Mid-Week Chat: Can the Packers take care of business at home? Green Bay Packers – packers.com"
+      "summary": "Attorney General Ellison again leads court defense of Temporary Protected Status for immigrants from Somalia Minnesota Attorney General's Office"
     },
     {
-      "id": "9b53b82218449d665eb6c840",
-      "title": "Volkswagen, in strategy shift, plans to globalise China-developed technology - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUpOYjRPbVZuMzdSa0U4R3E2MUpiZDdzTzNxLWx4U3o4UnpnV0NaNjkwTzFlcmItSGVveHhoUktBUU94MDBXVWVfeG5vd2Y1Y2xxOTNPTWl4YXMxNURsV25ieDBfUHFZSUNydUVRMC1FdGZNZ0Q3WmtuQ3lfME9UTXh2Qll2aFgxajZzWEhteFd4OEpyRE9Ic2E4bmVRTXl6eHFBQk4yLXBRNWpmdUI3QzVpal9oSUk?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-28T11:01:26+00:00",
+      "id": "b45c439ba2f70154c17e2ef5",
+      "title": "Hoffman Estates lands new True Value hardware store on site of former Ace Hardware - Daily Herald",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMXZSSW94Qk5ENWpkNG1HR3lKYkZvazlHLXlVQjRJLS1oem1tWHdQalBBRW9zbWRDbEgxaHpSUmtvLWJwYzVoTmZXTVFwZ0VMU3pwQ3NHelItdzVURTRhRzUtazUzbUhablZneXZOcWs4VG16V0JGMUFWZUNBeWlfN2wtRWZSUkNGZDh2NktUNFRDY3h2N0FtWWRRT3RPUmZtYXVITG9ySERDa0hETGpUZTN4d1o1aXhjU3RkNko1NE8tellPZlE5dA?oc=5",
+      "source": "Daily Herald",
+      "publishedAt": "2026-10-26T14:38:32+00:00",
       "themes": [
-        "Technology"
+        "Ace Hardware Retail"
       ],
-      "summary": "Volkswagen, in strategy shift, plans to globalise China-developed technology Reuters"
+      "summary": "Hoffman Estates lands new True Value hardware store on site of former Ace Hardware Daily Herald"
     },
     {
-      "id": "11ee78f5fe84236c053bd902",
-      "title": "India's TVS Motor to demerge finance business; beats quarterly profit view on strong demand - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdXZlSTVMQTI5UTdkTlFNcUY3elhfVldKVGpsZGhpcGs2TGw5QUJBTHphNERZUkppQ29vc05rR2lzdjN5NDJpQVVNNF9oYkhzQm91cVBQYzAwSHRXRV9wU2N6cHByVEpJWmozUVBpdUhYOHJodzNXZUVmcHc4UEU0V3I0X01ZZllZMkxiZGR0R0ZjSWIxeDN6VmFSaDFPUURTOVVld3k5VFkxZzV1VWo4WGJvb2huOG9qczljcTd3eHlKZw?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-28T10:34:13+00:00",
+      "id": "f069402746a22206ee6e7af0",
+      "title": "Third-Generation Stine Part-Owner Buys Existing Ace Store in Growing Lockhart - Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUnBzXzFMeDVkZ2pVYzFiQmowYXkzcmJod1ZvV2FpWWNQU3c2bU43SjNnR0ZYLVdxdWkwREg4SXl2aW8wZkI4ajFUendmMmY0UFFPdFBObjhyRTRBVkJrWGFvWXVjSzY1czVvNG5TOXlkLUg0Unl3enVVQ2JNNk5tdTFpNEVaaHNwa0NzeTAzbFI5VVlDbGEzRmIwVlZqdnNmSHpPLXkydG5ZVFE?oc=5",
+      "source": "Hoodline",
+      "publishedAt": "2026-10-25T13:42:00+00:00",
       "themes": [
-        "Business"
+        "Ace Hardware Retail"
       ],
-      "summary": "India's TVS Motor to demerge finance business; beats quarterly profit view on strong demand Reuters"
-    },
-    {
-      "id": "dd4aed58be6c30129afff110",
-      "title": "I bought land on Facebook Marketplace for $40K. Now I live there with a single mom I met on Threads and our 3 kids. - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNXRVejltSHBWNWs0MFY5aDE1SjJKOVZOVWY0ZHdqQmxrdHZESXFZbmJ0TWlnUkFNSlVNaUtVTlhidXVvUXRPV0JXUS1maEFmelVOTmJhQXhZS1RzSWxSNl9WU2NPcF92ZG1ZRTlrZDlJWGNvUlJZdTduMEljS3lHNGp3?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-28T10:18:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "I bought land on Facebook Marketplace for $40K. Now I live there with a single mom I met on Threads and our 3 kids. Business Insider"
-    },
-    {
-      "id": "10b1b0367f77e623826775c9",
-      "title": "As Epic’s dominance grows, its iron grip is choking innovation in health technology - STAT",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ1hPaURuQk5FWHpMT3NDaUhhZkpuNzVjMWJCSmRlNmdSZHpxeVdRdnJqZHluaXVDbTB6M05pOFdtcHg4ek1LNzVCV2l4c3BPTGowd0xOY0dma0RlMDY4Tnl1cy1VSkhDZFN3cnhKLTlJTTdBYm5PTlpzekwwanBGSVZiNVdOQlByOXhuRlNwd05ScGlPV3c5bldB?oc=5",
-      "source": "STAT",
-      "publishedAt": "2026-10-28T08:34:48+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "As Epic’s dominance grows, its iron grip is choking innovation in health technology STAT"
-    },
-    {
-      "id": "5d968b62f18cac97456b73c6",
-      "title": "Micron Technology And 2 High Growth Stocks To Watch - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbzV4YU5OcU1iY09HVlFneGh3SWE5S1VLQ0xWdE9OZDFYcmpMX2tuUGdKckhlTEs0dTFCbE5OY1EwRjhNdV80VTU2bnJRSmpGQ2M5al9CcXBvMEhaTk1lLWhRM0pxcWtEX1dZQXZ0b1pNRXp5V25zT09UYUFkMThZbV9ZbS1lR1R5N2NpSE41ZjhmbWFiYWRzZTVMcm8?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-28T04:44:00+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Micron Technology And 2 High Growth Stocks To Watch Yahoo Finance"
-    },
-    {
-      "id": "6aff6912a862131d1ddddf2e",
-      "title": "What Could Robot Memory Demand Mean For Micron Technology (MU) Stock? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR0xMVWVZZjAtdzlUbkdZdlAwSGpTM1dpd2VibzlxR0xoeVpjVlZuWVBXSFQ5dGhKRHV5TnlYLXdqdXBNZWp4VmJ3a0tBMnhRazF0WkU1Q1ZYeElwU0JFVE5zWVF6d0Z3eEJDQUwzOEczNEhDUmlCT2dxSkE3UEE1NHUyTHhoSDVlM3JmZUMzM2Fsc2g1TlZEMjVn?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-27T23:14:05+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "What Could Robot Memory Demand Mean For Micron Technology (MU) Stock? Yahoo Finance"
-    },
-    {
-      "id": "87721d9ae34887b4591754c5",
-      "title": "Anthropic's IPO is risky business - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BQmF4N2tuZEkyNXluTHlDTnpXbzJwM0dvZzlMd3NZTkJRUk9VSFI2X1RfYUNrTTRhd2FmTzFNejVFWkd4U3lMT0JxN0E3S25makc2MDBJNGFGdTRlNUpBS0hoRmhmdkY5Mkx0a3hyajBMYW9Kdm9YQk1HSdIBgAFBVV95cUxQcHAtNDE0N1FrSjJ3cTB6RndId0tsX2ZPSW1LZUJ3V0FMTGdkMWZRbk5lVHhBQm9fUnhBOVVlMzJhS1VsaEp5MWxHMDBmYnFWWVJzV09DZk9LdGdZRVdoRjcyYXl4TDFPM25fMVM1ckIxOG5QTmNhZXFSZTBWVTdBQQ?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-10-27T11:00:01+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Anthropic's IPO is risky business CNBC"
-    },
-    {
-      "id": "315bb5f9202fd22c6e02db45",
-      "title": "An AI safety leader says he stopped saving for retirement because he believes AI will kill us all in the next 10 years - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbTV6U1p2dkFCZTdsNWFCSVAtX3NtSFQzN3g5emc0Si1PVENJVHJkSW0xZkVwY2lWZGpxaHY3V0RVb0szbTBjcWZLY3F2OFFEMm1aX1puRl93X0xYekRjTUMzUm5Qakt2T0hzdDNMQ3FjdEZCOXRUM2loc2dNMmphdWFFS0cxVkZKSzVpLXA0VGVON1FSQzNKUE0yTzhVN2ttdW9j?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-27T09:57:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "An AI safety leader says he stopped saving for retirement because he believes AI will kill us all in the next 10 years Business Insider"
-    },
-    {
-      "id": "b40a33c531fb9e8b1ca3740f",
-      "title": "Here's what Microsoft's buyout offers actually include - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0bGF2VkRBc2ktcUdMLUpOZV9JaFlmUGRnNk5wMS0wb1R0aXJVN1JhVXZTaWNoczRrbEpmZVdVbkZQMGtYeG9RLWVOMFVCMHBTTW84MlBPRm5GTlJ2NmFsbVpXWlBseS1MT3I0YVR4dDRVSGxnSzhzdERJaw?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-26T22:25:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Here's what Microsoft's buyout offers actually include Business Insider"
-    },
-    {
-      "id": "43e35e17f750dcc7bb9020be",
-      "title": "Microsoft is offering buyouts to around 60,000 employees. Read the memo. - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPckFnM05JREJ4Tm5KQUppZldkTkZxWG9CUWVFcHItZmdnSlc4Mi0tVWVlZE1KaW9qV2FYTXJSUGN3SnhjVkdxa3hXZm5yZnFndHYyNWpQQkg4bWRBOG9aRkhaaDJweDZkOElTY1NRdXluM3JEYi05S1lzMkhIdldFNFU3MGQ1V3gyWFlj?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-26T16:30:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Microsoft is offering buyouts to around 60,000 employees. Read the memo. Business Insider"
-    },
-    {
-      "id": "15c7a7d8a5f1f5bbd9452838",
-      "title": "Lunar Surface Technology - NASA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GWWpVSW52Ty04cEdiVi1JTE0yM0U1RlNSUURFNjdxcXhxQWYtaF9iUm9OVHhLek9BODNGWE1tcUNkVEFEdjlPUG1zZnZxZlF5T3oxdnBuVzQyQQ?oc=5",
-      "source": "NASA (.gov)",
-      "publishedAt": "2026-10-26T07:00:00+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "Lunar Surface Technology NASA (.gov)"
-    },
-    {
-      "id": "d8d271d7fee94bfefa521c0b",
-      "title": "What are appropriate uses of technology in education? | Global Education Monitoring Report - UNESCO",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdTZRZFFfdE9temlrOWhsbzdhbVRWNlZ4Q0pjam5ydlBmZnQyX1FhdEVQYnI5MDUtT2RZWjRxWWt6ek5QZ19NdWNDY1NHalJjU0JBNnE4bnNaSlo2WmI2YVdyOVhQTnpzT05BdkEybGJwYmdMQXltcC10Sk9ZeEJsRWZwTGd6TzRZZHh4T29zSWEzbXVqSWxR?oc=5",
-      "source": "UNESCO",
-      "publishedAt": "2026-10-26T07:00:00+00:00",
-      "themes": [
-        "Technology"
-      ],
-      "summary": "What are appropriate uses of technology in education? | Global Education Monitoring Report UNESCO"
-    },
-    {
-      "id": "4af55cc53ddf3556a875b4f3",
-      "title": "Bill Gates predicts 20 years of turmoil before AI creates 'true abundance' - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0JIRzdrUVNia2lXVExQS3BGV0VnZ3JYbF9mSW9tZUNJUWNVNHl6V1RuRVZ4dGVCYUJKWEdLa0FNY1BieFZIRGJkRGJEc2pJa0NIMHJMV2hiZzRHUXlhU3N3Mk1iSHVOX1pkSEg5a1lHdGtzZ0Z3REV1NzJvRGR1LW1UcVdZcThUU3FXRFZ5elhzcFVlT25ZTjhYelNsUm9EYUZjZENDQ1NKUQ?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-25T09:37:00+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "Bill Gates predicts 20 years of turmoil before AI creates 'true abundance' Business Insider"
-    },
-    {
-      "id": "218917ce8dcf4d2fa49250ad",
-      "title": "'I cannot teach you integrity': How employee theft is hurting small businesses in Africa - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YREtwSURZWjJYOWtKMkRCeUMtNWdHZ0RYeGJfakNLU2N5NzNfMVE5Z01aWnBnYXIzUE9zay1la1VxZ2NPSmlGeS02NmRqR2hSS005TmlxRU1OUmM?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-10-25T08:36:47+00:00",
-      "themes": [
-        "Business"
-      ],
-      "summary": "'I cannot teach you integrity': How employee theft is hurting small businesses in Africa BBC"
+      "summary": "Third-Generation Stine Part-Owner Buys Existing Ace Store in Growing Lockhart Hoodline"
     }
   ],
   "errors": []
