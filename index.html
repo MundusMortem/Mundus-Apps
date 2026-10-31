@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#090b12" />
+  <meta name="description" content="Mundus Apps — a curated collection of personal web apps." />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Mundus Apps</title>
+</head>
+<body>
+  <main class="shell">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="/" aria-label="Mundus Apps home"><span class="brand-mark">M</span>Mundus</a>
+      <button class="install-button" id="installButton" hidden>Install store</button>
+    </nav>
+
+    <section class="hero">
+      <p class="eyebrow">PERSONAL APP STORE</p>
+      <h1>Small worlds,<br><em>one home screen.</em></h1>
+      <p class="hero-copy">A hand-picked collection of focused apps, designed to feel at home on your phone.</p>
+      <div class="hero-actions">
+        <a class="primary-button" href="#apps">Explore apps <span aria-hidden="true">↓</span></a>
+        <span class="status"><i></i> All systems online</span>
+      </div>
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+    </section>
+
+    <section class="apps-section" id="apps" aria-labelledby="apps-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow">COLLECTION</p><h2 id="apps-heading">Your apps</h2></div>
+        <p class="app-count" id="appCount"></p>
+      </div>
+      <div class="filter-row" id="filters" aria-label="Filter apps"></div>
+      <div class="app-grid" id="appGrid"></div>
+    </section>
+
+    <section class="install-hint">
+      <div class="hint-icon">+</div>
+      <div><p class="eyebrow">MAKE IT YOURS</p><h3>Add apps to your home screen</h3><p>Open an app, then use your browser’s <strong>Add to Home Screen</strong> option. Each PWA becomes its own focused, full-screen app.</p></div>
+    </section>
+  </main>
+  <footer>Made for your pocket · <span id="year"></span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
