@@ -1,0 +1,1 @@
+{"name":"Mundus Apps","short_name":"Mundus","description":"A curated personal app store for installable web apps.","start_url":"./","display":"standalone","background_color":"#090b12","theme_color":"#090b12","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
