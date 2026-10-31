@@ -1,0 +1,11 @@
+{
+  "themes": ["Technology", "Business"],
+  "country": "US",
+  "language": "en",
+  "sources": [],
+  "exclude": [],
+  "maxArticles": 30,
+  "emailEnabled": false,
+  "digestHours": 24,
+  "digestLimit": 15
+}

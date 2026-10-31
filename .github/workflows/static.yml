@@ -4,6 +4,9 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  workflow_run:
+    workflows: [Refresh Reports news]
+    types: [completed]
 permissions:
   contents: read
 concurrency:
@@ -11,6 +14,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   test:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,10 +23,14 @@ jobs:
           node-version: '22'
       - name: Validate request handling and app catalog
         run: node --test tests/*.test.mjs
+      - name: Test Reports collector
+        run: python3 -m unittest discover -s tests -p 'test_reports.py'
       - name: Check JavaScript
         run: |
           node --check app.js
           node --check sw.js
+          node --check apps/reports/app.mjs
+          node --check apps/reports/sw.js
       - name: Install browser test tools
         run: |
           npm install --no-save --package-lock=false playwright@1.56.1
@@ -31,6 +39,7 @@ jobs:
         run: |
           python3 -m http.server 8000 &
           node tests/browser.mjs
+          node tests/reports-browser.mjs
       - name: Stage public files
         run: node tests/stage.mjs
       - uses: actions/upload-pages-artifact@v3
