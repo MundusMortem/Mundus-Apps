@@ -31,15 +31,30 @@ jobs:
           node --check sw.js
           node --check apps/reports/app.mjs
           node --check apps/reports/sw.js
+          node --check apps/macro-tracker/app.mjs
+          node --check apps/macro-tracker/sw.js
       - name: Install browser test tools
         run: |
-          npm install --no-save --package-lock=false playwright@1.56.1
+          npm install --no-save --package-lock=false playwright@1.56.1 @zxing/browser@0.1.5 @zxing/library@0.21.3
           npx playwright install --with-deps chromium
+      - name: Bundle local barcode decoder
+        run: node scripts/prepare_macro_vendor.mjs
       - name: Test request button and home page in Chromium
         run: |
           python3 -m http.server 8000 &
           node tests/browser.mjs
           node tests/reports-browser.mjs
+          node tests/macro-browser.mjs
+      - name: Verify live food APIs
+        if: github.event_name == 'push'
+        continue-on-error: true
+        run: node tests/macro-live.mjs
+      - name: Save live API evidence
+        if: github.event_name == 'push' && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: macro-api-verification
+          path: macro-api-verification.json
       - name: Stage public files
         run: node tests/stage.mjs
       - uses: actions/upload-pages-artifact@v3
@@ -65,3 +80,6 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Verify published Reports page and live feed
         run: python3 scripts/verify_reports.py
+
+      - name: Verify published Macro Tracker
+        run: python3 scripts/verify_macro.py
