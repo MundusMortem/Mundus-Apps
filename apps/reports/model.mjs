@@ -11,7 +11,7 @@ export function validateConfig(value) {
   if(!['US','GB','CA','AU','IN','DE','FR'].includes(c.country)||!['en','de','fr','es'].includes(c.language)) throw Error('Choose a supported edition.');
   for(const [key,min,max] of [['maxArticles',5,100],['digestLimit',1,50]]) if(!Number.isInteger(c[key])||c[key]<min||c[key]>max) throw Error(`Check ${key}.`);
   if(![1,6,12,24,168].includes(c.digestHours)||typeof c.emailEnabled!=='boolean') throw Error('Choose a valid email schedule.');
-  if(typeof c.emailTo!=='string'||c.emailTo.length>254||(c.emailTo && (!/^[A-Za-z0-9._%+-]+@[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?\.[A-Za-z]{2,63}$/.test(c.emailTo)||c.emailTo.includes('..'))))throw Error('Enter one valid email address, or leave it blank for your connected Gmail.');
+  if(typeof c.emailTo!=='string'||c.emailTo.length>254||(c.emailTo && (!/^[A-Za-z0-9._%+-]+@[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?\.[A-Za-z]{2,63}$/.test(c.emailTo)||c.emailTo.includes('..'))))throw Error('Enter one valid email address, or leave it blank for your configured sender address.');
   return Object.fromEntries(Object.keys(defaults).map(k=>[k,c[k]]));
 }
 export function safeLink(url) { try {const u=new URL(url);return u.protocol==='https:'&&!u.username&&!u.password ? u.href:null;}catch{return null;} }
