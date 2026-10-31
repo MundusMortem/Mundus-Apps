@@ -13,6 +13,8 @@ test('email delivery obeys opt-in, cadence, fresh matching settings, and dedupli
  assert.equal(deliveryPlan({...config,emailEnabled:false},data,state,now).reason,'disabled');
  assert.equal(deliveryPlan(config,data,{...state,lastSentAt:new Date(now-3600000).toISOString()},now).reason,'not due');
  assert.equal(deliveryPlan(config,{...data,generatedAt:'2026-10-30T00:00:00Z'},state,now).reason,'stale feed');
+ assert.equal(deliveryPlan(config,{...data,generatedAt:new Date(now+1000).toISOString()},state,now).reason,'stale feed');
+ assert.equal(deliveryPlan(config,{...data,config:null},state,now).reason,'settings pending collection');
  assert.equal(deliveryPlan(config,{...data,config:{...config,themes:['Other']}},state,now).reason,'settings pending collection');
  assert.equal(deliveryPlan(config,data,{...state,articleIds:['1']},now).reason,'no new stories');
 });

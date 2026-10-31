@@ -37,9 +37,9 @@ export async function syncConfig(token,config,fetcher=fetch) {
 export function deliveryPlan(config,data,state,now=Date.now()) {
   config=validateConfig(config);
   if(!config.emailEnabled)return {reason:'disabled',articles:[]};
-  if(JSON.stringify(validateConfig(data.config))!==JSON.stringify(config))return {reason:'settings pending collection',articles:[]};
+  try { if(JSON.stringify(validateConfig(data.config))!==JSON.stringify(config))return {reason:'settings pending collection',articles:[]}; } catch { return {reason:'settings pending collection',articles:[]}; }
   const collected=Date.parse(data.generatedAt);
-  if(!Number.isFinite(collected)||now-collected>3*3600000||collected>now+60000)return {reason:'stale feed',articles:[]};
+  if(!Number.isFinite(collected)||now-collected>3*3600000||collected>now)return {reason:'stale feed',articles:[]};
   const last=Date.parse(state.lastSentAt);
   if(Number.isFinite(last)&&now-last<config.digestHours*3600000)return {reason:'not due',articles:[]};
   const seen=Array.isArray(state.articleIds)?state.articleIds:[];
