@@ -1,4 +1,5 @@
-import { requestURL, validateCatalog } from './catalog.mjs';
+import { verifyOwner, submitRequest } from './request-client.mjs';
+import { validateCatalog } from './catalog.mjs';
 const grid = document.querySelector('#appGrid');
 const status = document.querySelector('#catalogStatus');
 const dialog = document.querySelector('#requestDialog');
@@ -60,15 +61,71 @@ refresh();
 document.querySelector('#refreshButton').addEventListener('click', refresh);
 window.addEventListener('focus', refresh);
 setInterval(() => { if (!document.hidden) refresh(); }, 60000);
+const authForm = document.querySelector('#ownerAuthForm');
+const requestForm = document.querySelector('#requestForm');
+const requestStatus = document.querySelector('#requestStatus');
+const tokenInput = document.querySelector('#ownerToken');
+let ownerToken = '';
+let authGeneration = 0;
+function signOut() {
+  authGeneration++;
+  ownerToken = '';
+  tokenInput.value = '';
+  authForm.hidden = false;
+  requestForm.hidden = true;
+  requestStatus.textContent = '';
+}
+dialog.addEventListener('close', signOut);
+document.querySelector('#cancelAuth').addEventListener('click', () => dialog.close());
 document.querySelector('#cancelRequest').addEventListener('click', () => dialog.close());
-document.querySelector('#requestForm').addEventListener('submit', event => {
+authForm.addEventListener('submit', async event => {
   event.preventDefault();
-  const name = document.querySelector('#requestName').value;
-  const details = document.querySelector('#requestDetails').value;
-  window.location.assign(requestURL(name, details));
+  const button = authForm.querySelector('[type=submit]');
+  const generation = authGeneration;
+  const token = tokenInput.value.trim();
+  tokenInput.value = '';
+  button.disabled = true;
+  requestStatus.textContent = 'Verifying your GitHub account…';
+  try {
+    await verifyOwner(token);
+    if (generation !== authGeneration || !dialog.open) return;
+    ownerToken = token;
+    authForm.hidden = true;
+    requestForm.hidden = false;
+    requestStatus.textContent = 'Verified as MundusMortem.';
+    document.querySelector('#requestName').focus();
+  } catch(error) {
+    if (generation === authGeneration) requestStatus.textContent = error.message.includes('MundusMortem') ? error.message : 'Could not verify your account. Check your token and connection.';
+  } finally { button.disabled = false; }
+});
+requestForm.addEventListener('submit', async event => {
+  event.preventDefault();
+  if (!ownerToken) { signOut(); requestStatus.textContent = 'Verify your GitHub account first.'; return; }
+  const button = requestForm.querySelector('[type=submit]');
+  button.disabled = true;
+  requestStatus.textContent = 'Submitting your request…';
+  const generation = authGeneration;
+  try {
+    const issue = await submitRequest(ownerToken, document.querySelector('#requestName').value, document.querySelector('#requestDetails').value);
+    if (generation !== authGeneration) return;
+    requestForm.reset();
+    signOut();
+    requestStatus.textContent = `Request #${issue.number} submitted. It will be checked within an hour. `;
+    const link = document.createElement('a');
+    link.href = issue.url;
+    link.textContent = 'View request';
+    link.target = '_blank';
+    link.rel = 'noopener';
+    requestStatus.append(link);
+  } catch(error) {
+    if (generation !== authGeneration) return;
+    const message = error.message;
+    signOut();
+    requestStatus.textContent = message.startsWith('Only ') || message.startsWith('Add an app') || message.startsWith('Request was not confirmed') ? message : 'Request was not confirmed. Check View requests before retrying, then verify your account again.';
+  } finally { button.disabled = false; }
 });
 let deferredPrompt;
 const installButton = document.querySelector('#installButton');
 window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); deferredPrompt = event; installButton.hidden = false; });
 installButton.addEventListener('click', async () => { if (!deferredPrompt) return; deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; installButton.hidden = true; });
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js?v=5').catch(() => {}));
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js?v=6').catch(() => {}));

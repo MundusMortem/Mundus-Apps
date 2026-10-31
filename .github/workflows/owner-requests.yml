@@ -1,0 +1,20 @@
+name: Reject app requests from other accounts
+on:
+  issues:
+    types: [opened, edited, reopened]
+permissions:
+  contents: read
+  issues: write
+jobs:
+  enforce-owner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const { shouldRejectRequest } = await import(`${process.env.GITHUB_WORKSPACE}/request-client.mjs`);
+            const issue = context.payload.issue;
+            if (!shouldRejectRequest(issue)) return;
+            await github.rest.issues.update({ ...context.repo, issue_number: issue.number, state: 'closed', state_reason: 'not_planned' });
+            await github.rest.issues.lock({ ...context.repo, issue_number: issue.number, lock_reason: 'off-topic' });

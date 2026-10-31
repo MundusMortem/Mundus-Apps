@@ -27,18 +27,27 @@
     </section>
   </main>
   <dialog id="requestDialog" aria-labelledby="requestHeading">
-    <form id="requestForm">
-      <h2 id="requestHeading">Create a new app</h2>
+    <h2 id="requestHeading">Create a new app</h2>
+    <form id="ownerAuthForm" autocomplete="off">
+      <p>App requests are limited to <strong>MundusMortem</strong>. Verify your GitHub account to continue.</p>
+      <label for="ownerToken">GitHub fine-grained token</label>
+      <input id="ownerToken" type="password" autocomplete="off" spellcheck="false" required />
+      <p class="request-note">Use a token for <strong>Mundus-Apps</strong> only, with <strong>Issues: Read and write</strong>. It goes directly to GitHub and is cleared when you close this dialog or submit a request.</p>
+      <p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">Create a limited GitHub token</a></p>
+      <div class="dialog-actions"><button id="cancelAuth" type="button">Cancel</button><button type="submit">Verify account</button></div>
+    </form>
+    <form id="requestForm" hidden>
       <p>Describe your idea. Requests are checked hourly; you’ll be notified here in ChatGPT when your tested app is ready.</p>
       <label for="requestName">App name</label>
       <input id="requestName" name="name" maxlength="100" required />
       <label for="requestDetails">What should it do?</label>
       <textarea id="requestDetails" name="details" rows="7" maxlength="4000" required placeholder="Features, how you’ll use it, and what a finished app should do"></textarea>
-      <p class="request-note">Continue to GitHub, sign in, then select <strong>Create issue</strong> to submit. This repository and its requests are public. Don’t include passwords or personal information.</p>
-      <div class="dialog-actions"><button id="cancelRequest" type="button">Cancel</button><button type="submit">Continue to GitHub</button></div>
+      <p class="request-note">Your request is submitted directly to GitHub as MundusMortem. Requests in this public repository are visible to others; keep private information out of them.</p>
+      <div class="dialog-actions"><button id="cancelRequest" type="button">Cancel</button><button type="submit">Submit app request</button></div>
     </form>
+    <p id="requestStatus" role="status" aria-live="polite"></p>
   </dialog>
-  <script type="module" src="app.js?v=5"></script>
+  <script type="module" src="app.js?v=6"></script>
 </body>
 </html>
 

@@ -4,8 +4,17 @@ A mobile-first storefront for installable progressive web apps.
 
 ## Request an app
 
-Select **Create new** on the home page, describe the app, and continue to GitHub.
-Sign in and select **Create issue** to submit the request. The repository and issues
+Select **Create new** and verify your account with a GitHub fine-grained token
+restricted to **Mundus-Apps**, with **Issues: Read and write**. Only the verified
+GitHub account with numeric user ID `52387967` (MundusMortem) can submit from the page.
+Describe the app and select **Submit app request**. The token is sent directly to
+GitHub, held only in page memory, and cleared after submission or dialog close.
+It is never saved in browser storage. The identity is checked again before every submission.
+
+A GitHub Actions rule also closes and locks `[App request]` issues from other
+accounts if they bypass the page. On a public repository GitHub still permits
+people to initially open an issue; those requests are rejected and the build task
+must never process them. The repository and issues
 are public; keep private information and credentials out of requests.
 
 The linked ChatGPT task checks hourly for open `[App request]` issues created by
@@ -42,4 +51,4 @@ node --check sw.js
 The GitHub workflow also runs browser tests using Playwright 1.56.1.
 The storefront and each listed app can be installed separately when they provide
 an appropriate manifest and service worker. GitHub Pages hosting is public;
-this storefront does not provide authentication or private storage.
+the request form verifies the owner through GitHub, while browsing the app catalog remains public.

@@ -7,17 +7,43 @@ try {
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('http://127.0.0.1:8000');
   await page.getByRole('button',{name:'Create new'}).click();
-  await page.getByLabel('App name',{exact:true}).fill('Budget & bills');
-  await page.getByLabel('What should it do?').fill('Track costs and export CSV');
-  let request;
-  await page.route('https://github.com/**', async route => {
-    request = new URL(route.request().url());
-    await route.fulfill({contentType:'text/html',body:'<h1>GitHub request</h1>'});
+  assert.equal(await page.locator('#requestForm').isVisible(),false);
+  let identity = {id:123,login:'MundusMortem'};
+  let writes = 0;
+  let payload;
+  await page.route('https://api.github.com/user', route => route.fulfill({json:identity}));
+  await page.route('https://api.github.com/repos/MundusMortem/Mundus-Apps/issues', route => {
+    writes++;
+    payload = route.request().postDataJSON();
+    return route.fulfill({status:201,json:{number:42,user:{id:52387967}}});
   });
-  await page.getByRole('button',{name:'Continue to GitHub'}).click();
-  await page.waitForURL('https://github.com/**');
-  assert.equal(request.searchParams.get('title'),'[App request] Budget & bills');
-  assert.match(request.searchParams.get('body'),/Track costs and export CSV/);
+  await page.getByLabel('GitHub fine-grained token',{exact:true}).fill('fake-token');
+  await page.getByRole('button',{name:'Verify account'}).click();
+  await page.getByText('Only MundusMortem can request apps.',{exact:true}).waitFor();
+  assert.equal(await page.locator('#requestForm').isVisible(),false);
+  assert.equal(writes,0);
+  identity = {id:52387967,login:'MundusMortem'};
+  await page.getByLabel('GitHub fine-grained token',{exact:true}).fill('fake-token');
+  await page.getByRole('button',{name:'Verify account'}).click();
+  await page.getByLabel('App name',{exact:true}).fill('Budget & bills');
+  assert.equal(await page.locator('#ownerToken').inputValue(),'');
+  await page.getByLabel('What should it do?').fill('Track costs and export CSV');
+  // Changing the authenticated identity after unlocking still cannot submit.
+  identity = {id:123,login:'SomeoneElse'};
+  await page.getByRole('button',{name:'Submit app request'}).click();
+  await page.getByText('Only MundusMortem can request apps.',{exact:true}).waitFor();
+  assert.equal(writes,0);
+  identity = {id:52387967,login:'MundusMortem'};
+  await page.getByLabel('GitHub fine-grained token',{exact:true}).fill('fake-token');
+  await page.getByRole('button',{name:'Verify account'}).click();
+  await page.getByRole('button',{name:'Submit app request'}).click();
+  await page.getByText('Request #42 submitted.',{exact:false}).waitFor();
+  assert.equal(writes,1);
+  assert.equal(payload.title,'[App request] Budget & bills');
+  assert.match(payload.body,/Track costs and export CSV/);
+  assert.equal(await page.locator('#requestForm').isVisible(),false);
+  assert.ok(!(await page.evaluate(()=>JSON.stringify({...localStorage,...sessionStorage}))).includes('fake-token'));
+  await page.getByRole('button',{name:'Cancel',exact:true}).first().click();
   await page.route('**/apps.json', route => route.fulfill({json:[{id:'budget',name:'Budget <app>',description:'Track expenses',url:'./apps/budget/'}]}));
   await page.goto('http://127.0.0.1:8000');
   await page.getByRole('link',{name:'Budget <app> Track expenses'}).waitFor();
@@ -32,5 +58,5 @@ try {
   await page.getByText('Could not refresh your apps. Check your connection and try again.').waitFor();
   assert.equal(await page.locator('#appGrid a').count(),1);
   assert.deepEqual(errors,[]);
-  console.log('Browser checks passed: request submission, safe cards, readiness notice, refresh failure.');
+  console.log('Browser checks passed: owner-only requests, identity rechecks, token clearing, safe cards, readiness notice, refresh failure.');
 } finally { await browser.close(); }
