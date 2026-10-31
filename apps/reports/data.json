@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T11:05:24.460032+00:00",
+  "generatedAt": "2026-10-31T11:13:56.553768+00:00",
   "config": {
     "themes": [
       "Ace Hardware Retail",
@@ -12,7 +12,8 @@
     "maxArticles": 10,
     "emailEnabled": true,
     "digestHours": 168,
-    "digestLimit": 5
+    "digestLimit": 5,
+    "emailTo": ""
   },
   "articles": [
     {
