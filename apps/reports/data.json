@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:20:11.473777+00:00",
+  "generatedAt": "2026-11-02T17:10:42.559068+00:00",
   "config": {
     "themes": [
       "Hardware Industry",
@@ -17,15 +17,48 @@
   },
   "articles": [
     {
+      "id": "dd5c7117e3ffb829ef6874c9",
+      "title": "Why Is There So Much Foreign Ownership in Northern Minnesota? - Twin Cities Business",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWRMbFRFbnJ4dFozeVNmTkVtc1p4eW8yX01EVXh5VFUzbkRVVlloRDh6M2RPempyNzU0ZEdrSE11UUYzYXp1UWJxOWtfampSckJZYmJXdl8xOEtaVFFCOHljMExKMmRlUjZyTzFNQW1oLWVxOHFON3BoRHV0MHA4VXh3ZGtacFk?oc=5",
+      "source": "Twin Cities Business",
+      "publishedAt": "2026-11-02T16:48:46+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Why Is There So Much Foreign Ownership in Northern Minnesota? Twin Cities Business"
+    },
+    {
+      "id": "6e5c7195179b7cc5f16f5a58",
+      "title": "Minnesota Department of Health re-certifies Riverwood Healthcare Center as Level 3 Health Care Home - MessageMedia.co",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPcTZyNlBDV2FpcC1wb3ZzZmx1Zm9NODcyUERla1Rxek9zRVdURmp5a2d6bU5XMEpRQXlVb1phdzlEaFJod2ZjMkpjTkQwNURFa2hONF9ubWhjdkVwWHRDY0NYSmd5amdaTWpqcWxyTFpCU0ZCWjQ4UXJqb3lCb1ZBOVRxOWVZSm9Qelp0NzhFTUZlTjRFeVYwVEtMNXp5YkhLclI4ekM0aXFlSGN2OTRHWEZZMHA2enNxd19iZHpMUWMwakFIOXZCNGRDY1d5cVdmWTdnTGdsb2xGVFpxeEJValMxZ2dwd0tIY0NOeDJmam1aRl96aUo1dWE3ME9nbUNFRWdjQVdKeFg2M0htMjhYYW9vWk1QZw?oc=5",
+      "source": "MessageMedia.co",
+      "publishedAt": "2026-11-02T11:00:00+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Minnesota Department of Health re-certifies Riverwood Healthcare Center as Level 3 Health Care Home MessageMedia.co"
+    },
+    {
       "id": "0666e6d13fd8fd61d3d6ce81",
       "title": "From the Publisher: NHPA Brings Together News + Network - Hardware Retailing",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUHRyNzFzSThHaHF6dmwwa3Q4VHJMNnA3Y2I3MTZIRm9CTVdoNkRYTWdtdUlRYTNQb0VxOVl3ZkFpRU54a1NTVGplZ2kyZUJXcVMzaGx1bm9YS3BZcjB6WnRTRG5RMlVDcEZTcFN4OG1uUkpHQnRkVmU1RTZyRWZBRVlUWmQ4amxCYV9R?oc=5",
       "source": "Hardware Retailing",
-      "publishedAt": "2026-11-02T02:26:15+00:00",
+      "publishedAt": "2026-11-02T02:33:46+00:00",
       "themes": [
         "Hardware Industry"
       ],
       "summary": "From the Publisher: NHPA Brings Together News + Network Hardware Retailing"
+    },
+    {
+      "id": "2cd4352e16fbe6a96294a17d",
+      "title": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages — OpenAI CEO travels to South Korea to meet Samsung leadership to discuss future AI data centers - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPcGdMMzlLWmVpU21udW13S2IzUy1DbGxzdFFRenNLd0hsQXo0N1ktb3o5dXZPdjVMQWFRdmlUenFOQ2l6MGdFdHZ0eS13YUNfMTBUQmJZUkx3M2hNUVhBcnFiZWpYRjk4V1BaSXozenFGS29iZXZBWVRPdzE4WGdYaDdGODF6QVlVWGFfNG91TjR2WkhTN2FTZFpNLWUyUTBTb19aTDN6SmlpQjZwRlpJVHA5VUJHMzNtRkszV0RGTDZZTkVHN0JyX0ZmUnBURTNCaDJib09PSlloUGVINlRKTk5FMzg1RDBBLWdPM3JfZjk5NnYxOEY4VkowTmw0MTNuWmcyV1lkcFNKQTdNUDFpRVJWQ3lyNXJQZGZybTBTc2xnbGtndkFNQTQtQ01wNjRDUDVHZFFuX3VDblRhdGl3bGxNUlJsRFU0QllZVkFBZF9xaEFNSFpsV2ZOQnBOR0t5Zk5FaA?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-01T14:21:23+00:00",
+      "themes": [
+        "Hardware Industry"
+      ],
+      "summary": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages — OpenAI CEO travels to South Korea to meet Samsung leadership to discuss future AI data centers Tom's Hardware"
     },
     {
       "id": "b46d1a06dc1565da5f9d5323",
@@ -39,15 +72,15 @@
       "summary": "Real World Economics: Award highlights benefits of engagement Pioneer Press"
     },
     {
-      "id": "4fa07e2ca4fce4b794ddc3ff",
-      "title": "Gamescom 2026: What's next for the gaming industry? - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4eUg5Z1BoY2tGSGhycnUxeG5ILWZGN1BXNUdvdEFkSnZvLWFMWDRPVWtwcW9mRDdvcVpOaVctWnFEeFdVOXJIUWxDb0xkSmU1eVlOTVdVU2hlMWtlWU40TDE0RzY2SVJ1TXZNZ25QRUo0TkFRakhDMNIBeEFVX3lxTE1aYzFTVzBJYjJrQk16NzhmQ201cC00dmNva1VyVVBfVU1POWdhZG1fSnFFTzBXdHl4NFBMWE9qSnFaNUtqXzRYQWZvRDJpaFFZZDBSeUExbjZFT1ZJQW5LMm96VEctcHBTTVdYdXNqT3pBajk5WDkteQ?oc=5",
-      "source": "DW.com",
-      "publishedAt": "2026-10-31T16:34:26+00:00",
+      "id": "befd7f59b1cdca6a06246cfe",
+      "title": "NASA Asks Industry to Save Hubble by 2032 [2026] - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5nUU9nUVpkZ0YzX0tnMWNIRzhHVGRpZFV1M3RfU3Z6ZjhyeG5xSmFPM3FiNGplODlxc1hMemo1NlBleVpMbV90SXdyeDBPcmRlNElFdi1KYS1TUUdxemVfMm4ybFpYYlgteWlvRFJWRzFfdGdXZDVneWxLN3lLUQ?oc=5",
+      "source": "shattered.io",
+      "publishedAt": "2026-10-31T16:59:18+00:00",
       "themes": [
         "Hardware Industry"
       ],
-      "summary": "Gamescom 2026: What's next for the gaming industry? DW.com"
+      "summary": "NASA Asks Industry to Save Hubble by 2032 [2026] shattered.io"
     },
     {
       "id": "3a8e899919a844d21550caae",
@@ -61,15 +94,15 @@
       "summary": "This week in Tom's Hardware Premium: October 31, 2026 — Vera CPUs available on Oracle clusters, building an agentic CPU benchmark and a primer to LLMs Tom's Hardware"
     },
     {
-      "id": "385090ca9212e611fdd5d111",
-      "title": "Westlake Ace Hardware Expands in St. Louis Area with New Fenton Store - LBM Journal",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUnREUy1RTGFWS3VfMnRuSGF6OTlsTC0tRDRRRURvdmVQRnlhcVJJWlFrRWxrSHplNV8wMjRNUGEzTXJfNkFuTlZCQnZfVWc4SWNOa2F3V0lubXdJVEhsOUM5a1FzZ2ZycWFMZmZ3RVpHc285R0p4bjJHcVJuWnYtOTBkdmpuU1RVdWU4cTllUmF1RUd2RFRObWMzb2FfbWtQaVJNbFJIZ0dhWTZKZlNHY0NubVdhTlVjSUFXeGs0eUJEa1RKTkZ3djNnenZrZ1VzMGN0aXFKaXdFWUpoaFhTTzg4azNJOUs4VkZ5dHhqSW0xS1VLN3VLaQ?oc=5",
-      "source": "LBM Journal",
-      "publishedAt": "2026-10-30T20:52:36+00:00",
+      "id": "f90dbe3811ce66deae92606c",
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering — sweeping new restrictions also hit legitimate developers and basic troubleshooting tasks - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQQVBYaTFvbkpGT0FNbXhiUmMwdHR3SlRQYVdwbWFRalZ0SEtSd0pSQ2FOOFhsazRtY1VCX19heHpvTzEwSkJGNFQ1b1lBOXJmU1M2NGdvRnZyMEVNaW9YbnpBS1pSMC1ET3JnR0s1WFE0WmluRldpemhYUUM0elI2YzFfQWFQWDZ5UlFWQUplbVBId1JDNGtCQUoyMHROcVlSbXZHMUxremtlaFd2cy1qRmc0eVJfYmM0Rm95SHdScVVUS2NBMW1vMFRsNUZsUk5ILXZ4dWdsVVFIRjZhU0ZxaGNyRkFtZnFUS2FpbUpDQ25ydWtoZkF6SHdiT252SDhTOWdGeERvNTU5SkxWRlFGOWluZGM3SEVGVW14ZHNtWTVmR2VkUlh1UFFZcjM3akFuRENWT3VhQTJ5clNnQ1JyNVpibU1oNlRm?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-10-31T12:20:00+00:00",
       "themes": [
         "Hardware Industry"
       ],
-      "summary": "Westlake Ace Hardware Expands in St. Louis Area with New Fenton Store LBM Journal"
+      "summary": "Anthropic's Claude AI blocks video game cloning and reverse-engineering — sweeping new restrictions also hit legitimate developers and basic troubleshooting tasks Tom's Hardware"
     },
     {
       "id": "4aa06a7cca51c6fe75edf9f4",
@@ -94,26 +127,37 @@
       "summary": "Europe's economy brushes off energy shock from Iran war, shows moderate growth in Q3 Audacy"
     },
     {
-      "id": "c6a47a54def16e794ebd0a91",
-      "title": "New face of Chinese intelligent hardware - chinadailyhk",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzdzZLazFjWFJ2WlNLNk5zUE5XYmgta1FaSEUzWFNQTVYtVXdEc3l6UFJRQVdkVmV3UGI0am5DTU1mV0tKT2VWWEw2M1dlT3NxRC1BUG9RZU0?oc=5",
-      "source": "chinadailyhk",
-      "publishedAt": "2026-10-30T07:39:00+00:00",
+      "id": "7690a28bef0589b551788895",
+      "title": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months — president plucks former startup founder, telling him to 'go nuts' - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNVzRfT0YtXzdyNUlPR1dTQWVhNkZ2cU1HYWJ0Um9oQWJoTEdNNlJFRU83aE5qdWE1SUpYVHdHeUt0eXIzcnQ0SHJmd2VjMHQ1VVlJQVRZZ19vMF9oUG5NVFRsZ242Tm5icjE5NzZRdkJjc3ZWdjVIczVSZ1E1YzJIaFpNa1lUeWpXWmgyczVnMTVTenR6Wjl2NFpDcDJaSm9BWld6ZVhaOS1jNDFoZEVPV2FOdlRmaHJsUzlEUC1ldkxpQkFjV2FKTHZpTzVKMzJzQ2NlSVRuWmYxdWFVcGs0aVVFMUJldXZoOTFEeGY4bnFfRzVtdHBMaV9wZFBteE56NWVER3VmR2pjMGFKbFh2VjRZM3NSVEtMbUU1VGlHR3d6Qm1sdjVMOUV1aUROcXhVbmhnN0xGZk5FZHNHQmdEbzlnVzd5eGVYMXNsZXlBZw?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-10-30T11:26:56+00:00",
       "themes": [
         "Hardware Industry"
       ],
-      "summary": "New face of Chinese intelligent hardware chinadailyhk"
+      "summary": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months — president plucks former startup founder, telling him to 'go nuts' Tom's Hardware"
     },
     {
-      "id": "8c83db299d05971937b19115",
-      "title": "Westlake Ace Hardware Expands in Missouri - Hardware Retailing",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hZDVEV2x3eDlDeV9fMmpoV19ETFhnamlSQWlHLUY1SVZfVlEyX2dRMmxtc3hoWkNqaVhlVkFaQjM3clNVdEhrdzhKUFduaFBPNHdwSnJJWkcyMXk2bVpqaU5GekxZV21lLVpCTmk0bUZ0elprWkRwNFJxRTU?oc=5",
-      "source": "Hardware Retailing",
-      "publishedAt": "2026-10-30T03:52:56+00:00",
+      "id": "5b67be649263a5ad912f409a",
+      "title": "Candidate Profile: Doron Clark for Minnesota Senate - The Minnesota Daily",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOelFLZWRtSWhSTWlHNndkTHVYbDJnMkxyZUpiNU9wcWlSNEFNdEpyZlV6MHhweDFXNWRtUWpGYTFxZ3BIWFl3WWtkSFRtblhOUjBqY2xEcUUxN0lsTGhHVE5ZV0xJbWdJbV9lUlU5eHBEMTZZZGFuSkV1cU15dTlsU1ktWXFNLVZFeS1idUF2bVlDMUlpTzM0ZjA2d185VWZUak5sSA?oc=5",
+      "source": "The Minnesota Daily",
+      "publishedAt": "2026-10-30T01:40:34+00:00",
       "themes": [
-        "Hardware Industry"
+        "Minnesota Economics"
       ],
-      "summary": "Westlake Ace Hardware Expands in Missouri Hardware Retailing"
+      "summary": "Candidate Profile: Doron Clark for Minnesota Senate The Minnesota Daily"
+    },
+    {
+      "id": "74ec692dad5eb23bcefb7437",
+      "title": "Another sign of a healthy economy just emerged, but for many Americans, employment and cost pressures continue - kare11.com",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQQV92VEt4OUpIei0zak9FMFhheTZBbDItTVVqak95RFhhQk1ZUzBmOGQtQ0g3UkppdTRqTmxjcEw5MnFhUWdyUkxoYkZud2lGU0w3b0NmYk1BV1dIUjRNNU8xZkcwTDdGMk5DMFljZnFIVDV0U2RRRWFDR0VHb1JsR1hIRk1CTnhvYnh0Nk9Pc3NrNHVMUkVySUtOc2V2aWlvN3ljdUo2Vk11ZzJkTW83S21sTjFFd1I4THZNUkMtSGxrdUpWdmN4N0NlME5DMngxR0x6d1hlX3FDSzE4Sloyb3hPYVEtdThReHlsanpuMmQ0SmpWbHVjOUxFR0NKNmFiV0c2QnV3YTZjZDZEV2ZoVzMxc0tVWWxyLU1UaUEySzR4a0tEQ0ZYcVhXTmlZZkoyNlE?oc=5",
+      "source": "kare11.com",
+      "publishedAt": "2026-10-29T23:08:00+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Another sign of a healthy economy just emerged, but for many Americans, employment and cost pressures continue kare11.com"
     },
     {
       "id": "bfe1a070cc359101e38907c7",
@@ -127,6 +171,17 @@
       "summary": "AI hardware can be hacked so chatbots provide dangerous answers, research shows WTKR"
     },
     {
+      "id": "a83bb9705410c19e485e2f2a",
+      "title": "Strong growth and inflation paints mixed picture of economy days before midterm elections - Boston Herald",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRmt1bEYtaVZRRDZpMmF3WlIyMGdkYXpZTVB1bVctdG42UlUwci1pcWdsdmJKSV83TmQ4LTNGTFJLMGMyLW9OdXozM0pzTkRzNGNMaUVOTHM1cVczTkZNY1FvZlFlYjctQzZzS1ViNmZwVFZVaWZVX1dOb2RhVEZVUDlZV1o?oc=5",
+      "source": "Boston Herald",
+      "publishedAt": "2026-10-29T17:13:18+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Strong growth and inflation paints mixed picture of economy days before midterm elections Boston Herald"
+    },
+    {
       "id": "c7b2fb0a17bf6c40caf1f026",
       "title": "Skraba, Kania differ over economic development paths - The Timberjay",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTF4U2d0bmt0MnJmR3J2MnRxWGgtLTRSb3VqZnBuakhVa2VuTW9QdlJQemNQaEZWTkkyaGtmSDUxRExQaV8yS085VUxrZmlmeEVSODAtdXp2Q0ZOTHBVeXpaQXlreV9oNUtEb3pXRy1wVUFmYkhmV2pEdGNLNV8xQXp4LTBGbmpyeXJHRV80QnluX2w3?oc=5",
@@ -138,103 +193,48 @@
       "summary": "Skraba, Kania differ over economic development paths The Timberjay"
     },
     {
-      "id": "4926057dfda9f91577f12029",
-      "title": "Strong growth and inflation paints mixed picture of economy days before midterm elections - Orange County Register",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGFid1VEXy00OGEybTd2LXZtdmZhb2taVHViVVZtbTdlcG5VNmhVR3lKY2ZobzRTUDFyZER1ajhGMEV1eXFVejBGbXdQMUxxcjFTcTdwaFhnU09NSGtqYlF3ZHRVODNVQk5XSU1jZDU2b1V4eEd0UDdQZGFHNmdrdnFR?oc=5",
-      "source": "Orange County Register",
+      "id": "f5343118516b2050da6787a9",
+      "title": "Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition — concerns raised over competition in AI and pressure on customers - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQU3BmSkJtd25WTTA4N18xSVd1U0JrQlo2eGhtaFZzaEJ4U3d0dzRSM1NDRUpaSFRHc0w4LTFySUhZazRpcmd4bTQ2Tk9lNmczR3NSV2RILVpmbml0ZkZINWU4b1JVQVo0SGhXRlN3LWhiMHVNd0gwLXBKZHI2ZENoaG8tZVh0WXZRSld1YlNNR0FFaVdfS2xzdW4tMDQxdUhQUHNhSzJwcEhyXzRoZ1p0MmVIRjFpZVkxY2Q1WVhuampCWXlrekVNSGFvYVFKWXdNMlVFQXhUbmZDdk1VemJCVnpIY3VxcmN1dV9MdEg2TUdPd0JNV1FHbVo0R0c0THRZSDRzdnVMY1M3ZXE4X3dFNmlKZlZMSmdwWHpBaWlNRFBvM1dPeE0wV0w3RUxrZk5XQWtnUGZKNnBkVkhIeC01djRtaWZnNFNNbU45eA?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-10-29T12:49:19+00:00",
+      "themes": [
+        "Hardware Industry"
+      ],
+      "summary": "Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition — concerns raised over competition in AI and pressure on customers Tom's Hardware"
+    },
+    {
+      "id": "d814bd0e633c464b61b40fd5",
+      "title": "Inflation heats up again, data shows, days before midterm elections where cost of living dominates - East Bay Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYVFScWVfUXZkQl9PRk9GQ0ZFRGNpSkJTZUVIRlk1Yk5TbU1NR2tnQkc0dDVJeXRlclRZLW9JYkFWY3JRYVpwRUtGdUw4eUU0NFNhQ1FLdlhfSjZUV3g1eEVDZ3NPMmFBeXExOW1kSkR6LWpTb3dZWGZycmQzNWFuMTh2a2M?oc=5",
+      "source": "East Bay Times",
       "publishedAt": "2026-10-29T12:48:37+00:00",
       "themes": [
         "Minnesota Economics"
       ],
-      "summary": "Strong growth and inflation paints mixed picture of economy days before midterm elections Orange County Register"
+      "summary": "Inflation heats up again, data shows, days before midterm elections where cost of living dominates East Bay Times"
     },
     {
-      "id": "160f8f952ab841b39b7584ab",
-      "title": "Anduril, Qualcomm partner on BlueChip computer hardware line - Manufacturing Dive",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRTNmNGNHT0RTei0wclE4Q19XWFB5WUVYSU15ek5VSjM5MXM5WXktX2RjRVNTRzRnbmVRZGs3SUhNVmx3bm42S3ZSZWt1ZVNGdk1LcG5FY1FnOThJRjhNaU8zRDl3cW1pM3hSRHZZUm9TWFVhWGQ5M1VnbVo2Z0tXM1g1bk8tY05jVV9aWDRVTmJkbk9vN19lNzkzRERCSF9FcEd3TUlQQXdEWHl6WjMydGRycTY0S1A0?oc=5",
-      "source": "Manufacturing Dive",
-      "publishedAt": "2026-10-28T17:00:56+00:00",
+      "id": "92047b4fe90e644a79fe36f7",
+      "title": "AI component hikes force the world's largest PC makers to return manufacturing capacity to China — brands to seek lower production costs and efficiency in established supply chain - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQYnFzMS1KUEhiYm5xNFUyMlZBVzQ0dURicENRMDJrNzBtMWRXR2Q2NHJTVC1tdmtzU0h1TGZxOWFuWnJLQ1Y5Zndhbl82aUNyUXhrRzFfNXEwVHR1VjRfUXgwVGZKUjRUaEk4UkFucUplSWNuc3NBcVkzYk9qMWc2a3pGeDdXMmItT3lSRlRFcngzSlZwNVdzMG1XZ2MtTlJpS2RDbkxlMDRTYUZ5NDNoOWtTMURpOGtfX3V1ZzMtdEFFMk1sTmQybFIyRGJLYndNZ1BidFJNVHpQMHFmTENVZzFtSlN3WU5DMHFlUkhzWS1aeXlDZDRjWWFma1hQQXFScUVFVG16QmRaNXVFX3Z3SXVjc1dLeW5oNXM3ZmNYcWpIa1liSXY0R1lFRkdqbkdVMVl2dnRGUktPSTdLVGszaHRvTk5ieURKSGtpbjVOazlBN0k?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-10-28T15:24:16+00:00",
       "themes": [
         "Hardware Industry"
       ],
-      "summary": "Anduril, Qualcomm partner on BlueChip computer hardware line Manufacturing Dive"
+      "summary": "AI component hikes force the world's largest PC makers to return manufacturing capacity to China — brands to seek lower production costs and efficiency in established supply chain Tom's Hardware"
     },
     {
-      "id": "ddbd02b28f738bb1d1132b13",
-      "title": "Five Decades of Giving Minnesota Students a Head Start - Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPejdGRjNPUVVwS2J3S2drMkZOYXFkR3hwRnNXQnJ5ZS15OXBjUkFaQVRzZ3FoTTVDc3BjQ0dISURBQ1R0YjhsZVVIY0E0VmR3NVpuaVdzblNNalBld3BkTjJremRpVmV5XzRuV1pwZE1KNWlYdXZjVk1mMzJILUJSSF9uYmE0RV9wa3dBUFdLbEdYdjhBbTBV?oc=5",
-      "source": "Star Tribune",
-      "publishedAt": "2026-10-28T14:20:00+00:00",
+      "id": "e483701cd5cff3713309f66c",
+      "title": "CHARLES KYTE: That darn, but lovable, dam - Southernminn.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaUFLVlRIZEZQODMzdHBtT3dWcUs4SjFRakZ2LXBKOE5PblNnY1ZYWkhFcWM0UHlkR2ZFUE81TGZwZEJmSFJKY3RpUlNVa092dmxYeEFLYzFuMmZoXzQwMzEyWm03RElKZTZHeWVpQ0xOWnM0VXEyV0k1Znpfb1RzM3F3US0tYUptRFFqckNZNTJsckg5U2VSc1FONDI0eENEc1JpeTAxS3cxLW1BQjB3T2ZGTE5RODdxS0V1aE56elRZSzhtUEtwUDdvMTE1a1JXR0hJNWJ2ZlUtbGJ5RTFV?oc=5",
+      "source": "Southernminn.com",
+      "publishedAt": "2026-10-28T09:30:00+00:00",
       "themes": [
         "Minnesota Economics"
       ],
-      "summary": "Five Decades of Giving Minnesota Students a Head Start Star Tribune"
-    },
-    {
-      "id": "515d6dc1852a01ced3805070",
-      "title": "News - mn.gov",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lSXV0b1BzUTY4YnJVVmZhNEs5cUdLU0V2LVltOWs4bVhsT1ZpQkFKUFVreXVJWEJZc0VqRmFPd2U3dFhLak9rd29QS3QzQjVscHZpc2I2Y2k2YjBIaHBxX2xldU5YX1dacEtyc1RsWnAxRUE?oc=5",
-      "source": "mn.gov",
-      "publishedAt": "2026-10-28T07:00:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "News mn.gov"
-    },
-    {
-      "id": "d293e1b9a854c9c52e734ad9",
-      "title": "Wheat - Wheat Sector at a Glance - USDA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SLXRQaWdqaVB5UW91dDhwWUo3VlRmMFFXcmxnSDVLSXVMYkVoVW50TTVYMm9UTHV3ZEFrWU5jM1J1bTd1NHJxZTU4Nks3clkxeFVKU3NON21BQXVOY3pMeVRnLUR3Z0w2R0t3UzJ1VDlRX1FBNkE?oc=5",
-      "source": "USDA (.gov)",
-      "publishedAt": "2026-10-28T07:00:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Wheat - Wheat Sector at a Glance USDA (.gov)"
-    },
-    {
-      "id": "6dd30ba80a0e9b4be12d6e27",
-      "title": "U.S. Construction Industry Projected to Add 400,000 Jobs by 2035 - Hardware Retailing",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWnhYazh6SXl1ZlhWbWZVRzNKelhLUDFUb2ZHcGl4STdoblE3UXJaczgwekFlYlowWUZ4aEhzeVdNRmVGS1ZGcEY4Q3paMTM4Njl2XzFSazJYQmswMWowcHNmaFExRkNtdGVDcGhncl85eUYxWnhldzl1RGtyaUFBdjVNaC16ZW9kU1A4REV2NmJ3LUJBcUg2Yg?oc=5",
-      "source": "Hardware Retailing",
-      "publishedAt": "2026-10-28T05:02:29+00:00",
-      "themes": [
-        "Hardware Industry"
-      ],
-      "summary": "U.S. Construction Industry Projected to Add 400,000 Jobs by 2035 Hardware Retailing"
-    },
-    {
-      "id": "abf7169ab357c9f90d675baa",
-      "title": "Minnesota health insurance rates could jump as much as 21% - 5 EYEWITNESS NEWS",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSFdLQ3NNcnFockdvNDJOcjJUWmN0LXA5LXZWOHZJNmZIYTV2T2h6akNlZ2hNQ2hCRkxWNXJLd0VUNVFKM3dqM2hlamJFek0tV2s5MGRqNnFxRzU0QU1Pa1hhY3RtY3JIYkhEMmM0dWtTY1dEbTFtZkxtZnJnNnZHcWltV0t0RWRkaTdpZDctUXlKMXM?oc=5",
-      "source": "5 EYEWITNESS NEWS",
-      "publishedAt": "2026-10-26T22:48:42+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Minnesota health insurance rates could jump as much as 21% 5 EYEWITNESS NEWS"
-    },
-    {
-      "id": "a2d564da250a2e3ced4d23da",
-      "title": "Minnesota Now: Oct. 26, 2026 — Midterm elections, wildfire economics, census changes - MPR News",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1LTZydHFCTjVlSUV4MHNlZG1mc2RJYlJFVEJHRXFLRkstb29RazZsMHR3N3M0ZEU0aTBvRUsyemdHNTJiV1gzeTlMbmk4ekpNeThhQ3VRN0Q0SDhvOFFhczFDWjZkUFlkNFRJVWVfc0pyem1xdEVF?oc=5",
-      "source": "MPR News",
-      "publishedAt": "2026-10-26T20:15:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Minnesota Now: Oct. 26, 2026 — Midterm elections, wildfire economics, census changes MPR News"
-    },
-    {
-      "id": "f303d592f41d7b9eb3466d73",
-      "title": "House Agriculture Committee Seat at Stake in Minnesota 2nd District Race - AgWeb",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHVTazRpZ2dfWW5RRUZhaUJMNy1HVWNrZmdpZURrN3pzWDkya2VKV1YwMFhSYU9xWGpTbWU0TjFoaFV5Q3p1dkpXdjBfU2xsOHNITkpTY2hmMXY2WjRaUEhaR0MwR052LXlvUGZYVXBtS1BUWTFpNzN0b01TOEYzQ1Z5NTRNdXp0aUVYMWU3V29mZ0ROUlNseXI4alZUanQ0bVE?oc=5",
-      "source": "AgWeb",
-      "publishedAt": "2026-10-26T13:00:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "House Agriculture Committee Seat at Stake in Minnesota 2nd District Race AgWeb"
+      "summary": "CHARLES KYTE: That darn, but lovable, dam Southernminn.com"
     }
   ],
   "errors": []
