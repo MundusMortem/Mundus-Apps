@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T15:16:27.154516+00:00",
+  "generatedAt": "2026-11-03T21:07:39.441419+00:00",
   "config": {
     "themes": [
       "Hardware Industry",
@@ -16,6 +16,17 @@
     "digestLimit": 5
   },
   "articles": [
+    {
+      "id": "929d70492e4174a5661cc514",
+      "title": "Early voting numbers: More than 983,500 ballots cast as of Tuesday morning - MPR News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNGtBTFZhTWJHeDA5NTQ5SlJCbWdNTVE0MU1GSDl5cTBTNlJYQ3RNRzVFbGFvcVVQal9Ya0VuZEU3QVR2b1d4RU1XeWhqOHJJdG96S0FuUmdkWmNoaWhwUzZMdVFYVkxnMGJKSlZnWDJobmNGS20zS2JNWHI4Tm5GUUl6cnJuSnA1QUJ2OHpvdXBONFJhekFHTzMzWEIySnctczNoSWJtRjQzZnJpZDFRcVZLZw?oc=5",
+      "source": "MPR News",
+      "publishedAt": "2026-11-03T14:54:27+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Early voting numbers: More than 983,500 ballots cast as of Tuesday morning MPR News"
+    },
     {
       "id": "be309a0e6b5aea567d4c7c4a",
       "title": "Orgill Names Scott Wakeman Chief Marketing Officer - Hardware Retailing",
@@ -50,39 +61,6 @@
       "summary": "Why Is There So Much Foreign Ownership in Northern Minnesota? Twin Cities Business"
     },
     {
-      "id": "76d860c2aa9c700876054735",
-      "title": "Minnesota colleges brace for an enrollment ‘cliff.’ Will it really happen? - Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vTjhTdko4YTdGX05XU3BkZWU0T0Utb0k2OU5YdnFfT0tud0JIdFVueGZOSWdIdXhwS3FJeW1rVGpCOU8wS3F6Sm5uSkRfekF5Ukh4MDkyaXBZbDU0NXdJX3ZIbEpVVXo4NWJWQU5LZDJZamlHLVd3cllKMWoyZw?oc=5",
-      "source": "Star Tribune",
-      "publishedAt": "2026-11-02T15:24:47+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Minnesota colleges brace for an enrollment ‘cliff.’ Will it really happen? Star Tribune"
-    },
-    {
-      "id": "9abc21df7c45d59ef8f240c0",
-      "title": "Where Flanagan and Tafoya stand on key issues in Minnesota’s US Senate race - The Derrick",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRHl6R3BmdlBRd2w0djdHLXBJN0ZqemNmRnctWGVVYjBjRk9Zd1dFeks2aktldjJzMGN3UEltdUVvMEItQXZ0ZExKUHI0TUliWVVxNks2NFNnbGJWZGlKaGZSbzFBQTg5cVZCdFlCbWpHa0NjWGV2ejFXUnFFWEtydHpJQkhNSjJEd0VCdURDT3BVb0J2QTI4di1sSEk3WkM4MXhkR1BQMC1wNndWN2hCaHNKUkpFcFRfSHFZT1Z4N254eTdXWGp0Z1VqMW5weGRESElqeXkwazNNNFB4WktIbDY4dnlDQUp3VWZ1Q29RUDNIVVZVUG0tWnpzMDRhLURq?oc=5",
-      "source": "The Derrick",
-      "publishedAt": "2026-11-01T19:57:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Where Flanagan and Tafoya stand on key issues in Minnesota’s US Senate race The Derrick"
-    },
-    {
-      "id": "4fa07e2ca4fce4b794ddc3ff",
-      "title": "Gamescom 2026: What's next for the gaming industry? - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4eUg5Z1BoY2tGSGhycnUxeG5ILWZGN1BXNUdvdEFkSnZvLWFMWDRPVWtwcW9mRDdvcVpOaVctWnFEeFdVOXJIUWxDb0xkSmU1eVlOTVdVU2hlMWtlWU40TDE0RzY2SVJ1TXZNZ25QRUo0TkFRakhDMNIBeEFVX3lxTE1aYzFTVzBJYjJrQk16NzhmQ201cC00dmNva1VyVVBfVU1POWdhZG1fSnFFTzBXdHl4NFBMWE9qSnFaNUtqXzRYQWZvRDJpaFFZZDBSeUExbjZFT1ZJQW5LMm96VEctcHBTTVdYdXNqT3pBajk5WDkteQ?oc=5",
-      "source": "DW.com",
-      "publishedAt": "2026-11-01T19:01:30+00:00",
-      "themes": [
-        "Hardware Industry"
-      ],
-      "summary": "Gamescom 2026: What's next for the gaming industry? DW.com"
-    },
-    {
       "id": "b46d1a06dc1565da5f9d5323",
       "title": "Real World Economics: Award highlights benefits of engagement - Pioneer Press",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVmRRdkpTcmlzZURNNXhha2NObmNodXpCMlRidHZvUy14VGptNml3Sjh2bXpNcHBNU2pTbG5WUlhpc1NaU0JSbEt6QVU1aVdUZW9kUXJBNDlxb0NnRnN3RjR6bGtoSU5obzBENmdvWWlMRkRoNm0tX2tHa21TaWVKVmd4dlRjWEtwUDF3ZFVZQjJ6MmdobVV6Q0IxZ0pqUFpZ?oc=5",
@@ -105,6 +83,17 @@
       "summary": "This week in Tom's Hardware Premium: October 31, 2026 — Vera CPUs available on Oracle clusters, building an agentic CPU benchmark and a primer to LLMs Tom's Hardware"
     },
     {
+      "id": "bec366b78fe1b528170cb658",
+      "title": "Minnesota - Agriculture, Manufacturing, Tourism - Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mUlpPWlJGX1d4bS0xQkwyOUtIVld3eGZtMlFERWppMUpzQzFXOUtlUkZwOFd6eTlZYThraU1xNGFBZElHU2pvLXJfNllhSXB5RXhnbGE5NXV5aW9zck80?oc=5",
+      "source": "Britannica",
+      "publishedAt": "2026-10-31T05:00:00+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Minnesota - Agriculture, Manufacturing, Tourism Britannica"
+    },
+    {
       "id": "4aa06a7cca51c6fe75edf9f4",
       "title": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM — Sam Altman says data centers offer better utilization - Tom's Hardware",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQV0JjNVJDNmxJSXdsWk4ySjhKVDRmdkhPTlNBWlliM28tbG1JM055YkdpYUhQUHZHazFIYjJyWXd0LU54NU9FUEpPNGU4REFDLUJpQmx4QlRwWjdDaU1MeTZhUDQwdmdHQ1RvTVdJYnRlMko4WlUxNXJpR2tNZVQwWDFwdXBUMGQyaWF1dkNyUzQzNDctMWdQci1aWjkxb2JjdlFLenNBdHpmMDc3eEEzUWFYY05WZ1dPblhHXzJwcVlua19ic1RqVzFMUXN4UnRwYUgyaEppM3h2TVQ2MEFsMFRyZTZxWWpYZlRGbGJ0ZkhoV1lHd2JyN3hsMko?oc=5",
@@ -125,6 +114,17 @@
         "Minnesota Economics"
       ],
       "summary": "Europe's economy brushes off energy shock from Iran war, shows moderate growth in Q3 Audacy"
+    },
+    {
+      "id": "7690a28bef0589b551788895",
+      "title": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months — president plucks former startup founder, telling him to 'go nuts' - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNVzRfT0YtXzdyNUlPR1dTQWVhNkZ2cU1HYWJ0Um9oQWJoTEdNNlJFRU83aE5qdWE1SUpYVHdHeUt0eXIzcnQ0SHJmd2VjMHQ1VVlJQVRZZ19vMF9oUG5NVFRsZ242Tm5icjE5NzZRdkJjc3ZWdjVIczVSZ1E1YzJIaFpNa1lUeWpXWmgyczVnMTVTenR6Wjl2NFpDcDJaSm9BWld6ZVhaOS1jNDFoZEVPV2FOdlRmaHJsUzlEUC1ldkxpQkFjV2FKTHZpTzVKMzJzQ2NlSVRuWmYxdWFVcGs0aVVFMUJldXZoOTFEeGY4bnFfRzVtdHBMaV9wZFBteE56NWVER3VmR2pjMGFKbFh2VjRZM3NSVEtMbUU1VGlHR3d6Qm1sdjVMOUV1aUROcXhVbmhnN0xGZk5FZHNHQmdEbzlnVzd5eGVYMXNsZXlBZw?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-10-30T11:26:56+00:00",
+      "themes": [
+        "Hardware Industry"
+      ],
+      "summary": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months — president plucks former startup founder, telling him to 'go nuts' Tom's Hardware"
     },
     {
       "id": "c6a47a54def16e794ebd0a91",
@@ -215,15 +215,15 @@
       "summary": "Anduril, Qualcomm partner on BlueChip computer hardware line Manufacturing Dive"
     },
     {
-      "id": "d293e1b9a854c9c52e734ad9",
-      "title": "Wheat - Wheat Sector at a Glance - USDA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SLXRQaWdqaVB5UW91dDhwWUo3VlRmMFFXcmxnSDVLSXVMYkVoVW50TTVYMm9UTHV3ZEFrWU5jM1J1bTd1NHJxZTU4Nks3clkxeFVKU3NON21BQXVOY3pMeVRnLUR3Z0w2R0t3UzJ1VDlRX1FBNkE?oc=5",
-      "source": "USDA (.gov)",
-      "publishedAt": "2026-10-28T07:00:00+00:00",
+      "id": "ddbd02b28f738bb1d1132b13",
+      "title": "Five Decades of Giving Minnesota Students a Head Start - Star Tribune",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPejdGRjNPUVVwS2J3S2drMkZOYXFkR3hwRnNXQnJ5ZS15OXBjUkFaQVRzZ3FoTTVDc3BjQ0dISURBQ1R0YjhsZVVIY0E0VmR3NVpuaVdzblNNalBld3BkTjJremRpVmV5XzRuV1pwZE1KNWlYdXZjVk1mMzJILUJSSF9uYmE0RV9wa3dBUFdLbEdYdjhBbTBV?oc=5",
+      "source": "Star Tribune",
+      "publishedAt": "2026-10-28T14:20:00+00:00",
       "themes": [
         "Minnesota Economics"
       ],
-      "summary": "Wheat - Wheat Sector at a Glance USDA (.gov)"
+      "summary": "Five Decades of Giving Minnesota Students a Head Start Star Tribune"
     },
     {
       "id": "6dd30ba80a0e9b4be12d6e27",
