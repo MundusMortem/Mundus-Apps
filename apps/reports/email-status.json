@@ -2,7 +2,7 @@
   "backend": "native",
   "state": "needs_setup",
   "message": "Email needs a private sender setup before Reports can send.",
-  "checkedAt": "2026-11-03T06:56:17.228021+00:00",
+  "checkedAt": "2026-11-03T15:16:30.753340+00:00",
   "lastSentAt": "2026-10-31T11:26:38.000Z",
   "nextDueAt": "2026-11-07T11:26:38+00:00",
   "setupUrl": "https://github.com/MundusMortem/Mundus-Apps/blob/main/apps/reports/README.md#sender-setup"
