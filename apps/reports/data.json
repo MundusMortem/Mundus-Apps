@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T21:07:39.441419+00:00",
+  "generatedAt": "2026-11-04T01:27:53.586640+00:00",
   "config": {
     "themes": [
       "Hardware Industry",
@@ -17,15 +17,26 @@
   },
   "articles": [
     {
-      "id": "929d70492e4174a5661cc514",
-      "title": "Early voting numbers: More than 983,500 ballots cast as of Tuesday morning - MPR News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNGtBTFZhTWJHeDA5NTQ5SlJCbWdNTVE0MU1GSDl5cTBTNlJYQ3RNRzVFbGFvcVVQal9Ya0VuZEU3QVR2b1d4RU1XeWhqOHJJdG96S0FuUmdkWmNoaWhwUzZMdVFYVkxnMGJKSlZnWDJobmNGS20zS2JNWHI4Tm5GUUl6cnJuSnA1QUJ2OHpvdXBONFJhekFHTzMzWEIySnctczNoSWJtRjQzZnJpZDFRcVZLZw?oc=5",
-      "source": "MPR News",
-      "publishedAt": "2026-11-03T14:54:27+00:00",
+      "id": "7443eca9c058c01495a97a28",
+      "title": "Introduction to Business Retention & Expansion and Business Succession & Transition - Sierra Wave",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOWZ4VE15YWVabXI1aHdWbE1CVnUyM0NHZW9ZX280RC15R3dydnhIdVhUeUhkOTFIVFdneXlfZkE4LUQyNU90UGVBcllaZ21vVDF6RGwzQWNXV29PcjlYWFJzQ2NuRWtSQnVNRUNvNW5PWHN0REZERDJucW5HQ2haWFdVTG5nYjNlbGxZWDBmTGxPbDBYZVdXT0oyWFpTUXhueDVPSVh3?oc=5",
+      "source": "Sierra Wave",
+      "publishedAt": "2026-11-03T21:57:19+00:00",
       "themes": [
         "Minnesota Economics"
       ],
-      "summary": "Early voting numbers: More than 983,500 ballots cast as of Tuesday morning MPR News"
+      "summary": "Introduction to Business Retention & Expansion and Business Succession & Transition Sierra Wave"
+    },
+    {
+      "id": "9bcad1a8a579856e9fdafd59",
+      "title": "Economics and fraud have some voters splitting their ticket - MPR News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZE14c2l2ajYwaE5iTjh1dHh1RjExWHVCWTVrTUxlcENoQWk5cUxOWEdVMFpRZ3VHUXMtMGd5aTdFUEZhTjYxcGdiTUROQWtDaXZpNHEtMllZY2dXN1FJZW5PSl92ZmdSZEMzZGtwM2loWm5VazNvd1lXWHE1SVVPUk9rYlhBb0o2aTV4djhsa2pCUnZaQnVqdDRHWENMaUFQU1E?oc=5",
+      "source": "MPR News",
+      "publishedAt": "2026-11-03T18:50:00+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Economics and fraud have some voters splitting their ticket MPR News"
     },
     {
       "id": "be309a0e6b5aea567d4c7c4a",
@@ -50,6 +61,17 @@
       "summary": "Commentary From Brainerd: Solving Issues as Neighbors Minnesota Women's Press"
     },
     {
+      "id": "70974b4a7eadb3256a122217",
+      "title": "Q&A with Scalia Law School Dean Daniel B. Kelly - George Mason University",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PTjVVMEMybFNYTjQ5em9ENFdmRHVzWlRhQTJJQTBqUm5JdTl3V01ncElBdTh1TXNPU0E4OWlES0VLeWhKX096M3lLRjA2RkJTY1VvS0RaY2owbVAxMzBXUlRRdWhEaXBmeXZJMnJNcld5UXpKa2NhbjBvLVNpUQ?oc=5",
+      "source": "George Mason University",
+      "publishedAt": "2026-11-02T19:37:34+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Q&A with Scalia Law School Dean Daniel B. Kelly George Mason University"
+    },
+    {
       "id": "dd5c7117e3ffb829ef6874c9",
       "title": "Why Is There So Much Foreign Ownership in Northern Minnesota? - Twin Cities Business",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWRMbFRFbnJ4dFozeVNmTkVtc1p4eW8yX01EVXh5VFUzbkRVVlloRDh6M2RPempyNzU0ZEdrSE11UUYzYXp1UWJxOWtfampSckJZYmJXdl8xOEtaVFFCOHljMExKMmRlUjZyTzFNQW1oLWVxOHFON3BoRHV0MHA4VXh3ZGtacFk?oc=5",
@@ -59,6 +81,28 @@
         "Minnesota Economics"
       ],
       "summary": "Why Is There So Much Foreign Ownership in Northern Minnesota? Twin Cities Business"
+    },
+    {
+      "id": "6e5c7195179b7cc5f16f5a58",
+      "title": "Minnesota Department of Health re-certifies Riverwood Healthcare Center as Level 3 Health Care Home - MessageMedia.co",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPcTZyNlBDV2FpcC1wb3ZzZmx1Zm9NODcyUERla1Rxek9zRVdURmp5a2d6bU5XMEpRQXlVb1phdzlEaFJod2ZjMkpjTkQwNURFa2hONF9ubWhjdkVwWHRDY0NYSmd5amdaTWpqcWxyTFpCU0ZCWjQ4UXJqb3lCb1ZBOVRxOWVZSm9Qelp0NzhFTUZlTjRFeVYwVEtMNXp5YkhLclI4ekM0aXFlSGN2OTRHWEZZMHA2enNxd19iZHpMUWMwakFIOXZCNGRDY1d5cVdmWTdnTGdsb2xGVFpxeEJValMxZ2dwd0tIY0NOeDJmam1aRl96aUo1dWE3ME9nbUNFRWdjQVdKeFg2M0htMjhYYW9vWk1QZw?oc=5",
+      "source": "MessageMedia.co",
+      "publishedAt": "2026-11-02T11:00:00+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Minnesota Department of Health re-certifies Riverwood Healthcare Center as Level 3 Health Care Home MessageMedia.co"
+    },
+    {
+      "id": "9abc21df7c45d59ef8f240c0",
+      "title": "Where Flanagan and Tafoya stand on key issues in Minnesota’s US Senate race - The Derrick",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRHl6R3BmdlBRd2w0djdHLXBJN0ZqemNmRnctWGVVYjBjRk9Zd1dFeks2aktldjJzMGN3UEltdUVvMEItQXZ0ZExKUHI0TUliWVVxNks2NFNnbGJWZGlKaGZSbzFBQTg5cVZCdFlCbWpHa0NjWGV2ejFXUnFFWEtydHpJQkhNSjJEd0VCdURDT3BVb0J2QTI4di1sSEk3WkM4MXhkR1BQMC1wNndWN2hCaHNKUkpFcFRfSHFZT1Z4N254eTdXWGp0Z1VqMW5weGRESElqeXkwazNNNFB4WktIbDY4dnlDQUp3VWZ1Q29RUDNIVVZVUG0tWnpzMDRhLURq?oc=5",
+      "source": "The Derrick",
+      "publishedAt": "2026-11-01T19:57:00+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "Where Flanagan and Tafoya stand on key issues in Minnesota’s US Senate race The Derrick"
     },
     {
       "id": "b46d1a06dc1565da5f9d5323",
@@ -83,17 +127,6 @@
       "summary": "This week in Tom's Hardware Premium: October 31, 2026 — Vera CPUs available on Oracle clusters, building an agentic CPU benchmark and a primer to LLMs Tom's Hardware"
     },
     {
-      "id": "bec366b78fe1b528170cb658",
-      "title": "Minnesota - Agriculture, Manufacturing, Tourism - Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mUlpPWlJGX1d4bS0xQkwyOUtIVld3eGZtMlFERWppMUpzQzFXOUtlUkZwOFd6eTlZYThraU1xNGFBZElHU2pvLXJfNllhSXB5RXhnbGE5NXV5aW9zck80?oc=5",
-      "source": "Britannica",
-      "publishedAt": "2026-10-31T05:00:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Minnesota - Agriculture, Manufacturing, Tourism Britannica"
-    },
-    {
       "id": "4aa06a7cca51c6fe75edf9f4",
       "title": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM — Sam Altman says data centers offer better utilization - Tom's Hardware",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQV0JjNVJDNmxJSXdsWk4ySjhKVDRmdkhPTlNBWlliM28tbG1JM055YkdpYUhQUHZHazFIYjJyWXd0LU54NU9FUEpPNGU4REFDLUJpQmx4QlRwWjdDaU1MeTZhUDQwdmdHQ1RvTVdJYnRlMko4WlUxNXJpR2tNZVQwWDFwdXBUMGQyaWF1dkNyUzQzNDctMWdQci1aWjkxb2JjdlFLenNBdHpmMDc3eEEzUWFYY05WZ1dPblhHXzJwcVlua19ic1RqVzFMUXN4UnRwYUgyaEppM3h2TVQ2MEFsMFRyZTZxWWpYZlRGbGJ0ZkhoV1lHd2JyN3hsMko?oc=5",
@@ -103,17 +136,6 @@
         "Hardware Industry"
       ],
       "summary": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM — Sam Altman says data centers offer better utilization Tom's Hardware"
-    },
-    {
-      "id": "8142889ac8001952fbfa603e",
-      "title": "Europe's economy brushes off energy shock from Iran war, shows moderate growth in Q3 - Audacy",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeGxha0tvdkxORER5WVFESFVSTEJyNjNfdmRpbmFtV04xLVhLbjZKRmUxRnczTnZpZFY4bDY3aEdXaFc2N29HNjU4RkhXOGhrZ3dXZVE1dGljMl9vNTk5Z1pMcU9DSGdqS3VJU0RxNFpuM3o0U0VXdU9LLXhoNFFULXplU3BtLVB3NVFndm1NNl8yeTN1R2t5ZkNSNW9CanZWUW5GMzVkb3BYblNHYXFmWUtqQ3hpcTd6cm1kbjBic0Z6c2QtazlVbkdTSldldw?oc=5",
-      "source": "Audacy",
-      "publishedAt": "2026-10-30T12:37:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Europe's economy brushes off energy shock from Iran war, shows moderate growth in Q3 Audacy"
     },
     {
       "id": "7690a28bef0589b551788895",
@@ -149,15 +171,15 @@
       "summary": "Westlake Ace Hardware Expands in Missouri Hardware Retailing"
     },
     {
-      "id": "beabb18698f07a0dbeedff50",
-      "title": "Applied dairy nutrition in action - Michigan State University",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fZVFJV1Vrdm5NbkdlZ0RaM3VfV2MxejJHaURPQ2JmRUZwM2k0MmxjQm90N3dhSjdhc2swcmNObS12ODZiMkI5ekVrNGtxeVpOQnZJNGN6ajZOOTRSby02dGVWQW55OHk3TVBKYXo3R3A?oc=5",
-      "source": "Michigan State University",
-      "publishedAt": "2026-10-29T21:23:17+00:00",
+      "id": "74ec692dad5eb23bcefb7437",
+      "title": "Another sign of a healthy economy just emerged, but for many Americans, employment and cost pressures continue - kare11.com",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQQV92VEt4OUpIei0zak9FMFhheTZBbDItTVVqak95RFhhQk1ZUzBmOGQtQ0g3UkppdTRqTmxjcEw5MnFhUWdyUkxoYkZud2lGU0w3b0NmYk1BV1dIUjRNNU8xZkcwTDdGMk5DMFljZnFIVDV0U2RRRWFDR0VHb1JsR1hIRk1CTnhvYnh0Nk9Pc3NrNHVMUkVySUtOc2V2aWlvN3ljdUo2Vk11ZzJkTW83S21sTjFFd1I4THZNUkMtSGxrdUpWdmN4N0NlME5DMngxR0x6d1hlX3FDSzE4Sloyb3hPYVEtdThReHlsanpuMmQ0SmpWbHVjOUxFR0NKNmFiV0c2QnV3YTZjZDZEV2ZoVzMxc0tVWWxyLU1UaUEySzR4a0tEQ0ZYcVhXTmlZZkoyNlE?oc=5",
+      "source": "kare11.com",
+      "publishedAt": "2026-10-29T23:08:00+00:00",
       "themes": [
         "Minnesota Economics"
       ],
-      "summary": "Applied dairy nutrition in action Michigan State University"
+      "summary": "Another sign of a healthy economy just emerged, but for many Americans, employment and cost pressures continue kare11.com"
     },
     {
       "id": "bfe1a070cc359101e38907c7",
@@ -171,26 +193,15 @@
       "summary": "AI hardware can be hacked so chatbots provide dangerous answers, research shows WTKR"
     },
     {
-      "id": "c7b2fb0a17bf6c40caf1f026",
-      "title": "Skraba, Kania differ over economic development paths - The Timberjay",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTF4U2d0bmt0MnJmR3J2MnRxWGgtLTRSb3VqZnBuakhVa2VuTW9QdlJQemNQaEZWTkkyaGtmSDUxRExQaV8yS085VUxrZmlmeEVSODAtdXp2Q0ZOTHBVeXpaQXlreV9oNUtEb3pXRy1wVUFmYkhmV2pEdGNLNV8xQXp4LTBGbmpyeXJHRV80QnluX2w3?oc=5",
-      "source": "The Timberjay",
-      "publishedAt": "2026-10-29T13:37:00+00:00",
+      "id": "a83bb9705410c19e485e2f2a",
+      "title": "Strong growth and inflation paints mixed picture of economy days before midterm elections - Boston Herald",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRmt1bEYtaVZRRDZpMmF3WlIyMGdkYXpZTVB1bVctdG42UlUwci1pcWdsdmJKSV83TmQ4LTNGTFJLMGMyLW9OdXozM0pzTkRzNGNMaUVOTHM1cVczTkZNY1FvZlFlYjctQzZzS1ViNmZwVFZVaWZVX1dOb2RhVEZVUDlZV1o?oc=5",
+      "source": "Boston Herald",
+      "publishedAt": "2026-10-29T17:13:18+00:00",
       "themes": [
         "Minnesota Economics"
       ],
-      "summary": "Skraba, Kania differ over economic development paths The Timberjay"
-    },
-    {
-      "id": "4926057dfda9f91577f12029",
-      "title": "Strong growth and inflation paints mixed picture of economy days before midterm elections - Orange County Register",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGFid1VEXy00OGEybTd2LXZtdmZhb2taVHViVVZtbTdlcG5VNmhVR3lKY2ZobzRTUDFyZER1ajhGMEV1eXFVejBGbXdQMUxxcjFTcTdwaFhnU09NSGtqYlF3ZHRVODNVQk5XSU1jZDU2b1V4eEd0UDdQZGFHNmdrdnFR?oc=5",
-      "source": "Orange County Register",
-      "publishedAt": "2026-10-29T12:48:37+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Strong growth and inflation paints mixed picture of economy days before midterm elections Orange County Register"
+      "summary": "Strong growth and inflation paints mixed picture of economy days before midterm elections Boston Herald"
     },
     {
       "id": "ad80fdfdad67364b2193ffeb",
@@ -215,26 +226,15 @@
       "summary": "Anduril, Qualcomm partner on BlueChip computer hardware line Manufacturing Dive"
     },
     {
-      "id": "ddbd02b28f738bb1d1132b13",
-      "title": "Five Decades of Giving Minnesota Students a Head Start - Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPejdGRjNPUVVwS2J3S2drMkZOYXFkR3hwRnNXQnJ5ZS15OXBjUkFaQVRzZ3FoTTVDc3BjQ0dISURBQ1R0YjhsZVVIY0E0VmR3NVpuaVdzblNNalBld3BkTjJremRpVmV5XzRuV1pwZE1KNWlYdXZjVk1mMzJILUJSSF9uYmE0RV9wa3dBUFdLbEdYdjhBbTBV?oc=5",
-      "source": "Star Tribune",
-      "publishedAt": "2026-10-28T14:20:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Five Decades of Giving Minnesota Students a Head Start Star Tribune"
-    },
-    {
-      "id": "6dd30ba80a0e9b4be12d6e27",
-      "title": "U.S. Construction Industry Projected to Add 400,000 Jobs by 2035 - Hardware Retailing",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWnhYazh6SXl1ZlhWbWZVRzNKelhLUDFUb2ZHcGl4STdoblE3UXJaczgwekFlYlowWUZ4aEhzeVdNRmVGS1ZGcEY4Q3paMTM4Njl2XzFSazJYQmswMWowcHNmaFExRkNtdGVDcGhncl85eUYxWnhldzl1RGtyaUFBdjVNaC16ZW9kU1A4REV2NmJ3LUJBcUg2Yg?oc=5",
+      "id": "cf20d697c8c45dd03c8c5db0",
+      "title": "PPG Reports All-Around Gains in Q3 2026 - Hardware Retailing",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YRUF3d2VzNmt0cDM5ZVMwNUZ3U3BOQW5CNUNaNUhybEF3TWVocmZOemVyZVVLVll0dGdPeGtsbkNETmVPcmdKLUs0UmtKTDNaR2tiNGxEMk15eFpGT201X0dSMkhyTTVLSEdHNl9VSWJMc1RrWjBXRlZR?oc=5",
       "source": "Hardware Retailing",
-      "publishedAt": "2026-10-28T05:02:29+00:00",
+      "publishedAt": "2026-10-28T15:21:23+00:00",
       "themes": [
         "Hardware Industry"
       ],
-      "summary": "U.S. Construction Industry Projected to Add 400,000 Jobs by 2035 Hardware Retailing"
+      "summary": "PPG Reports All-Around Gains in Q3 2026 Hardware Retailing"
     }
   ],
   "errors": []
