@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T23:45:06.261933+00:00",
+  "generatedAt": "2026-11-05T06:57:18.692382+00:00",
   "config": {
     "themes": [
       "Hardware Industry",
@@ -17,37 +17,59 @@
   },
   "articles": [
     {
+      "id": "4349a440477991cb20538caf",
+      "title": "WORKFORCE DEVELOPMENT: Building our workforce means building opportunity for everyone - Southernminn.com",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNVlJOTnJ5cDZPdmxuN3hsakVrNDN3ai11dmYzazFRN1pZQm00eEZsYTRxczNMYkVSQ0NMcjIwSmdYM2FGb0hXQ0sxbUFDbThvRVUtT3hEZ0xKZXkxVXZ4VlRNQUJGcF9reDV6ay1WUFNtc1lIM25IQ2FKQ0pWY2NNZjVETXd5NnBKV3R2SG92NnV1R3BMa1QwRnhqWVdBN0YzNWlIb3BSRTlnT19WWW9seFNTWDhSYU1EWVdpMHRlMkVKWHg1VDdEeU9ROVZOXzJmZ3hNWUtldFhfcTdhWHBSeUQxeWd1aVJRejQ3QjZGVWVIVTVQZjU3S2NVTGJqOFNxTkt2aTh2bGtheTYtRG5LY1o1cEJ1SWlGMmd4bHpCZVYydw?oc=5",
+      "source": "Southernminn.com",
+      "publishedAt": "2026-11-05T06:00:00+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "WORKFORCE DEVELOPMENT: Building our workforce means building opportunity for everyone Southernminn.com"
+    },
+    {
+      "id": "2fca9415dbc83284b2c3eef7",
+      "title": "Orgill Hosts Grow Your Way Event at Innovation Center - Hardware Retailing",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTjNZTnQtY29RS3g2Z3dOREx5OERMMlpzbzFCUGNuMWNKMC12MUR5NmhoQjlyUXl6RU9zeHNQemxQby10dXlLSUVLRHViWnpld2lzekdHak05Q2x0Z0s4TFF0UTNSOFNnZG1OWmVRZE1pMWZVYXloWHROUk16cm9ZY3FzejJaODBuYk93eQ?oc=5",
+      "source": "Hardware Retailing",
+      "publishedAt": "2026-11-04T21:19:53+00:00",
+      "themes": [
+        "Hardware Industry"
+      ],
+      "summary": "Orgill Hosts Grow Your Way Event at Innovation Center Hardware Retailing"
+    },
+    {
       "id": "3f83fc322f707b1ca4c3fd2f",
       "title": "Taiwan's Hardware Makers Build Safety and Smart Design Into Professional Tools - IndustryWeek",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPR1hKNm5TMGNDNl9DLU95YndmVG5kanpNUTNuaEJ2QzlKX2NzdXJ0U0pGN1Z3dUM5SG9UZmxwT3M0Y2Z4Z0t2ZGZHcEZZU1FCbE1RcG9iZTZWU2tmWkk3XzYxSjZyQXdJSTY3YlZOMjZWX29YNDZ1bGpoTEdnUXN6Q18wSUVWYk53RTVyOXRWMlVEWDhpbHlSRFVLRklJS2VQRkpoaUFWMHUyN1ZHem8ybTlCbEhYTWhFVjk5OWl4MVJsOE9obGdOY0RLMjF3LVRWdlFfdjQ5b2RsRHlkSm9QanJrZEwyaVZ6OW10ckhR?oc=5",
       "source": "IndustryWeek",
-      "publishedAt": "2026-11-04T19:51:59+00:00",
+      "publishedAt": "2026-11-04T20:00:45+00:00",
       "themes": [
         "Hardware Industry"
       ],
       "summary": "Taiwan's Hardware Makers Build Safety and Smart Design Into Professional Tools IndustryWeek"
     },
     {
-      "id": "b331cf95076f0ca752ff854e",
-      "title": "HIRI Notes Record Sales, Rising Mortgage Rates and Contractor Challenges in Economic Update - Hardware Retailing",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeGktTnlJUDUwZGFtTDlqMl9zQkp3YTlSWDBYZWlKa2FENHNtTE0tNUVGYko1dldlNlpSNjl1d0h6akx4cjFranBLU2JkT09FQ0dqYlBfblBMU2ktN0lzc25TbmtIT21XMTNaMjVnMUNEYWE5Y3hNMGVVazhBQ2VZa3A5QThud2xaZmpvUHJ6Z0dpdW14VENvQXVmQjVUXzJKUXFfSmNBOXhWajRLTjM4OENueWl0SjBwdVA3TmV3?oc=5",
-      "source": "Hardware Retailing",
-      "publishedAt": "2026-11-04T18:00:00+00:00",
-      "themes": [
-        "Hardware Industry"
-      ],
-      "summary": "HIRI Notes Record Sales, Rising Mortgage Rates and Contractor Challenges in Economic Update Hardware Retailing"
-    },
-    {
       "id": "2705e9aeb696cd5fae204e6c",
       "title": "Westlake Ace Hardware Adds New North Carolina Store Location - Hardware Retailing",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN1VQSXZfZkhLZ2pXb0FaUzBfbGVGVFBFMzRIbHZETnBqVzNUd0F0aVJubkdlQWhxRXZlekIzTmpGVzl5TjExYjZQUVBXZWpMeFFuX3psaDNOZGlIbW1ZR0RmYkF5cVl3Q3pVNUFad2Y1aVJwTHJxQVRlbno4RVBPa05kVTFyTzBPbE0tRkV1dXd6Mm1pcVE?oc=5",
       "source": "Hardware Retailing",
-      "publishedAt": "2026-11-04T14:49:04+00:00",
+      "publishedAt": "2026-11-04T18:03:49+00:00",
       "themes": [
         "Hardware Industry"
       ],
       "summary": "Westlake Ace Hardware Adds New North Carolina Store Location Hardware Retailing"
+    },
+    {
+      "id": "b331cf95076f0ca752ff854e",
+      "title": "HIRI Notes Record Sales, Rising Mortgage Rates and Contractor Challenges in Economic Update - Hardware Retailing",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeGktTnlJUDUwZGFtTDlqMl9zQkp3YTlSWDBYZWlKa2FENHNtTE0tNUVGYko1dldlNlpSNjl1d0h6akx4cjFranBLU2JkT09FQ0dqYlBfblBMU2ktN0lzc25TbmtIT21XMTNaMjVnMUNEYWE5Y3hNMGVVazhBQ2VZa3A5QThud2xaZmpvUHJ6Z0dpdW14VENvQXVmQjVUXzJKUXFfSmNBOXhWajRLTjM4OENueWl0SjBwdVA3TmV3?oc=5",
+      "source": "Hardware Retailing",
+      "publishedAt": "2026-11-04T18:03:49+00:00",
+      "themes": [
+        "Hardware Industry"
+      ],
+      "summary": "HIRI Notes Record Sales, Rising Mortgage Rates and Contractor Challenges in Economic Update Hardware Retailing"
     },
     {
       "id": "237b4ceb827325062c60530c",
@@ -83,6 +105,17 @@
       "summary": "AMD earnings ignite AI hardware sector; E Fund Asia Semiconductor (03486) and E Fund AI (03489) see renewed value boost Moomoo"
     },
     {
+      "id": "4b19f9b00c1e0f4b41784c63",
+      "title": "Accelerating engineering for the physical world - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CS3RYM1JDQWZNbmRHUXB0SEY5ZkxoWGc3ZVZ2Rmw2YzBNeTZEd3RKWEk1NzEwN0l0NG01TzV5SXBGdkQ1emJHdzRWUFdtTUpfdmFXcWFNRVJuVDlhOFhzeHd0TkQ5NXJzeVRUYndHZGtZYkMxZnp3bVdFZzlVdw?oc=5",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-03T21:53:57+00:00",
+      "themes": [
+        "Hardware Industry"
+      ],
+      "summary": "Accelerating engineering for the physical world OpenAI"
+    },
+    {
       "id": "9bcad1a8a579856e9fdafd59",
       "title": "Economics and fraud have some voters splitting their ticket - MPR News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZE14c2l2ajYwaE5iTjh1dHh1RjExWHVCWTVrTUxlcENoQWk5cUxOWEdVMFpRZ3VHUXMtMGd5aTdFUEZhTjYxcGdiTUROQWtDaXZpNHEtMllZY2dXN1FJZW5PSl92ZmdSZEMzZGtwM2loWm5VazNvd1lXWHE1SVVPUk9rYlhBb0o2aTV4djhsa2pCUnZaQnVqdDRHWENMaUFQU1E?oc=5",
@@ -94,17 +127,6 @@
       "summary": "Economics and fraud have some voters splitting their ticket MPR News"
     },
     {
-      "id": "157146b7193af68e7ecca4ea",
-      "title": "Glenice Johnson Obituary Nov 3, 2026 - Johnson Funeral Service",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xaDk1NFZkYmtHZEJydm15S29DbUdweExwZm81SGdMSGNqS1VyMzVCMW1SakhIZ1BtOE96X3kwcG9Vemw5VmtJMlJnYk42cHBJM2xfaVJsa0w3VFpra1RCa1cwRTJOb19aRTdselcxTEJHdw?oc=5",
-      "source": "Johnson Funeral Service",
-      "publishedAt": "2026-11-03T08:00:00+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Glenice Johnson Obituary Nov 3, 2026 Johnson Funeral Service"
-    },
-    {
       "id": "dd5c7117e3ffb829ef6874c9",
       "title": "Why Is There So Much Foreign Ownership in Northern Minnesota? - Twin Cities Business",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWRMbFRFbnJ4dFozeVNmTkVtc1p4eW8yX01EVXh5VFUzbkRVVlloRDh6M2RPempyNzU0ZEdrSE11UUYzYXp1UWJxOWtfampSckJZYmJXdl8xOEtaVFFCOHljMExKMmRlUjZyTzFNQW1oLWVxOHFON3BoRHV0MHA4VXh3ZGtacFk?oc=5",
@@ -114,17 +136,6 @@
         "Minnesota Economics"
       ],
       "summary": "Why Is There So Much Foreign Ownership in Northern Minnesota? Twin Cities Business"
-    },
-    {
-      "id": "06765d885ecae8a7f6ec10ca",
-      "title": "Supermarket freezers across Europe struck in second crippling cyberattack - Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQNkhRT1JxdWVDS0NuYU1CdUp0eUpIQWMzZzBXLU9MZFItWWNwaHRDMkJIcHFYOUx0M0FnX3JULWVLbzJVYU9CcWVJWm9qdWFEcnlIMXY3Q3Y3VWhaMzFGMnpqanlRY3gtZ2VsOU5qUWdKeGoxXzByWTlLYmx1bFhDV0RHc29EMGFudU9FR0J5MFhPdmpJNDBSbWxYNnM4Wmt5LUdmeHNpTm1rc0N6ZFNqRTFBbDVMOXpQazU0UGxYdHBEdkZrWndrbWQ0NGZDYUFpZ01CQ1dhRGxjX1N2dk5NVzd4RERyclBPMTg3YzZYS1QyYklDYm1aRjQxanM3SDJOWW1hV3RJRTh4R256YzRKLWFwVURBUHZZWlduTFpoLVA0ZnJEYURQaExmYUJILVhRVnFsQUtKWTh0WGxySlRIbWI5NUR3YTdk?oc=5",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-02T12:17:28+00:00",
-      "themes": [
-        "Hardware Industry"
-      ],
-      "summary": "Supermarket freezers across Europe struck in second crippling cyberattack Tom's Hardware"
     },
     {
       "id": "b46d1a06dc1565da5f9d5323",
@@ -182,26 +193,15 @@
       "summary": "Europe's economy brushes off energy shock from Iran war, shows moderate growth in Q3 Audacy"
     },
     {
-      "id": "7690a28bef0589b551788895",
-      "title": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months — president plucks former startup founder, telling him to 'go nuts' - Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNVzRfT0YtXzdyNUlPR1dTQWVhNkZ2cU1HYWJ0Um9oQWJoTEdNNlJFRU83aE5qdWE1SUpYVHdHeUt0eXIzcnQ0SHJmd2VjMHQ1VVlJQVRZZ19vMF9oUG5NVFRsZ242Tm5icjE5NzZRdkJjc3ZWdjVIczVSZ1E1YzJIaFpNa1lUeWpXWmgyczVnMTVTenR6Wjl2NFpDcDJaSm9BWld6ZVhaOS1jNDFoZEVPV2FOdlRmaHJsUzlEUC1ldkxpQkFjV2FKTHZpTzVKMzJzQ2NlSVRuWmYxdWFVcGs0aVVFMUJldXZoOTFEeGY4bnFfRzVtdHBMaV9wZFBteE56NWVER3VmR2pjMGFKbFh2VjRZM3NSVEtMbUU1VGlHR3d6Qm1sdjVMOUV1aUROcXhVbmhnN0xGZk5FZHNHQmdEbzlnVzd5eGVYMXNsZXlBZw?oc=5",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-10-30T11:26:56+00:00",
-      "themes": [
-        "Hardware Industry"
-      ],
-      "summary": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months — president plucks former startup founder, telling him to 'go nuts' Tom's Hardware"
-    },
-    {
-      "id": "a83bb9705410c19e485e2f2a",
-      "title": "Strong growth and inflation paints mixed picture of economy days before midterm elections - Boston Herald",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRmt1bEYtaVZRRDZpMmF3WlIyMGdkYXpZTVB1bVctdG42UlUwci1pcWdsdmJKSV83TmQ4LTNGTFJLMGMyLW9OdXozM0pzTkRzNGNMaUVOTHM1cVczTkZNY1FvZlFlYjctQzZzS1ViNmZwVFZVaWZVX1dOb2RhVEZVUDlZV1o?oc=5",
-      "source": "Boston Herald",
-      "publishedAt": "2026-10-29T17:13:18+00:00",
+      "id": "beabb18698f07a0dbeedff50",
+      "title": "Applied dairy nutrition in action - Michigan State University",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fZVFJV1Vrdm5NbkdlZ0RaM3VfV2MxejJHaURPQ2JmRUZwM2k0MmxjQm90N3dhSjdhc2swcmNObS12ODZiMkI5ekVrNGtxeVpOQnZJNGN6ajZOOTRSby02dGVWQW55OHk3TVBKYXo3R3A?oc=5",
+      "source": "Michigan State University",
+      "publishedAt": "2026-10-29T21:23:17+00:00",
       "themes": [
         "Minnesota Economics"
       ],
-      "summary": "Strong growth and inflation paints mixed picture of economy days before midterm elections Boston Herald"
+      "summary": "Applied dairy nutrition in action Michigan State University"
     },
     {
       "id": "6f25ff7cd6ca35c3336a285f",
