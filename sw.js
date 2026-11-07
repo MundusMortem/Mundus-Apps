@@ -1,13 +1,13 @@
-const CACHE = 'mundus-store-v8';
-const ASSETS = ['./', './index.html', './styles.css', './theme.css', './install.mjs', './install.css', './icon-192.png', './icon-512.png', './app.js?v=8', './catalog.mjs', './request-client.mjs', './manifest.webmanifest', './icon.svg'];
+const CACHE = 'mundus-store-v9';
+const ASSETS = ['./', './index.html', './styles.css', './theme.css', './install.mjs', './install.css', './icon-192.png', './icon-512.png', './app.js?v=9', './catalog.mjs', './manifest.webmanifest', './icon.svg'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting())));
-self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('mundus-store-') && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim())));
+self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => (key.startsWith('mundus-store-') && key !== CACHE) || /^mundus-(macro-tracker-|reports-)/.test(key)).map(key => caches.delete(key)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   if (event.request.method !== 'GET' || url.origin !== self.location.origin) return;
   // Catalog always comes from the network: never announce stale apps as ready.
   if (url.pathname.endsWith('/apps.json')) return;
-  // Each installed app owns its own caching policy.
+  // Retired apps must never fall back to the storefront or an old cache.
   if (url.pathname.includes('/apps/')) return;
   event.respondWith(fetch(event.request).then(response => {
     if (response.ok) { const copy = response.clone(); event.waitUntil(caches.open(CACHE).then(cache => cache.put(event.request, copy))); }

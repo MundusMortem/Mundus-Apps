@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#080910" />
+  <meta name="theme-color" content="#0b0b0e" />
   <meta name="description" content="Mundus Apps" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="icon.svg" type="image/svg+xml" />
@@ -13,42 +13,20 @@
   <title>Mundus Apps</title>
 </head>
 <body>
-  <main class="shell">
-    <nav class="nav">
-      <a class="brand" href="./" aria-label="Mundus Apps home"><span class="brand-mark">M</span>Mundus Apps</a>
-      <button class="install-button" id="installButton">Install</button>
-    </nav>
+  <div class="ambient" aria-hidden="true"></div>
+  <header>
+    <a class="brand" href="./" aria-label="Mundus Apps home"><span class="brand-mark" aria-hidden="true">M</span>Mundus Apps</a>
+    <button class="install-button" id="installButton" type="button">Install</button>
+  </header>
+  <main>
     <section class="library" aria-labelledby="apps-heading">
-      <p class="eyebrow">PERSONAL LIBRARY</p>
-      <div class="section-heading"><h1 id="apps-heading">My apps</h1><p class="app-count" id="appCount"></p></div>
-      <p id="readyNotice" class="notice" role="status" hidden></p>
+      <div class="emblem" aria-hidden="true">M</div>
+      <div class="section-heading"><h1 id="apps-heading">Apps<span class="period">.</span></h1><button id="refreshButton" type="button">Refresh</button></div>
+      <p id="catalogStatus" role="status">Loading apps…</p>
       <div class="app-grid" id="appGrid"></div>
-      <p id="catalogStatus" role="status">Loading your apps…</p>
-      <div class="library-actions"><button id="refreshButton" type="button">Refresh apps</button><a href="https://github.com/MundusMortem/Mundus-Apps/issues?q=is%3Aissue+author%3AMundusMortem" target="_blank" rel="noopener">View requests</a></div>
+      <div id="emptyState" class="empty-state" hidden><p>No apps yet.</p><p>Build apps in ChatGPT.</p></div>
     </section>
   </main>
-  <dialog id="requestDialog" aria-labelledby="requestHeading">
-    <h2 id="requestHeading">Create a new app</h2>
-    <form id="ownerAuthForm" autocomplete="off">
-      <p>App requests are limited to <strong>MundusMortem</strong>. Verify your GitHub account to continue.</p>
-      <label for="ownerToken">GitHub fine-grained token</label>
-      <input id="ownerToken" type="password" autocomplete="off" spellcheck="false" required />
-      <p class="request-note">Use a token for <strong>Mundus-Apps</strong> only, with <strong>Issues: Read and write</strong>. It goes directly to GitHub and is cleared when you close this dialog or submit a request.</p>
-      <p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">Create a limited GitHub token</a></p>
-      <div class="dialog-actions"><button id="cancelAuth" type="button">Cancel</button><button type="submit">Verify account</button></div>
-    </form>
-    <form id="requestForm" hidden>
-      <p>Describe your idea. Requests are checked hourly; you’ll be notified here in ChatGPT when your tested app is ready.</p>
-      <label for="requestName">App name</label>
-      <input id="requestName" name="name" maxlength="100" required />
-      <label for="requestDetails">What should it do?</label>
-      <textarea id="requestDetails" name="details" rows="7" maxlength="4000" required placeholder="Features, how you’ll use it, and what a finished app should do"></textarea>
-      <p class="request-note">Your request is submitted directly to GitHub as MundusMortem. Requests in this public repository are visible to others; keep private information out of them.</p>
-      <div class="dialog-actions"><button id="cancelRequest" type="button">Cancel</button><button type="submit">Submit app request</button></div>
-    </form>
-    <p id="requestStatus" role="status" aria-live="polite"></p>
-  </dialog>
-  <script type="module" src="app.js?v=8"></script>
+  <script type="module" src="app.js?v=9"></script>
 </body>
 </html>
-

@@ -4,9 +4,6 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
-  workflow_run:
-    workflows: [Refresh Reports news, Apply Reports settings]
-    types: [completed]
 permissions:
   contents: read
 concurrency:
@@ -14,48 +11,27 @@ concurrency:
   cancel-in-progress: false
 jobs:
   test:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate request handling and app catalog
+      - name: Validate catalog and installation
         run: node --test tests/*.test.mjs
-      - name: Test Reports collector
-        run: python3 -m unittest discover -s tests -p 'test_reports*.py'
       - name: Check JavaScript
         run: |
           node --check app.js
           node --check sw.js
-          node --check apps/reports/app.mjs
-          node --check apps/reports/sw.js
-          node --check apps/macro-tracker/app.mjs
-          node --check apps/macro-tracker/sw.js
       - name: Install browser test tools
         run: |
-          npm install --no-save --package-lock=false playwright@1.56.1 @zxing/browser@0.1.5 @zxing/library@0.21.3
+          npm install --no-save --package-lock=false playwright@1.56.1
           npx playwright install --with-deps chromium
-      - name: Bundle local barcode decoder
-        run: node scripts/prepare_macro_vendor.mjs
-      - name: Test request button and home page in Chromium
+      - name: Test desktop, mobile and installation
         run: |
           python3 -m http.server 8000 &
           node tests/browser.mjs
-          node tests/reports-browser.mjs
-          node tests/macro-browser.mjs
           node tests/install-browser.mjs
-      - name: Verify live food APIs
-        if: github.event_name == 'push' && !cancelled()
-        continue-on-error: true
-        run: node tests/macro-live.mjs
-      - name: Save live API evidence
-        if: github.event_name == 'push' && always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: macro-api-verification
-          path: macro-api-verification.json
       - name: Stage public files
         run: node tests/stage.mjs
       - uses: actions/upload-pages-artifact@v3
@@ -74,13 +50,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - name: Deploy tested apps
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify published Reports page and live feed
-        run: python3 scripts/verify_reports.py
-
-      - name: Verify published Macro Tracker
-        run: python3 scripts/verify_macro.py

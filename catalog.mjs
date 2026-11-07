@@ -1,11 +1,3 @@
-export const REPOSITORY = 'MundusMortem/Mundus-Apps';
-export function requestURL(name, details) {
-  if (!name.trim() || !details.trim()) throw new Error('Add an app name and describe what it should do.');
-  const url = new URL(`https://github.com/${REPOSITORY}/issues/new`);
-  url.searchParams.set('title', `[App request] ${name.trim()}`);
-  url.searchParams.set('body', `## App request\n\n### App name\n${name.trim()}\n\n### Requirements\n${details.trim()}\n\n### Completion\nBuild and test until complete, publish the app, add its card to the Mundus Apps home page, and notify me when it is ready.`);
-  return url.href;
-}
 export function validateCatalog(data) {
   if (!Array.isArray(data)) throw new Error('The app catalog must be a list.');
   const ids = new Set();

@@ -1,18 +1,1 @@
-[
-  {
-    "id": "issue-2",
-    "name": "Reports",
-    "description": "A personalized industry briefing, saved stories, and configurable email updates.",
-    "icon": "R",
-    "accent": "#7fbdc6",
-    "url": "./apps/reports/"
-  },
-  {
-    "id": "issue-5",
-    "name": "Macro Tracker",
-    "description": "A local meal calendar for calories, net carbs and nutrients, with food search and barcode lookup.",
-    "icon": "M",
-    "accent": "#a882ff",
-    "url": "./apps/macro-tracker/"
-  }
-]
+[]
