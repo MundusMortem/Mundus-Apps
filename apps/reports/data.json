@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:14:40.036444+00:00",
+  "generatedAt": "2026-11-07T02:55:31.017257+00:00",
   "config": {
     "themes": [
       "Hardware Industry",
@@ -16,6 +16,17 @@
     "digestLimit": 5
   },
   "articles": [
+    {
+      "id": "0b4a8d70c77559a837839a7f",
+      "title": "November 6, 2026: Minnesota gas prices tomorrow Prediction Market - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnpEX05EOE5KNEFSOU5fYXFES0gzMEp3SFNMV0JfcmhCbVJqaEhCQXN1aW56UXpjYWROVXZFNnNOS3JPNWJ5R3R0UWYzbTIyOUN3QUozQm5LNWMtSnNkLWJFd29sdnJLdXN3Y2VjOGhoNG5BWXh5SzItd1VGTlVXZDZsSUtCekFKY0xGV0Vsd3FrRG1UQW05TnJ2WVU5eUk5Ny1oVDlQS3pHZw?oc=5",
+      "source": "Robinhood",
+      "publishedAt": "2026-11-06T15:54:56+00:00",
+      "themes": [
+        "Minnesota Economics"
+      ],
+      "summary": "November 6, 2026: Minnesota gas prices tomorrow Prediction Market Robinhood"
+    },
     {
       "id": "ec0c8b0b8bcaa5611e92339d",
       "title": "Data Capture Hardware Retail Market To 2035: Omnichannel and Real-Time Inventory Drive Growth - News and Statistics - IndexBox",
@@ -61,6 +72,17 @@
       "summary": "Carr Hardware’s Patti Parker Accepts Top Woman in Hardware Award in Chicago BusinessWest"
     },
     {
+      "id": "7c8c6ac9ae935f061b2f3791",
+      "title": "India targets creating homegrown GPUs within 2 years and plans to commercialize indigenous SHAKTI and VEGA RISC-V processors — sees AI boom as a potential repeat of the Y2K opportunity for its IT industry - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOYU1wZ0NVVWtnYkZfbkpfdGM2cXVwUHQ1d191a18xdXpBYnZnU1lTU04tVzJ1YVpEYVlpRHhHSXpmMk5MOUtzUTdkOElDX1hfdFJiMmdlLVJJTS1ld0k3OG5VWVEwcnFVT3I4RWNaUWlXeDVOVjY3UUI3bE1JR0ZKT09DZGhmcklWZmRwNE1uQXcydkFEbkM4ZmtHNE9fTW1aenp4clhjemY4ZTMyUHAxU2EyV1poalZENFRxempTM3RfLTV1SDVGbnM3ZERjSmFmTE9KWjhSa1hNcTJBRHNOeGJIZTNEZUNSS2w0dHhsR3hjcVA4MFlIY3IxMXZzaVI3YVdkS3hNRElCaklmN01Rb2NWOVI4Sjl1RUY4MEhsWTVvWkg2cTcyM2hFR3cwdTdIci1OQU9rejJ6bjFZc2t2U0dXV2VVLVQtREVONHNoaTR4S19fZW5xUGRnSGoxbVZfczN6U1V0YUxUcmpVS0JvMmV1UDZJbzA?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-05T18:00:00+00:00",
+      "themes": [
+        "Hardware Industry"
+      ],
+      "summary": "India targets creating homegrown GPUs within 2 years and plans to commercialize indigenous SHAKTI and VEGA RISC-V processors — sees AI boom as a potential repeat of the Y2K opportunity for its IT industry Tom's Hardware"
+    },
+    {
       "id": "aa667c0579275d4119e0aca6",
       "title": "U.S. Farm Report brings agriculture panel to University of Minnesota - isanti-chisagocountystar.com",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNFJtTGVzVXh0MVJTaTZkYVh1SHBwSmdfV244UE5zNHhaQVUtNGUwUWhFaTRBdE1zdDg0X00yTk9NRTVWOUhxeExGMmtXNEs1SUR3SE53UVdPSklhdV8yVU1oNS1UUUhYWW9tR2htOEhNUkt1Z3NVWFV3SGZrVW5iNDZaeTV4akdDNkZnbVplcmhNdlNkT2pWVFg4NGlmOUFhRm9wa3kwRVNEQmtoRkVhWHpxTk9UUzZGVE45MmwtTURhRFZCanJJRnRHRjNrMzNZQUp3d240YzhFWF8wbjN5V3VLdXczbDM1aXRWMERJa3BhZERJQVE?oc=5",
@@ -70,17 +92,6 @@
         "Minnesota Economics"
       ],
       "summary": "U.S. Farm Report brings agriculture panel to University of Minnesota isanti-chisagocountystar.com"
-    },
-    {
-      "id": "6526fca82f94dd54a97eb881",
-      "title": "Phase3D introduces next-generation Fringe Inspection hardware for LPBF 3D printing - 3D Printing Industry",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONzZGdjlSb0tHYmtNLXlKcVFCdGhrTi1Hbm12eTgzVllMeENSNS1rNnpkSjMzemFHNXRfVnl5c1hlSjVSWnZOVXJtWFBSWXFDay1EbDlyRGkxMHhRNERqZ09EQnhyMWk3QlRpalBXZC1SMUlrOEdBd0ZSejI3VlpNeG1oR1VUU1lKT2VOOTFNaFRsOEVsalZ1ZEdEV1k3WW9zR2Y5VWxPYWp0T25ucVBKd2VseHJFdGVNVGxVVzhiTlVkWF9Q?oc=5",
-      "source": "3D Printing Industry",
-      "publishedAt": "2026-11-05T11:16:32+00:00",
-      "themes": [
-        "Hardware Industry"
-      ],
-      "summary": "Phase3D introduces next-generation Fringe Inspection hardware for LPBF 3D printing 3D Printing Industry"
     },
     {
       "id": "4832c541af728161b47260c1",
@@ -103,17 +114,6 @@
         "Hardware Industry"
       ],
       "summary": "Orgill Hosts Grow Your Way Event at Innovation Center Hardware Retailing"
-    },
-    {
-      "id": "38b4d9a8a3fe8ae0fad492f1",
-      "title": "Sherry Dawn Norris Obituary Nov 1, 2026 - Ranfranz and Vine Funeral Homes",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04bGZaeTVRRjBTa1V0alNld2JoT3IyVW1nRzN6enl2dUU5ZXpKRGQ3dnBONmRqVk5Kd21uVzFtdkdMM0F5QWJzUVZWWXNmdFl2NUV0dkVKdU9KcDdPRGtjaGlBemg4R0lST2c?oc=5",
-      "source": "Ranfranz and Vine Funeral Homes",
-      "publishedAt": "2026-11-04T20:06:58+00:00",
-      "themes": [
-        "Minnesota Economics"
-      ],
-      "summary": "Sherry Dawn Norris Obituary Nov 1, 2026 Ranfranz and Vine Funeral Homes"
     },
     {
       "id": "3f83fc322f707b1ca4c3fd2f",
